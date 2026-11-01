@@ -1,10 +1,18 @@
-# FreeFinder — Android + backend · 0.1.0
+# FreeFinder — Android + backend · 0.2.0
 
-Primera versión técnica. **No es todavía el servicio completo solicitado y no cumple la aceptación de catálogo real operativo.** No incluye productos inventados ni una base de datos precargada. El catálogo puede permanecer vacío: hay que ejecutar el backend y disponer de una fuente accesible y autorizada.
+Versión funcional de prueba para Android 14+. Catálogo real de pósteres físicos descubierto automáticamente en USGS y Agrisera. **La cobertura sigue limitada a esas fuentes**: Amazon, SHEIN, Temu y el resto de plataformas del pliego no están integrados. No se han realizado solicitudes ni se han confirmado envíos a España o Andorra.
 
-## Uso sin PC encendido
+## Uso con el PC apagado
 
-Se ha añadido `.github/workflows/freefinder-cloud.yml` para ejecutar búsquedas en GitHub Actions y exportar un catálogo estático compatible con la APK v0.1 en GitHub Pages. La configuración y la conexión de la cuenta están pendientes. Empieza por `docs/NUBE_GITHUB.md`. La ingestión real sigue sin demostrarse; el alojamiento no sustituye esa validación.
+El catálogo está publicado en [GitHub Pages](https://victorvnn.github.io/freefinder/) y se revisa mediante GitHub Actions cada seis horas, respetando los intervalos de cada fuente. Pages sirve una instantánea JSON, no un servidor de búsqueda en tiempo real. Las ejecuciones programadas pueden retrasarse.
+
+[Descargar APK 0.2.0](https://victorvnn.github.io/freefinder/downloads/freefinder-0.2.0.apk). Se instala como **FreeFinder 0.2** junto a la aplicación anterior. No es necesario desinstalarla: sus favoritos y notas permanecen allí, sin transferencia automática. La URL pública viene preconfigurada; pulsa Sincronizar catálogo. En Ajustes, guarda las preferencias para programar las revisiones locales y configura el permiso de notificaciones si quieres avisos.
+
+Se muestran las imágenes cuya licencia se ha revisado, con crédito y evidencia. Los campos de transporte y cargos desconocidos siguen vacíos, nunca se convierten en cero. Consulta [las mejoras y límites de esta versión](docs/MEJORA_02.md).
+
+## Validación
+
+Pruebas del backend, pruebas JVM de Android, lint y compilación del APK ejecutados en GitHub Actions. No se ha probado físicamente esta versión en el OnePlus Nord 4. Los documentos de validación de 0.1.0 son históricos; la ejecución actual se encuentra en la pestaña Actions.
 
 ## Contenido
 

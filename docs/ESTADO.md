@@ -1,3 +1,5 @@
+> Actualización 0.2.0: el catálogo real y el APK ya se publican en GitHub Pages. Hay dos conectores operativos (USGS y Agrisera), imágenes con licencia revisada y filtros ampliados. La cobertura de las demás plataformas sigue pendiente. Véase MEJORA_02.md. La matriz de abajo documenta la entrega inicial 0.1.0 y no representa el estado actual de la nube.
+
 # Estado y criterios de aceptación
 
 **Versión técnica inicial. No es todavía el servicio completo listo para uso real.** Las pruebas con fixtures no sustituyen una ingestión real o una prueba en teléfono.

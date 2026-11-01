@@ -1,0 +1,39 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: freefinder
+      POSTGRES_USER: freefinder
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes: ["database:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U freefinder"]
+      interval: 5s
+      retries: 10
+  api:
+    build: ./backend
+    environment: &backend_env
+      DATABASE_URL: postgresql+psycopg://freefinder:${POSTGRES_PASSWORD}@db/freefinder
+      ADMIN_TOKEN: ${ADMIN_TOKEN:?Set ADMIN_TOKEN in .env}
+      SCAN_HOURS: ${SCAN_HOURS:-6}
+      LOCK_FILE: /data/worker.lock
+    ports: ["127.0.0.1:8000:8000"]
+    volumes: ["worker_lock:/data"]
+    depends_on:
+      db: {condition: service_healthy}
+    command: ["sh", "-c", "python -m alembic upgrade head && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 20
+  worker:
+    build: ./backend
+    environment: *backend_env
+    volumes: ["worker_lock:/data"]
+    depends_on:
+      api: {condition: service_healthy}
+    command: ["python", "-m", "app.worker"]
+volumes:
+  database:
+  worker_lock:
