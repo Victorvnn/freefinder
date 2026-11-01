@@ -1,4 +1,4 @@
-# FreeFinder — Android + backend · 0.2.0
+# FreeFinder — Android + backend · 0.3.0
 
 Versión funcional de prueba para Android 14+. Catálogo real de pósteres físicos descubierto automáticamente en USGS y Agrisera. **La cobertura sigue limitada a esas fuentes**: Amazon, SHEIN, Temu y el resto de plataformas del pliego no están integrados. No se han realizado solicitudes ni se han confirmado envíos a España o Andorra.
 
@@ -6,9 +6,13 @@ Versión funcional de prueba para Android 14+. Catálogo real de pósteres físi
 
 El catálogo está publicado en [GitHub Pages](https://victorvnn.github.io/freefinder/) y se revisa mediante GitHub Actions cada seis horas, respetando los intervalos de cada fuente. Pages sirve una instantánea JSON, no un servidor de búsqueda en tiempo real. Las ejecuciones programadas pueden retrasarse.
 
-[Descargar APK 0.2.0](https://victorvnn.github.io/freefinder/downloads/freefinder-0.2.0.apk). Se instala como **FreeFinder 0.2** junto a la aplicación anterior. No es necesario desinstalarla: sus favoritos y notas permanecen allí, sin transferencia automática. La URL pública viene preconfigurada; pulsa Sincronizar catálogo. En Ajustes, guarda las preferencias para programar las revisiones locales y configura el permiso de notificaciones si quieres avisos.
+[Descargar APK 0.3.0](https://victorvnn.github.io/freefinder/downloads/freefinder-0.3.0.apk). Se instala como **FreeFinder 0.3** junto a las aplicaciones anteriores. No es necesario desinstalarla: sus favoritos y notas permanecen allí, sin transferencia automática. La URL pública viene preconfigurada; pulsa Sincronizar catálogo. En Ajustes, guarda las preferencias para programar las revisiones locales y configura el permiso de notificaciones si quieres avisos.
 
 Se muestran las imágenes cuya licencia se ha revisado, con crédito y evidencia. Los campos de transporte y cargos desconocidos siguen vacíos, nunca se convierten en cero. Consulta [las mejoras y límites de esta versión](docs/MEJORA_02.md).
+
+## Diseño y fuentes
+
+Nuevo icono adaptable de regalo y lupa; paleta bosque y menta; catálogo con tarjetas en cuadrícula; una columna con texto grande; indicadores de carga y error de imagen; créditos y enlaces de licencia. La pestaña Fuentes reúne las plataformas del pliego y distingue los dos conectores operativos de los accesos externos sin automatización. **Un enlace de plataforma no es una oferta ni una integración terminada.**
 
 ## Validación
 

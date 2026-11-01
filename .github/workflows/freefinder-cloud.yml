@@ -57,17 +57,34 @@ jobs:
       - name: Test, lint and build Android
         if: github.event_name == 'push'
         run: gradle -p android :app:testDebugUnitTest :app:lintDebug :app:assembleDebug --no-daemon
-      - name: Stage Android download
+      - name: Enable emulator hardware acceleration
+        if: github.event_name == 'push'
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Launch app and capture actual Android screens
+        if: github.event_name == 'push'
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          script: bash scripts/android-smoke.sh
+      - name: Stage Android downloads
         run: |
           mkdir -p public/downloads
-          # Keep this version's published signature stable; never overwrite it.
-          if curl --fail --location --retry 2 --max-time 90 'https://victorvnn.github.io/freefinder/downloads/freefinder-0.2.0.apk' -o public/downloads/freefinder-0.2.0.apk; then
-            echo 'Preserving published 0.2.0 APK'
-          elif [ -f android/app/build/outputs/apk/debug/app-debug.apk ]; then
-            cp android/app/build/outputs/apk/debug/app-debug.apk public/downloads/freefinder-0.2.0.apk
-          else
-            rm -f public/downloads/freefinder-0.2.0.apk
-          fi
+          for version in 0.2.0 0.3.0; do
+            target="public/downloads/freefinder-$version.apk"
+            if curl --fail --location --retry 2 --max-time 90 "https://victorvnn.github.io/freefinder/downloads/freefinder-$version.apk" -o "$target"; then
+              echo "Preserving published $version APK"
+            elif [ "$version" = '0.3.0' ] && [ -f android/app/build/outputs/apk/debug/app-debug.apk ]; then
+              cp android/app/build/outputs/apk/debug/app-debug.apk "$target"
+            else
+              rm -f "$target"
+            fi
+          done
       - name: Discover and export actual observed offers
         working-directory: backend
         env:

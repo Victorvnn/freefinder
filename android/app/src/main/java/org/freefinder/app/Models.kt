@@ -43,3 +43,9 @@ data class Filters(val query:String="",val category:String="",val country:String
 }
 val categories=listOf("electronics","computing","appliances","home","tools","clothing","shoes","accessories","beauty","hygiene","food","pets","sport","automotive","office","garden","children","other")
 val kinds=listOf("free_shipping","shipping_only","sample","keep_trial","selection","cashback","promotion","giveaway","private_gift","loan")
+
+// Discovery directory entries are separate from Offer and never imply free stock.
+data class Source(val id:String="",val name:String="",val url:String="",val mode:String="manual",val enabled:Boolean=false,
+    val categories:List<String> = emptyList(),val notes:String="",
+    @SerializedName("policy_note") val policyNote:String="",
+    @SerializedName("policy_url") val policyUrl:String?=null)

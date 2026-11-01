@@ -12,6 +12,11 @@ class CatalogViewModel(app:Application):AndroidViewModel(app){
     val offers=repo.dao.observeOffers().map { items->items.mapNotNull { runCatching { repo.gson.fromJson(it.json,Offer::class.java) }.getOrNull() } }.stateIn(viewModelScope,SharingStarted.Eagerly,emptyList())
     val personal=repo.dao.observePersonal().map { it.associateBy { p->p.id } }.stateIn(viewModelScope,SharingStarted.Eagerly,emptyMap())
     val loading=MutableStateFlow(false);val error=MutableStateFlow<String?>(null)
+    init { viewModelScope.launch {
+        val first=repo.prefs.flow.first()
+        Notices.schedule(getApplication(),first.hours)
+        if(first.lastSync.isBlank())sync()
+    }}
     fun sync(){if(loading.value)return;viewModelScope.launch {loading.value=true;error.value=null
         try{repo.sync()}catch(e:Exception){error.value=e.message?:"Connection error"}finally{loading.value=false}
     }}

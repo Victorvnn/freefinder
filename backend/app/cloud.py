@@ -71,9 +71,8 @@ def export_snapshot(session_factory,output,sources,previous_state=None):
     if prior:successes.append(prior)
     last_success=max(successes,default=None)
     stamp=now()
-    safe_sources=[{k:v for k,v in source.items() if k in {'id','name','enabled','minimum_hours','policy_url','policy_note','policy_reviewed'}} for source in sources]
-    for source in safe_sources:
-        if source.get('policy_url'):source['policy_url']=public_url(source['policy_url'])
+    from .source_directory import merge_directory
+    safe_sources=merge_directory(sources)
     state=dict(schema_version=1,generated_at=stamp,last_successful_scan=last_success,offers=offers,runs=state_runs,revisions=revisions)
     items=[]
     for o in offers:
@@ -90,8 +89,8 @@ def export_snapshot(session_factory,output,sources,previous_state=None):
     errors=' · '.join(html.escape(r['source']+': '+r['status']) for r in runs[:5]) or 'Sin ejecuciones registradas.'
     page='''<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FreeFinder · estado del catálogo</title><style>body{font:17px system-ui;background:#f4f8f5;color:#173c30;max-width:760px;margin:60px auto;padding:24px;line-height:1.6}main{background:white;border-radius:20px;padding:30px}a{color:#166c53}code{overflow-wrap:anywhere}</style><main><h1>FreeFinder</h1><p>Catálogo automático alojado en GitHub Pages.</p><p>SUMMARY</p><p>Última exportación: STAMP</p><p>Última revisión de fuente completada: LAST</p><h2>Conectar la app</h2><p>Copia la dirección de esta página en Ajustes → URL del backend y guarda. Después sincroniza.</p><p>La app conserva tus favoritos y notas en el teléfono. Esta página no los recibe.</p><h2>Últimos intentos</h2><p>ERRORS</p><p><a href="v1/runs">Historial JSON</a> · <a href="health">Estado JSON</a></p><p>La exportación no acredita stock, transporte o solicitud verificada. Las tareas programadas pueden retrasarse.</p></main></html>'''
     page=page.replace('SUMMARY',html.escape(summary)).replace('STAMP',html.escape(stamp)).replace('LAST',html.escape(last_success or 'Ninguna')).replace('ERRORS',errors)
-    if (output/'downloads/freefinder-0.2.0.apk').is_file():
-        page=page.replace('<h2>Conectar la app</h2>', '<p><a href="downloads/freefinder-0.2.0.apk">Descargar FreeFinder 0.2.0 para Android 14+</a></p><p>Versión de prueba instalada como FreeFinder 0.2, junto a la anterior. No desinstales la original: conserva sus favoritos y notas allí. Los datos personales no se transfieren automáticamente.</p><h2>Conectar la app</h2>')
+    if (output/'downloads/freefinder-0.3.0.apk').is_file():
+        page=page.replace('<h2>Conectar la app</h2>', '<p><a href="downloads/freefinder-0.3.0.apk">Descargar FreeFinder 0.3.0 para Android 14+</a></p><p>Versión de prueba instalada como FreeFinder 0.3, junto a la anterior. No desinstales la original: conserva sus favoritos y notas allí. Los datos personales no se transfieren automáticamente.</p><h2>Conectar la app</h2>')
     (output/'index.html').write_text(page,encoding='utf-8')
     return state
 

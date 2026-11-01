@@ -16,7 +16,7 @@ object Notices {
         val manager=context.getSystemService(NotificationManager::class.java)
         manager.createNotificationChannel(NotificationChannel("offers","FreeFinder",NotificationManager.IMPORTANCE_DEFAULT))
         val intent=PendingIntent.getActivity(context,0,Intent(context,MainActivity::class.java),PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
-        manager.notify(id,NotificationCompat.Builder(context,"offers").setSmallIcon(android.R.drawable.ic_menu_search).setContentTitle(title).setContentText(text).setContentIntent(intent).setAutoCancel(true).build())
+        manager.notify(id,NotificationCompat.Builder(context,"offers").setSmallIcon(R.drawable.ic_freefinder_mark).setContentTitle(title).setContentText(text).setContentIntent(intent).setAutoCancel(true).build())
     }
     fun schedule(context:Context,hours:Int){
         val manager=WorkManager.getInstance(context)

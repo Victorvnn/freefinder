@@ -18,6 +18,7 @@ import java.util.concurrent.TimeUnit
 interface CatalogApi {
     @GET("v1/offers") suspend fun offers(@Query("limit") limit:Int=100,@Query("offset") offset:Int=0):Page
     @GET("v1/runs") suspend fun runs():List<SyncRun>
+    @GET("v1/sources") suspend fun sources():List<Source>
 }
 class Repository(app:Application){
     val db=Room.databaseBuilder(app,CatalogDb::class.java,"freefinder.db").build()
@@ -39,13 +40,15 @@ class Repository(app:Application){
                 if(page.items.isEmpty()||offset>=page.total) break
             }while(true)
             val runs=service.runs()
+            // Optional directory: older servers or a failed directory request retain cached links.
+            val sources=try { gson.toJson(service.sources()) } catch(e:kotlinx.coroutines.CancellationException) { throw e } catch(e:Exception) { null }
             val oldRows=dao.offers()
             val old=oldRows.map { it.id }.toSet()
             val seen=collected.map{it.id}.toSet()
             val archived=oldRows.filter { it.id !in seen }.map { row->CachedOffer(row.id,gson.toJson(gson.fromJson(row.json,Offer::class.java).copy(cachedOnly=true))) }
             // Retain disappeared and expired entries locally for personal history.
             db.withTransaction {dao.insert(archived+collected.map { CachedOffer(it.id,gson.toJson(it.copy(cachedOnly=false))) })}
-            prefs.synced(gson.toJson(runs))
+            prefs.synced(gson.toJson(runs),sources)
             collected.filter { it.id !in old }
         } finally {mutex.unlock()}
     }

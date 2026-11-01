@@ -1,0 +1,290 @@
+[
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "url": "https://www.amazon.es/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "aliexpress",
+    "name": "AliExpress",
+    "url": "https://www.aliexpress.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "url": "https://www.alibaba.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "shein",
+    "name": "SHEIN",
+    "url": "https://es.shein.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "temu",
+    "name": "Temu",
+    "url": "https://www.temu.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "ebay",
+    "name": "eBay",
+    "url": "https://www.ebay.es/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "miravia",
+    "name": "Miravia",
+    "url": "https://www.miravia.es/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "banggood",
+    "name": "Banggood",
+    "url": "https://www.banggood.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "dhgate",
+    "name": "DHgate",
+    "url": "https://www.dhgate.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "joom",
+    "name": "Joom",
+    "url": "https://www.joom.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "geekbuying",
+    "name": "Geekbuying",
+    "url": "https://www.geekbuying.com/",
+    "mode": "permission_required",
+    "enabled": false,
+    "categories": [
+      "marketplace"
+    ],
+    "policy_note": "Directorio de acceso oficial. Sin conector automático ni permiso de extracción configurado; no implica productos gratis.",
+    "notes": "Consulta manual. Precios, disponibilidad y envío a España/Andorra sin verificar."
+  },
+  {
+    "id": "amazon_vine",
+    "name": "Amazon Vine",
+    "url": "https://www.amazon.es/vine/about",
+    "mode": "invitation",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Acceso por invitación de Amazon; no se puede solicitar acceso desde FreeFinder.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "shein_free_trial",
+    "name": "SHEIN Free Trial",
+    "url": "https://es.shein.com/free-trial-center/index",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "influenster",
+    "name": "Influenster",
+    "url": "https://www.influenster.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "sampleo",
+    "name": "Sampleo",
+    "url": "https://www.sampleo.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "kuvut",
+    "name": "Kuvut",
+    "url": "https://kuvut.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "the_insiders",
+    "name": "The Insiders",
+    "url": "https://www.theinsidersnet.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "home_tester_club",
+    "name": "Home Tester Club",
+    "url": "https://www.hometesterclub.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "philips_product_tester",
+    "name": "Philips Product Tester",
+    "url": "https://producttester.philips.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa. Algunas pruebas requieren devolver o comprar el producto.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "review_club",
+    "name": "ReviewClub",
+    "url": "https://reviewclub.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa. Algunas pruebas requieren devolver o comprar el producto.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "bopki",
+    "name": "bopki",
+    "url": "https://www.bopki.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa. Referencia histórica: actividad y disponibilidad actual no verificadas.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "youzz",
+    "name": "youzz",
+    "url": "https://youzz.net/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa. Referencia histórica: actividad y disponibilidad actual no verificadas.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "trnd",
+    "name": "trnd",
+    "url": "https://www.trnd.com/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "product_testing"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  },
+  {
+    "id": "freecycle",
+    "name": "Freecycle",
+    "url": "https://www.freecycle.org/",
+    "mode": "manual",
+    "enabled": false,
+    "categories": [
+      "private_gift"
+    ],
+    "policy_note": "Consulta y solicitud manual en la web oficial; selección, campañas y países dependen del programa.",
+    "notes": "Entrada de directorio, no oferta importada. Sin garantía de selección, conservación, envío ni gratuidad."
+  }
+]

@@ -86,7 +86,8 @@ def runs():
 @app.get('/v1/sources')
 def sources():
     from .connectors.registry import load_sources
-    return [{k:v for k,v in x.items() if k not in ('headers','token')} for x in load_sources()]
+    from .source_directory import merge_directory
+    return merge_directory(load_sources())
 
 @app.post('/v1/refresh')
 def refresh(authorization:str|None=Header(None)):
