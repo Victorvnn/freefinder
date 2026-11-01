@@ -1,9 +1,113 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T19:18:52.612373+00:00",
-  "last_successful_scan": "2026-11-01T19:08:26.124814+00:00",
-  "offers": [],
+  "generated_at": "2026-11-01T19:21:28.089453+00:00",
+  "last_successful_scan": "2026-11-01T19:21:28.079859+00:00",
+  "offers": [
+    {
+      "id": "9d48e39df28851cec41eb71d",
+      "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+      "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+      "brand": "USGS",
+      "category": "office",
+      "platform": "USGS Store",
+      "url": "https://store.usgs.gov/product/208284",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "USD",
+      "kind": "promotion",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": 7.5,
+      "additional_charges_ad": 7.5,
+      "residency": null,
+      "requirements": [
+        "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+        "Disponibilidad indicada por la página; solicitud no realizada."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+      "checked_at": "2026-11-01T19:21:22.191720+00:00",
+      "status": "pending",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.35,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Existen gastos de gestión además del transporte."
+      ],
+      "evidence": [
+        {
+          "field": "promo_price",
+          "source": "https://store.usgs.gov/product/208284",
+          "checked_at": "2026-11-01T19:21:22.191720+00:00",
+          "method": "public_html",
+          "sha256": "6de8ef0420527966fabfe8e5da5278942cab2319e63ed0f99a44f8a133832ab1",
+          "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+        }
+      ]
+    },
+    {
+      "id": "f6e5a3d57532a058c515d605",
+      "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+      "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+      "brand": "USGS",
+      "category": "office",
+      "platform": "USGS Store",
+      "url": "https://store.usgs.gov/product/208285",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "USD",
+      "kind": "promotion",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": 7.5,
+      "additional_charges_ad": 7.5,
+      "residency": null,
+      "requirements": [
+        "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+        "Disponibilidad indicada por la página; solicitud no realizada."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+      "checked_at": "2026-11-01T19:21:25.121619+00:00",
+      "status": "pending",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.35,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Existen gastos de gestión además del transporte."
+      ],
+      "evidence": [
+        {
+          "field": "promo_price",
+          "source": "https://store.usgs.gov/product/208285",
+          "checked_at": "2026-11-01T19:21:25.121619+00:00",
+          "method": "public_html",
+          "sha256": "4920e025a024cdd287932838f8cf3f04070b59906da0495e3c94d72bb115d113",
+          "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+        }
+      ]
+    }
+  ],
   "runs": [
+    {
+      "id": 2,
+      "source": "usgs_education",
+      "started_at": "2026-11-01T19:21:00.433377+00:00",
+      "finished_at": "2026-11-01T19:21:28.079859+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 1,
       "source": "usgs",
@@ -14,5 +118,110 @@
       "error": null
     }
   ],
-  "revisions": []
+  "revisions": [
+    {
+      "id": 2,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-01T19:21:28.078448+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-01T19:21:25.121619+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-01T19:21:25.121619+00:00",
+            "method": "public_html",
+            "sha256": "4920e025a024cdd287932838f8cf3f04070b59906da0495e3c94d72bb115d113",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-01T19:21:28.076502+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-01T19:21:22.191720+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-01T19:21:22.191720+00:00",
+            "method": "public_html",
+            "sha256": "6de8ef0420527966fabfe8e5da5278942cab2319e63ed0f99a44f8a133832ab1",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          }
+        ]
+      }
+    }
+  ]
 }
