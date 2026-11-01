@@ -31,6 +31,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -62,8 +63,20 @@ class MainActivity:ComponentActivity(){
     val notificationPermission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted->if(granted) Notices.send(context,"FreeFinder",t("test"),99) }
     val current=offers.find{it.id==selected}
     BackHandler(selected!=null){selected=null}
+    SideEffect {
+        val activity=context as? android.app.Activity
+        activity?.window?.let{window->
+            androidx.core.view.WindowCompat.getInsetsController(window,window.decorView).apply{
+                isAppearanceLightStatusBars=!dark
+                isAppearanceLightNavigationBars=!dark
+            }
+            @Suppress("DEPRECATION")
+            run { window.statusBarColor=palette.background.toArgb();window.navigationBarColor=palette.background.toArgb() }
+            window.isNavigationBarContrastEnforced=false
+        }
+    }
     MaterialTheme(colorScheme=palette,shapes=Shapes(small=RoundedCornerShape(10.dp),medium=RoundedCornerShape(18.dp),large=RoundedCornerShape(26.dp))){
-        Scaffold(topBar={TopAppBar(title={Row(verticalAlignment=Alignment.CenterVertically){Icon(painterResource(R.drawable.ic_freefinder_mark),null,Modifier.size(44.dp),tint=MaterialTheme.colorScheme.primary);Spacer(Modifier.width(10.dp));Column { Text("FreeFinder",fontWeight=FontWeight.Bold);Text(if(current!=null) t(current.kind) else t(tab),style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant) }}},navigationIcon={if(current!=null) IconButton(onClick={selected=null}){Icon(Icons.Outlined.ArrowBack,t("back"))}},actions={if(tab in listOf("catalog","favorites")&&current==null){IconButton(onClick={filterDialog=true}){Icon(Icons.Outlined.Tune,t("filters"))};IconButton(onClick=vm::sync,enabled=!loading){Icon(Icons.Outlined.Refresh,t("sync"))}}})},bottomBar={if(current==null) NavigationBar {listOf("catalog" to Icons.Outlined.Search,"favorites" to Icons.Outlined.FavoriteBorder,"sources" to Icons.Outlined.TravelExplore,"history" to Icons.Outlined.History,"settings" to Icons.Outlined.Settings).forEach{(key,icon)->NavigationBarItem(selected=tab==key,onClick={tab=key},icon={Icon(icon,t(key))},label={Text(t(key),maxLines=1,style=MaterialTheme.typography.labelSmall)})}}}){padding->
+        Scaffold(topBar={TopAppBar(title={Row(verticalAlignment=Alignment.CenterVertically){Icon(painterResource(R.drawable.ic_freefinder_mark),null,Modifier.size(44.dp),tint=MaterialTheme.colorScheme.primary);Spacer(Modifier.width(10.dp));Column { Text("FreeFinder",fontWeight=FontWeight.Bold);Text(if(current!=null) t(current.kind) else t(tab),style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant) }}},navigationIcon={if(current!=null) IconButton(onClick={selected=null}){Icon(Icons.Outlined.ArrowBack,t("back"))}},actions={if(tab in listOf("catalog","favorites")&&current==null){IconButton(onClick={filterDialog=true}){Icon(Icons.Outlined.Tune,t("filters"))};IconButton(onClick=vm::sync,enabled=!loading){Icon(Icons.Outlined.Refresh,t("sync"))}}})},bottomBar={if(current==null) NavigationBar(containerColor=MaterialTheme.colorScheme.surface) {listOf("catalog" to Icons.Outlined.Search,"favorites" to Icons.Outlined.FavoriteBorder,"sources" to Icons.Outlined.TravelExplore,"history" to Icons.Outlined.History,"settings" to Icons.Outlined.Settings).forEach{(key,icon)->NavigationBarItem(selected=tab==key,onClick={tab=key},icon={Icon(icon,t(key))},label={Text(t(key),maxLines=1,style=MaterialTheme.typography.labelSmall)})}}}){padding->
             Column(Modifier.padding(padding).fillMaxSize()){
                 if(loading) LinearProgressIndicator(Modifier.fillMaxWidth())
                 if(error!=null) Surface(color=MaterialTheme.colorScheme.errorContainer){Text(error!!,Modifier.padding(12.dp),style=MaterialTheme.typography.bodySmall)}
@@ -170,6 +183,6 @@ fun money(v:Double?,currency:String)=v?.let{String.format(java.util.Locale.getDe
         OutlinedTextField(draft.postcode,{draft=draft.copy(postcode=it.take(80))},label={Text(tr(l,"postcode"))},modifier=Modifier.fillMaxWidth());Text(tr(l,"postal_note"),style=MaterialTheme.typography.bodySmall)
         Button(onClick={vm.save(draft)}){Text(tr(l,"save"))}
         OutlinedButton(onClick=test){Text(tr(l,"test"))}
-        Text("FreeFinder 0.3.0 · Android 14+",style=MaterialTheme.typography.labelSmall)
+        Text("FreeFinder ${BuildConfig.VERSION_NAME} · Android 14+",style=MaterialTheme.typography.labelSmall)
     }
 }
