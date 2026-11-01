@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 mkdir -p public/screenshots
+capture_failure() {
+  adb shell screencap -p /sdcard/failure.png || true
+  adb pull /sdcard/failure.png public/screenshots/failure.png || true
+  adb logcat -d -s AndroidRuntime:E > public/screenshots/runtime.txt || true
+  adb shell cat /sdcard/window.xml > public/screenshots/window.xml || true
+  cat public/screenshots/runtime.txt
+  cat public/screenshots/window.xml
+}
+trap capture_failure ERR
 adb logcat -c
 adb install -r android/app/build/outputs/apk/debug/app-debug.apk
 adb shell settings put system font_scale 1.0

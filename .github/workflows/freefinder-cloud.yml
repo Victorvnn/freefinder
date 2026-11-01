@@ -72,6 +72,13 @@ jobs:
           profile: pixel_6
           disable-animations: true
           script: bash scripts/android-smoke.sh
+      - name: Save emulator diagnostics
+        if: always() && github.event_name == 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-screens
+          path: public/screenshots
+          if-no-files-found: ignore
       - name: Stage Android downloads
         run: |
           mkdir -p public/downloads
