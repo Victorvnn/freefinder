@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T19:51:27.622703+00:00",
+  "generated_at": "2026-11-01T19:54:51.990035+00:00",
   "last_successful_scan": "2026-11-01T19:51:27.613115+00:00",
   "offers": [
     {
@@ -12,7 +12,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -47,10 +47,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/24039480",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24039480.v3",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "571705d4ccdd2353115c3251",
@@ -61,7 +71,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -96,10 +106,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/14794281",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14794281.v6",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "64b0c07a88cb37781ad9e05a",
@@ -110,7 +130,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-9-Western-blotting-updated-2025-05.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-9-Western-blotting-updated-2025-05.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -145,10 +165,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/29086685",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Joanna Porankiewicz-Asplund · Dmitry Shevela · Agrisera · 10.6084/m9.figshare.29086685.v1",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "974086a3774f136218119eb0",
@@ -159,7 +189,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -194,10 +224,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/24006819",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · Nicolas Bologna · Rebecca Mosher · Agrisera · 10.6084/m9.figshare.24006819.v1",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "9a0ff7004dac2b767d8f1024",
@@ -208,7 +248,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -243,10 +283,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/24045549",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Dmitry Shevela · Lars Olof Björn · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24045549.v3",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "9b59fe1140da173ba5916094",
@@ -257,7 +307,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -292,10 +342,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/24061755",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Dmitry Shevela · Manajit Hayer-Hartl · Inger Andersson · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24061755.v2",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "9d48e39df28851cec41eb71d",
@@ -347,7 +407,7 @@
           "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
           "checked_at": "2026-11-01T19:41:40.931085+00:00",
           "method": "editorial_rights_review",
-          "note": "Imagen oficial del póster. Referencia y derechos revisados; no acredita stock ni envío."
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "image_credit": "USGS · Meyers y Driedger (2008)",
@@ -363,7 +423,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -398,10 +458,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/14802924",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Dmitry Shevela · Jan F. Kern · John Whitmarsh · Johannes Messinger · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14802924.v3",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "e022cc3114e2f2be5dfcb045",
@@ -412,7 +482,7 @@
       "platform": "Agrisera",
       "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.pdf",
       "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
-      "image_url": null,
+      "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.jpg",
       "regular_price": null,
       "promo_price": 0.0,
       "currency": "EUR",
@@ -447,10 +517,20 @@
           "method": "public_html",
           "sha256": "ad4ce839382e0d826b129a25eed8d498ffd204f6c33ed208d9b5b42acf71e565",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+        },
+        {
+          "field": "image_license",
+          "source": "https://api.figshare.com/v2/articles/21186073",
+          "checked_at": "2026-11-01T19:41:40.931085+00:00",
+          "method": "editorial_rights_review",
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "source_id": "agrisera_posters",
-      "source_status": "current"
+      "source_status": "current",
+      "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · R. Keith Slotkin · Agrisera · 10.6084/m9.figshare.21186073.v1",
+      "image_license": "CC BY 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "e54f48ff9fe7422976657a7c",
@@ -551,7 +631,7 @@
           "source": "https://pubs.usgs.gov/publication/gip64",
           "checked_at": "2026-11-01T19:41:40.931085+00:00",
           "method": "editorial_rights_review",
-          "note": "Imagen oficial del póster. Referencia y derechos revisados; no acredita stock ni envío."
+          "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
         }
       ],
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
