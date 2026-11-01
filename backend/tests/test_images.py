@@ -43,3 +43,15 @@ def test_source_failure_does_not_fake_expiry_or_new_verification():
         reconcile_source(s,'agrisera_posters',None)
         s.commit()
         assert s.get(db.Offer,'poster').payload['source_status']=='unreachable'
+
+
+def test_licensed_poster_image_requires_exact_reviewed_url_and_has_attribution():
+    from app.connectors.images import REVIEWED_IMAGES,enrich_image
+    reviewed=[(u,v) for u,v in REVIEWED_IMAGES.items() if 'agrisera.com' in u]
+    assert len(reviewed)>=8
+    for url,metadata in reviewed:
+        item=enrich_image(dict(url=url))
+        assert item['image_license']=='CC BY 4.0'
+        assert '10.6084/' in item['image_credit']
+        assert item['evidence'][0]['source'].startswith('https://api.figshare.com/v2/articles/')
+        assert len(enrich_image(item)['evidence'])==1

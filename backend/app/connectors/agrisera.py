@@ -1,7 +1,7 @@
 """Physical posters, discovered from Agrisera's public educational collection.
 
-Thumbnails are deliberately withheld: educational-only graphic permissions do
-not clearly cover a general shopping catalog. PDF URLs identify actual posters;
+This parser withholds thumbnails. A separate reviewed-image registry adds only
+images whose authors publish an explicit reusable license on Figshare. PDF URLs identify actual posters;
 the separate request URL points to the publisher's physical-copy instructions.
 """
 import hashlib

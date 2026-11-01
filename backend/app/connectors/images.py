@@ -3,6 +3,9 @@
 No broad 'all government images are free' assumption. Add entries only after
 matching the actual publication and reviewing ownership/usage on official pages.
 """
+import json
+from pathlib import Path
+
 REVIEWED_IMAGES = {
     'https://store.usgs.gov/product/208284': dict(
         image_url='https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg',
@@ -16,6 +19,7 @@ REVIEWED_IMAGES = {
         image_license_url='https://pubs.usgs.gov/publication/gip64'),
 }
 
+REVIEWED_IMAGES.update(json.loads(Path(__file__).with_name("reviewed_images.json").read_text(encoding="utf-8")))
 
 def enrich_image(offer):
     reviewed = REVIEWED_IMAGES.get(offer['url'])
@@ -23,7 +27,7 @@ def enrich_image(offer):
         offer.update(reviewed)
         offer['evidence']=[dict(e) for e in offer.get('evidence',[]) if e.get('field')!='image_license']
         offer['evidence'].append(dict(
-            field='image_license', source=reviewed['image_license_url'],
+            field='image_license', source=reviewed.get('license_evidence_url',reviewed['image_license_url']),
             checked_at='2026-11-01T19:41:40.931085+00:00', method='editorial_rights_review',
-            note='Imagen oficial del póster. Referencia y derechos revisados; no acredita stock ni envío.'))
+            note='Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío.'))
     return offer
