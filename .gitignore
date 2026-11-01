@@ -1,0 +1,12 @@
+.env
+*.db
+*.lock
+*.log
+__pycache__/
+.pytest_cache/
+.venv/
+.gradle/
+.idea/
+local.properties
+**/build/
+public/
