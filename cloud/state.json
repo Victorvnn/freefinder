@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-01T19:08:26.136906+00:00",
+  "last_successful_scan": "2026-11-01T19:08:26.124814+00:00",
+  "offers": [],
+  "runs": [
+    {
+      "id": 1,
+      "source": "usgs",
+      "started_at": "2026-11-01T19:08:22.591585+00:00",
+      "finished_at": "2026-11-01T19:08:26.124814+00:00",
+      "status": "ok",
+      "count": 0,
+      "error": null
+    }
+  ],
+  "revisions": []
+}
