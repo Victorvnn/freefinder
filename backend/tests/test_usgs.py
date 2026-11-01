@@ -22,3 +22,14 @@ def test_empty_discovery_is_not_a_successful_catalog_scan():
         hosts={'store.usgs.gov'}
         def get(self,url):return '<html><h1>Educational products</h1><p>Unavailable catalog</p></html>'
     with pytest.raises(ValueError):UsgsConnector({'seeds':['https://store.usgs.gov/educational-products']},EmptyHTTP()).collect()
+
+def test_discovers_product_ids_in_education_article():
+    from app.connectors.usgs import UsgsConnector
+    class ArticleHTTP:
+        hosts={'www.usgs.gov','store.usgs.gov'}
+        def get(self,url):
+            if 'www.usgs.gov' in url:return '<main><p>Synthetic fixture poster. Product number 12345.</p></main>'
+            assert url=='https://store.usgs.gov/product/12345'
+            return '<main><h2>SYNTHETIC POSTER</h2><p>$0.00 Available Product Details Media Paper</p></main>'
+    p=UsgsConnector({'seeds':['https://www.usgs.gov/education-fixture']},ArticleHTTP()).collect()
+    assert len(p)==1 and p[0]['name']=='SYNTHETIC POSTER'

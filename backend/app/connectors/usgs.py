@@ -9,7 +9,7 @@ def parse_product(url,html):
     soup=BeautifulSoup(html,'html.parser')
     main=soup.find('main') or soup
     for tag in main(['script','style','nav','footer','header']): tag.decompose()
-    title=main.find('h1')
+    title=main.find('h1') or main.find('h2')
     if not title: return None
     text=main.get_text(' ',strip=True)
     if not re.search(r'Media\s*:?\s*Paper\b',text,re.I): return None
@@ -35,6 +35,11 @@ class UsgsConnector:
                 product_pages+=1
                 p=parse_product(url,html)
                 if p: found.append(p)
+                continue
+            if urlsplit(url).hostname=='www.usgs.gov':
+                text=BeautifulSoup(html,'html.parser').get_text(' ',strip=True)
+                for ident in dict.fromkeys(re.findall(r'Product\s*(?:number\s*|#\s*)(\d{4,8})',text,re.I)):
+                    queue.insert(0,('https://store.usgs.gov/product/'+ident,depth+1))
                 continue
             if depth>2: continue
             for a in BeautifulSoup(html,'html.parser').select('a[href]'):

@@ -1,5 +1,67 @@
 [
-  {"id":"usgs","name":"USGS Store","adapter":"usgs","enabled":true,"hosts":["store.usgs.gov"],"seeds":["https://store.usgs.gov/educational-products"],"minimum_hours":24,"policy_url":"https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits","policy_note":"US government factual product metadata; no logos or images reused. Only physical Paper products at explicit zero price; handling charges are disclosed. Destinations unconfirmed.","policy_reviewed":"2026-11-01"},
-  {"id":"fellowes","name":"Fellowes","adapter":"html","enabled":false,"hosts":["www.fellowes.com"],"seeds":["https://www.fellowes.com/es/es/marketing/pg/bm-discover-the-benefits-of-laminating"],"minimum_hours":24,"policy_url":"https://www.fellowes.com/es/es/misc/pg/terms-of-use","policy_note":"Disabled: redistribution, archiving and links subject to permission.","policy_reviewed":"2026-11-01"},
-  {"id":"danone","name":"Danone","adapter":"html","enabled":false,"hosts":["www.danone.es"],"seeds":["https://www.danone.es/"],"minimum_hours":24,"policy_url":"https://www.danone.es/aviso-legal/","policy_note":"Disabled: restrictions on extraction/reuse; permission not obtained.","policy_reviewed":"2026-11-01"}
+  {
+    "id": "usgs",
+    "name": "USGS Store",
+    "adapter": "usgs",
+    "enabled": false,
+    "hosts": [
+      "store.usgs.gov"
+    ],
+    "seeds": [
+      "https://store.usgs.gov/educational-products"
+    ],
+    "minimum_hours": 24,
+    "policy_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+    "policy_note": "Disabled discovery: category links point to filter-products queries disallowed by robots.",
+    "policy_reviewed": "2026-11-01"
+  },
+  {
+    "id": "fellowes",
+    "name": "Fellowes",
+    "adapter": "html",
+    "enabled": false,
+    "hosts": [
+      "www.fellowes.com"
+    ],
+    "seeds": [
+      "https://www.fellowes.com/es/es/marketing/pg/bm-discover-the-benefits-of-laminating"
+    ],
+    "minimum_hours": 24,
+    "policy_url": "https://www.fellowes.com/es/es/misc/pg/terms-of-use",
+    "policy_note": "Disabled: redistribution, archiving and links subject to permission.",
+    "policy_reviewed": "2026-11-01"
+  },
+  {
+    "id": "danone",
+    "name": "Danone",
+    "adapter": "html",
+    "enabled": false,
+    "hosts": [
+      "www.danone.es"
+    ],
+    "seeds": [
+      "https://www.danone.es/"
+    ],
+    "minimum_hours": 24,
+    "policy_url": "https://www.danone.es/aviso-legal/",
+    "policy_note": "Disabled: restrictions on extraction/reuse; permission not obtained.",
+    "policy_reviewed": "2026-11-01"
+  },
+  {
+    "id": "usgs_education",
+    "name": "USGS educational publications",
+    "adapter": "usgs",
+    "enabled": true,
+    "hosts": [
+      "www.usgs.gov",
+      "store.usgs.gov"
+    ],
+    "seeds": [
+      "https://www.usgs.gov/node/25977"
+    ],
+    "minimum_hours": 24,
+    "policy_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+    "policy_note": "Discover product identifiers in official government educational resources; validate current physical zero-price product pages. No images copied. ES/AD shipping unconfirmed.",
+    "policy_reviewed": "2026-11-01"
+  }
 ]

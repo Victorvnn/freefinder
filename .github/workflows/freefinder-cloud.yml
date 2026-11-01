@@ -43,21 +43,6 @@ jobs:
       - name: Run backend tests
         working-directory: backend
         run: python -m pytest -q
-      - name: Inspect public discovery links
-        working-directory: backend
-        run: |
-          python - <<'PYCODE'
-          from app.connectors.safe_http import SafeHTTP
-          from bs4 import BeautifulSoup
-          h=SafeHTTP(['store.usgs.gov'])
-          try:
-              body=h.get('https://store.usgs.gov/educational-products')
-              soup=BeautifulSoup(body,'html.parser')
-              print('DISCOVERY_TITLE',soup.title.get_text(' ',strip=True) if soup.title else 'NO_TITLE')
-              print('DISCOVERY_LINKS',[a.get('href') for a in soup.select('a[href]')][:100])
-          except Exception as e:print('DISCOVERY_FAILURE',type(e).__name__)
-          finally:h.close()
-          PYCODE
       - name: Discover and export actual observed offers
         working-directory: backend
         env:
