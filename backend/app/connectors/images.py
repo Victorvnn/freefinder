@@ -28,6 +28,6 @@ def enrich_image(offer):
         offer['evidence']=[dict(e) for e in offer.get('evidence',[]) if e.get('field')!='image_license']
         offer['evidence'].append(dict(
             field='image_license', source=reviewed.get('license_evidence_url',reviewed['image_license_url']),
-            checked_at='2026-11-01T19:41:40.931085+00:00', method='editorial_rights_review',
+            checked_at=reviewed.get('reviewed_at','2026-11-01T19:41:40.931085+00:00'), method='editorial_rights_review',
             note='Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío.'))
     return offer
