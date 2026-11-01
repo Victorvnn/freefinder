@@ -26,12 +26,13 @@ def parse_product(url,html):
 class UsgsConnector:
     def __init__(self,source,http):self.source=source;self.http=http
     def collect(self):
-        queue=[(u,0) for u in self.source['seeds']]; seen=set(); found=[]
+        queue=[(u,0) for u in self.source['seeds']]; seen=set(); found=[]; product_pages=0
         while queue and len(seen)<20:
             url,depth=queue.pop(0)
             if url in seen: continue
             seen.add(url); html=self.http.get(url)
             if re.search(r'/product/\d+',url):
+                product_pages+=1
                 p=parse_product(url,html)
                 if p: found.append(p)
                 continue
@@ -42,4 +43,5 @@ class UsgsConnector:
                 path=urlsplit(link).path
                 if re.search(r'/product/\d+',path) or (depth<2 and re.search(r'educational|water|geology|other-products|natural-hazards',path,re.I)):
                     if link not in seen and len(queue)<80: queue.append((link,depth+1))
+        if not product_pages: raise ValueError('Discovery did not reach any product page; source layout or access requires review')
         return found
