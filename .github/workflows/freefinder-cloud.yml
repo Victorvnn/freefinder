@@ -2,7 +2,7 @@ name: FreeFinder cloud catalog
 
 on:
   push:
-    paths: ['backend/**', '.github/workflows/freefinder-cloud.yml']
+    paths: ['backend/**', 'android/**', '.github/workflows/freefinder-cloud.yml']
   workflow_dispatch:
   schedule:
     # UTC. Run away from the top of the hour; source limits still apply.
@@ -19,7 +19,7 @@ jobs:
   publish:
     if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     permissions:
       contents: write
       pages: write
@@ -43,6 +43,31 @@ jobs:
       - name: Run backend tests
         working-directory: backend
         run: python -m pytest -q
+      - name: Set up Java for Android
+        if: github.event_name == 'push'
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Set up Gradle
+        if: github.event_name == 'push'
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - name: Test, lint and build Android
+        if: github.event_name == 'push'
+        run: gradle -p android :app:testDebugUnitTest :app:lintDebug :app:assembleDebug --no-daemon
+      - name: Stage Android download
+        run: |
+          mkdir -p public/downloads
+          # Keep this version's published signature stable; never overwrite it.
+          if curl --fail --location --retry 2 --max-time 90 'https://victorvnn.github.io/freefinder/downloads/freefinder-0.2.0.apk' -o public/downloads/freefinder-0.2.0.apk; then
+            echo 'Preserving published 0.2.0 APK'
+          elif [ -f android/app/build/outputs/apk/debug/app-debug.apk ]; then
+            cp android/app/build/outputs/apk/debug/app-debug.apk public/downloads/freefinder-0.2.0.apk
+          else
+            rm -f public/downloads/freefinder-0.2.0.apk
+          fi
       - name: Discover and export actual observed offers
         working-directory: backend
         env:

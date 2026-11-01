@@ -12,9 +12,10 @@ from urllib.parse import urlsplit, parse_qsl
 from sqlalchemy import func, select
 from . import db
 from .domain import now, total_cost
+from .connectors.images import enrich_image
 
 MAX_OFFERS=10_000
-PUBLIC_OFFER_FIELDS=set('id name description brand category platform url image_url regular_price promo_price currency kind shipping_es shipping_ad shipping_cost_es shipping_cost_ad additional_charges_es additional_charges_ad residency requirements starts_at ends_at discovered_at checked_at status purchase_required keepable confidence rejection_reason risk_reasons evidence'.split())
+PUBLIC_OFFER_FIELDS=set('id source_id source_status name description brand category platform url request_url image_url image_credit image_license image_license_url regular_price promo_price currency kind shipping_es shipping_ad shipping_cost_es shipping_cost_ad additional_charges_es additional_charges_ad residency requirements starts_at ends_at discovered_at checked_at status purchase_required keepable confidence rejection_reason risk_reasons evidence'.split())
 
 def public_url(url):
     p=urlsplit(url)
@@ -27,7 +28,8 @@ def public_url(url):
 def public_offer(payload):
     result={k:v for k,v in payload.items() if k in PUBLIC_OFFER_FIELDS}
     result['url']=public_url(result['url'])
-    if result.get('image_url'):result['image_url']=public_url(result['image_url'])
+    for key in ('image_url','request_url','image_license_url'):
+        if result.get(key):result[key]=public_url(result[key])
     result['evidence']=[{k:(public_url(v) if k=='source' else v) for k,v in e.items() if k in {'field','source','checked_at','method','sha256','note'}} for e in result.get('evidence',[])]
     return result
 
@@ -57,7 +59,7 @@ def export_snapshot(session_factory,output,sources,previous_state=None):
     with session_factory() as s:
         rows=s.query(db.Offer).order_by(db.Offer.id).limit(MAX_OFFERS+1).all()
         if len(rows)>MAX_OFFERS:raise ValueError('Refusing to publish a truncated catalog')
-        offers=[public_offer(row.payload) for row in rows]
+        offers=[public_offer(enrich_image(dict(row.payload))) for row in rows]
         runs=[_run_dict(r) for r in s.query(db.Run).order_by(db.Run.id.desc()).limit(100)]
         # Keep latest attempt of every source, even if absent from display history.
         last_ids=select(func.max(db.Run.id)).group_by(db.Run.source)
@@ -88,6 +90,8 @@ def export_snapshot(session_factory,output,sources,previous_state=None):
     errors=' · '.join(html.escape(r['source']+': '+r['status']) for r in runs[:5]) or 'Sin ejecuciones registradas.'
     page='''<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FreeFinder · estado del catálogo</title><style>body{font:17px system-ui;background:#f4f8f5;color:#173c30;max-width:760px;margin:60px auto;padding:24px;line-height:1.6}main{background:white;border-radius:20px;padding:30px}a{color:#166c53}code{overflow-wrap:anywhere}</style><main><h1>FreeFinder</h1><p>Catálogo automático alojado en GitHub Pages.</p><p>SUMMARY</p><p>Última exportación: STAMP</p><p>Última revisión de fuente completada: LAST</p><h2>Conectar la app</h2><p>Copia la dirección de esta página en Ajustes → URL del backend y guarda. Después sincroniza.</p><p>La app conserva tus favoritos y notas en el teléfono. Esta página no los recibe.</p><h2>Últimos intentos</h2><p>ERRORS</p><p><a href="v1/runs">Historial JSON</a> · <a href="health">Estado JSON</a></p><p>La exportación no acredita stock, transporte o solicitud verificada. Las tareas programadas pueden retrasarse.</p></main></html>'''
     page=page.replace('SUMMARY',html.escape(summary)).replace('STAMP',html.escape(stamp)).replace('LAST',html.escape(last_success or 'Ninguna')).replace('ERRORS',errors)
+    if (output/'downloads/freefinder-0.2.0.apk').is_file():
+        page=page.replace('<h2>Conectar la app</h2>', '<p><a href="downloads/freefinder-0.2.0.apk">Descargar FreeFinder 0.2.0 para Android 14+</a></p><p>Versión de prueba instalada como FreeFinder 0.2, junto a la anterior. No desinstales la original: conserva sus favoritos y notas allí. Los datos personales no se transfieren automáticamente.</p><h2>Conectar la app</h2>')
     (output/'index.html').write_text(page,encoding='utf-8')
     return state
 

@@ -5,10 +5,24 @@ import time
 from datetime import datetime, timezone
 from . import db
 from .domain import now
+from .connectors.images import enrich_image
 from .connectors.registry import load_sources
 from .connectors.safe_http import SafeHTTP
 from .connectors.html import HtmlConnector
 from .connectors.usgs import UsgsConnector
+from .connectors.agrisera import AgriseraConnector
+
+def reconcile_source(session, source_id, seen):
+    """A missing link or failed scan is not proof of expiry or stock."""
+    for row in session.query(db.Offer).all():
+        if row.payload.get('source_id')!=source_id: continue
+        if seen is not None and row.id in seen: continue
+        payload=dict(row.payload)
+        payload['source_status']='unreachable' if seen is None else 'missing'
+        if payload.get('status') not in {'expired','sold_out','rejected'}:
+            payload['status']='pending'
+        # Preserve checked_at: no offer verification was completed.
+        db.upsert(session,payload)
 
 def _run_locked(force=False):
     db.init_db();results=[]
@@ -24,14 +38,19 @@ def _run_locked(force=False):
         http=None
         try:
             http=SafeHTTP(source['hosts'])
-            adapter=UsgsConnector if source['adapter']=='usgs' else HtmlConnector
+            adapter={'usgs':UsgsConnector,'agrisera':AgriseraConnector,'html':HtmlConnector}[source['adapter']]
             offers=adapter(source,http).collect()
             with db.Session() as s:
-                for o in offers: db.upsert(s,o)
+                seen={o['id'] for o in offers}
+                for o in offers:
+                    o.update(source_id=source['id'],source_status='current')
+                    db.upsert(s,enrich_image(o))
+                reconcile_source(s,source['id'],seen)
                 run=s.get(db.Run,rid);run.status='ok';run.count=len(offers);run.finished_at=now();s.commit()
             results.append(dict(source=source['id'],status='ok',count=len(offers)))
         except Exception as e:
             with db.Session() as s:
+                reconcile_source(s,source['id'],None)
                 run=s.get(db.Run,rid);run.status='error';run.error=f'{type(e).__name__}: {str(e)[:400]}';run.finished_at=now();s.commit()
             results.append(dict(source=source['id'],status='error',error=type(e).__name__))
         finally:

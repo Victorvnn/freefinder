@@ -1,0 +1,13 @@
+{
+  "health": {
+    "status": "ok",
+    "catalog_is_live_search": false
+  },
+  "offers": {
+    "items": [],
+    "total": 0,
+    "offset": 0
+  },
+  "result": "PASS",
+  "note": "Real local HTTP server, empty production catalog, not live external ingestion"
+}

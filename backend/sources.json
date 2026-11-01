@@ -57,11 +57,30 @@
       "store.usgs.gov"
     ],
     "seeds": [
-      "https://www.usgs.gov/node/25977"
+      "https://www.usgs.gov/node/25977",
+      "https://www.usgs.gov/node/25981",
+      "https://www.usgs.gov/node/25985",
+      "https://www.usgs.gov/node/25988"
     ],
-    "minimum_hours": 24,
+    "minimum_hours": 6,
     "policy_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
     "policy_note": "Discover product identifiers in official government educational resources; validate current physical zero-price product pages. No images copied. ES/AD shipping unconfirmed.",
     "policy_reviewed": "2026-11-01"
+  },
+  {
+    "id": "agrisera_posters",
+    "name": "Agrisera · pósteres impresos educativos",
+    "enabled": true,
+    "adapter": "agrisera",
+    "hosts": [
+      "www.agrisera.com"
+    ],
+    "seeds": [
+      "https://www.agrisera.com/en/info/educational-posters.html"
+    ],
+    "minimum_hours": 24,
+    "policy_reviewed": true,
+    "policy_url": "https://www.agrisera.com/robots.txt",
+    "policy_note": "Página pública permitida por robots. Solo metadatos factuales de pósteres y enlace original. No se reproducen las imágenes por permiso limitado a fines educativos. Solicitud de copias condicionada al boletín."
   }
 ]

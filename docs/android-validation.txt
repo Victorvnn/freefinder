@@ -1,0 +1,8 @@
+Command: gradlew clean :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+BUILD SUCCESSFUL
+58 tasks executed from clean build
+JVM tests: 6; failures: 0; errors: 0
+Lint: 0 errors, 2 warnings
+APK signature: verified (v2, one development signer)
+Package: org.freefinder.app, version 0.1.0, minSdk 34, targetSdk 35
+No physical device/emulator execution performed.
