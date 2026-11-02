@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:59:16.660586+00:00",
-  "last_successful_scan": "2026-11-02T07:59:16.653190+00:00",
+  "generated_at": "2026-11-02T15:56:50.149529+00:00",
+  "last_successful_scan": "2026-11-02T15:56:50.137362+00:00",
   "offers": [
     {
       "id": "0be3d7118e238d181d83a5e7",
@@ -32,7 +32,7 @@
       "ends_at": null,
       "published_at": "2026-11-01T20:01:42+00:00",
       "discovered_at": "2026-11-02T07:57:35.224272+00:00",
-      "checked_at": "2026-11-02T07:57:35.224272+00:00",
+      "checked_at": "2026-11-02T15:56:32.322798+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -45,17 +45,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-02T07:57:35.224272+00:00",
+          "checked_at": "2026-11-02T15:56:32.322798+00:00",
           "method": "public_rss",
-          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "sha256": "60292de6ca934b685e16a1d4a6128643ab91abb27fbaef8a9aeb10d7ecd8064f",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
-          "checked_at": "2026-11-02T07:57:37.859279+00:00",
+          "checked_at": "2026-11-02T15:56:38.132700+00:00",
           "method": "public_html",
-          "sha256": "555ad52174e9ff73bd09da63a59dd3bb5f529a38324fea6ea29357a32b3d4ceb",
+          "sha256": "baf296406065b883fd820c1472e11f5b38ecb17bf0414794fc19e9653366e238",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -118,6 +118,65 @@
         }
       ],
       "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "3430b3913f804bf5d45633b0",
+      "name": "Sephora · la Gift Bag del Sephora Christmas Market",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+      "request_url": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-02T08:01:44+00:00",
+      "discovered_at": "2026-11-02T15:56:32.321884+00:00",
+      "checked_at": "2026-11-02T15:56:32.321884+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T15:56:32.321884+00:00",
+          "method": "public_rss",
+          "sha256": "60292de6ca934b685e16a1d4a6128643ab91abb27fbaef8a9aeb10d7ecd8064f",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+          "checked_at": "2026-11-02T15:56:35.154536+00:00",
+          "method": "public_html",
+          "sha256": "ee370446ab566a914bfe380c979195689f47671748fd0bb8fc5f82a16c8bd448",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
       "source_status": "current"
     },
     {
@@ -788,7 +847,7 @@
       "ends_at": null,
       "published_at": "2026-11-01T12:24:33+00:00",
       "discovered_at": "2026-11-02T07:57:35.225020+00:00",
-      "checked_at": "2026-11-02T07:57:35.225020+00:00",
+      "checked_at": "2026-11-02T15:56:32.324130+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -801,17 +860,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-02T07:57:35.225020+00:00",
+          "checked_at": "2026-11-02T15:56:32.324130+00:00",
           "method": "public_rss",
-          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "sha256": "60292de6ca934b685e16a1d4a6128643ab91abb27fbaef8a9aeb10d7ecd8064f",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/central-lechera-asturiana-sortea-4-espumadores-sogo.html",
-          "checked_at": "2026-11-02T07:57:40.864988+00:00",
+          "checked_at": "2026-11-02T15:56:41.134429+00:00",
           "method": "public_html",
-          "sha256": "4601e01db8b2718a12bc1b888e2b5a10ba0609254a047b97be3c5c1294d48dda",
+          "sha256": "ebcb738e3f0f6c87b94894300d9cfcfcb4d7a933ff705876d192b146efb740d8",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1223,7 +1282,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -1285,7 +1344,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "a54a239d1096c3bb0179bb58",
@@ -1344,7 +1403,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "b3f0a05b213f55d8b1e621b0",
@@ -1375,7 +1434,7 @@
       "ends_at": null,
       "published_at": "2026-10-31T08:01:55+00:00",
       "discovered_at": "2026-11-02T07:57:35.226295+00:00",
-      "checked_at": "2026-11-02T07:57:35.226295+00:00",
+      "checked_at": "2026-11-02T15:56:32.326581+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1388,17 +1447,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-02T07:57:35.226295+00:00",
+          "checked_at": "2026-11-02T15:56:32.326581+00:00",
           "method": "public_rss",
-          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "sha256": "60292de6ca934b685e16a1d4a6128643ab91abb27fbaef8a9aeb10d7ecd8064f",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/dulcesol-y-fisura-sortean-un-lote-de-halloween-con-manjus-lampara-de-lava-y-macetero-calavera.html",
-          "checked_at": "2026-11-02T07:57:47.239326+00:00",
+          "checked_at": "2026-11-02T15:56:47.129038+00:00",
           "method": "public_html",
-          "sha256": "d39dadd226537ecbab68e2ea86785d151179548ec301938636a6c65afe243f20",
+          "sha256": "c8277189efdf59bcfb33b7a720c9873d428f3b171239595edfaae7995be680c4",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1434,7 +1493,7 @@
       "ends_at": null,
       "published_at": "2026-10-30T20:01:53+00:00",
       "discovered_at": "2026-11-02T07:57:35.227375+00:00",
-      "checked_at": "2026-11-02T07:57:35.227375+00:00",
+      "checked_at": "2026-11-02T15:56:32.327398+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1447,17 +1506,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-02T07:57:35.227375+00:00",
+          "checked_at": "2026-11-02T15:56:32.327398+00:00",
           "method": "public_rss",
-          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "sha256": "60292de6ca934b685e16a1d4a6128643ab91abb27fbaef8a9aeb10d7ecd8064f",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/consorcio-sortea-un-lote-de-conservas-para-tus-quedadas-de-otono.html",
-          "checked_at": "2026-11-02T07:57:49.864871+00:00",
+          "checked_at": "2026-11-02T15:56:50.128495+00:00",
           "method": "public_html",
-          "sha256": "0678672ede94f42145e0a77c19fa5c5378cf4bc61d63c807c7ebd5ca081b78b0",
+          "sha256": "c0f79889427d5a6fe976ec12e7ebeccac27cbf3d75c6b46ae13e33791f3415fb",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1493,7 +1552,7 @@
       "ends_at": null,
       "published_at": "2026-10-31T20:01:38+00:00",
       "discovered_at": "2026-11-02T07:57:35.225420+00:00",
-      "checked_at": "2026-11-02T07:57:35.225420+00:00",
+      "checked_at": "2026-11-02T15:56:32.325069+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1506,17 +1565,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-02T07:57:35.225420+00:00",
+          "checked_at": "2026-11-02T15:56:32.325069+00:00",
           "method": "public_rss",
-          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "sha256": "60292de6ca934b685e16a1d4a6128643ab91abb27fbaef8a9aeb10d7ecd8064f",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/guaw-sortea-6-packs-sorpresa-para-tu-mascota-por-su-6o-aniversario.html",
-          "checked_at": "2026-11-02T07:57:43.864214+00:00",
+          "checked_at": "2026-11-02T15:56:44.132847+00:00",
           "method": "public_html",
-          "sha256": "530244e1d08d90f8d036b8abffe8be58ee196e526dfd5856be34c2acfee04fd0",
+          "sha256": "07eef346f7eb2a4992f3cd0d702f6f7fbb967228a3e1dc2713ebc779298c56d6",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1907,7 +1966,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -1972,6 +2031,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 10,
+      "source": "promotion_rss",
+      "started_at": "2026-11-02T15:56:25.829890+00:00",
+      "finished_at": "2026-11-02T15:56:50.137362+00:00",
+      "status": "ok",
+      "count": 6,
+      "error": null
+    },
+    {
+      "id": 9,
+      "source": "usgs_education",
+      "started_at": "2026-11-02T15:56:05.663286+00:00",
+      "finished_at": "2026-11-02T15:56:25.823890+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "ReadTimeout"
+    },
     {
       "id": 8,
       "source": "mgl_zero_products",
@@ -2046,6 +2123,326 @@
     }
   ],
   "revisions": [
+    {
+      "id": 41,
+      "offer_id": "a54a239d1096c3bb0179bb58",
+      "at": "2026-11-02T15:56:50.136326+00:00",
+      "payload": {
+        "id": "a54a239d1096c3bb0179bb58",
+        "name": "Vidal Golosinas y Niche Beauty Lab · un lote de belleza y otro de chocolate",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+        "request_url": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-10-30T18:01:54+00:00",
+        "discovered_at": "2026-11-02T07:57:35.227782+00:00",
+        "checked_at": "2026-11-02T07:57:35.227782+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.227782+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+            "checked_at": "2026-11-02T07:57:52.864160+00:00",
+            "method": "public_html",
+            "sha256": "04e8ca60c70db2502eea37faf28e58c95104ed6ddd670e6c1085c119e133a12f",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 40,
+      "offer_id": "a0572b4a264a49503b281b1d",
+      "at": "2026-11-02T15:56:50.136255+00:00",
+      "payload": {
+        "id": "a0572b4a264a49503b281b1d",
+        "name": "Nelly · un Pack Halloween para 3 ganadores",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+        "request_url": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-10-30T15:30:03+00:00",
+        "discovered_at": "2026-11-02T07:57:35.228409+00:00",
+        "checked_at": "2026-11-02T07:57:35.228409+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.228409+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+            "checked_at": "2026-11-02T07:57:55.865987+00:00",
+            "method": "public_html",
+            "sha256": "b6c55599f1b97bbb4b6ce8c4afbb84959278e95bb3e23a0e29c5431bf1681d0b",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 39,
+      "offer_id": "3430b3913f804bf5d45633b0",
+      "at": "2026-11-02T15:56:50.129975+00:00",
+      "payload": {
+        "id": "3430b3913f804bf5d45633b0",
+        "name": "Sephora · la Gift Bag del Sephora Christmas Market",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+        "request_url": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-02T08:01:44+00:00",
+        "discovered_at": "2026-11-02T15:56:32.321884+00:00",
+        "checked_at": "2026-11-02T15:56:32.321884+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T15:56:32.321884+00:00",
+            "method": "public_rss",
+            "sha256": "60292de6ca934b685e16a1d4a6128643ab91abb27fbaef8a9aeb10d7ecd8064f",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+            "checked_at": "2026-11-02T15:56:35.154536+00:00",
+            "method": "public_html",
+            "sha256": "ee370446ab566a914bfe380c979195689f47671748fd0bb8fc5f82a16c8bd448",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 38,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-02T15:56:25.821023+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-02T06:05:34.302611+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-02T06:05:34.302611+00:00",
+            "method": "public_html",
+            "sha256": "860509f269b3107de04d7309ca0a28044afab300957698d0247b2f202c8af84d",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 37,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-02T15:56:25.820910+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-02T06:05:31.327990+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-02T06:05:31.327990+00:00",
+            "method": "public_html",
+            "sha256": "2d8b766f3344ef112bff385039689008e9fb293cba7b2a765e0e0c193bd589c2",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 36,
       "offer_id": "5136a8f6b9f7874d9abec56f",
