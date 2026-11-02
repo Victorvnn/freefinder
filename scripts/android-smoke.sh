@@ -14,7 +14,7 @@ adb logcat -c
 adb install -r android/app/build/outputs/apk/debug/app-debug.apk
 adb shell settings put system font_scale 1.0
 adb shell cmd uimode night no
-adb shell am start -W -n org.freefinder.design/org.freefinder.app.MainActivity
+adb shell am start -W -n org.freefinder.mobile/org.freefinder.app.MainActivity
 # Wait for the actual app screen rather than assuming boot/network speed.
 for attempt in $(seq 1 20); do
   adb shell uiautomator dump /sdcard/window.xml >/dev/null 2>&1 || true
@@ -25,7 +25,7 @@ adb shell cat /sdcard/window.xml | grep 'Encuentra algo' >/dev/null
 # Let the first background catalog sync complete (no account or forms).
 for attempt in $(seq 1 15); do
   adb shell uiautomator dump /sdcard/window.xml >/dev/null 2>&1 || true
-  if adb shell cat /sdcard/window.xml | grep '11' >/dev/null; then break; fi
+  if adb shell cat /sdcard/window.xml | grep -E '[1-9][0-9]* ofertas observadas' >/dev/null; then break; fi
   sleep 2
 done
 adb shell screencap -p /sdcard/home.png

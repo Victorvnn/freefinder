@@ -82,5 +82,69 @@
     "policy_reviewed": true,
     "policy_url": "https://www.agrisera.com/robots.txt",
     "policy_note": "Página pública permitida por robots. Solo metadatos factuales de pósteres y enlace original. No se reproducen las imágenes por permiso limitado a fines educativos. Solicitud de copias condicionada al boletín."
+  },
+  {
+    "id": "bemz_samples",
+    "name": "Bemz · muestras de tejidos",
+    "adapter": "bemz",
+    "enabled": true,
+    "hosts": [
+      "bemz.com"
+    ],
+    "seeds": [
+      "https://bemz.com/es-es/fabrics"
+    ],
+    "minimum_hours": 24,
+    "policy_reviewed": true,
+    "policy_url": "https://bemz.com/es-es/information/terminos-y-condiciones",
+    "policy_note": "Lector personal no comercial de metadatos factuales de hasta12muestras/día. Robots permite catálogo; no se copian imágenes ni descripciones. Límite tres/cinco contradictorio; transporte y solicitud pendientes."
+  },
+  {
+    "id": "kvik_samples",
+    "name": "Kvik · muestras de color",
+    "adapter": "kvik",
+    "enabled": true,
+    "hosts": [
+      "www.kvik.es"
+    ],
+    "seeds": [
+      "https://www.kvik.es/"
+    ],
+    "minimum_hours": 24,
+    "policy_reviewed": true,
+    "policy_url": "https://www.kvik.es/terms-and-conditions",
+    "policy_note": "Extracción factual de campañas concretas de muestras físicas con afirmación gratuita. Excluye electrodomésticos sujetos a compra. Robots permite páginas; sin imágenes ni solicitudes automáticas."
+  },
+  {
+    "id": "promotion_rss",
+    "name": "Regalos y Muestras Gratis · RSS",
+    "adapter": "promotion_feed",
+    "enabled": true,
+    "hosts": [
+      "regalosymuestrasgratis.com"
+    ],
+    "seeds": [
+      "https://regalosymuestrasgratis.com/feed/"
+    ],
+    "minimum_hours": 6,
+    "policy_reviewed": true,
+    "policy_url": "https://regalosymuestrasgratis.com/aviso-legal",
+    "policy_note": "Lector RSS público para uso personal y no lucrativo: solo nombres factuales y enlaces con atribución, sin fotos ni textos del artículo. Anuncios de terceros pendientes de verificar; sorteos diferenciados. No acredita gratuidad, stock ni destinos del organizador."
+  },
+  {
+    "id": "mgl_zero_products",
+    "name": "MGL · productos completos a precio cero",
+    "adapter": "mgl",
+    "enabled": true,
+    "hosts": [
+      "mgl-southasian.com"
+    ],
+    "seeds": [
+      "https://mgl-southasian.com/product-category/free-products/"
+    ],
+    "minimum_hours": 24,
+    "policy_reviewed": true,
+    "policy_url": "https://mgl-southasian.com/product-category/free-products/",
+    "policy_note": "Productos completos de divulgación religiosa: precio numérico cero y existencias contrastados en ficha, sin imágenes ni textos copiados. Concesión sujeta a uso previsto y límites; ES/AD, transporte e impuestos pendientes. Robots exige20s entrepeticiones. No equivale a un marketplace general."
   }
 ]

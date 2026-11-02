@@ -1,6 +1,15 @@
 package org.freefinder.app
 
 private val strings=mapOf(
+"accent" to listOf("Color de la interfaz", "Color de la interfície", "Interface color"),
+"palette_neutral" to listOf("Blanco, negro y gris", "Blanc, negre i gris", "White, black and gray"),
+"palette_blue" to listOf("Azul", "Blau", "Blue"),
+"mode_zero" to listOf("Precio cero","Preu zero","Zero price"),
+"mode_samples" to listOf("Muestras","Mostres","Samples"),
+"mode_draws" to listOf("Otras promociones","Altres promocions","Other promotions"),
+"mode_all_modes" to listOf("Todo","Tot","All"),
+"no_zero_products" to listOf("No hay productos completos a precio cero con estos filtros. No se sustituyen por muestras o sorteos.","No hi ha productes complets a preu zero amb aquests filtres. No se substitueixen per mostres o sortejos.","No full zero-price products match these filters. Samples and draws are kept separate."),
+
 "photo_credits" to listOf("Créditos de imagen", "Crèdits de la imatge", "Image credits"),
 "image_license" to listOf("Consultar licencia y fuente de la imagen", "Consulta la llicència i la font de la imatge", "View image license and source"),
 "sources" to listOf("Fuentes","Fonts","Sources"),
@@ -24,7 +33,7 @@ private val strings=mapOf(
 "source_disabled" to listOf("Conector desactivado","Connector desactivat","Connector disabled"),
 "visit_source" to listOf("Abrir plataforma","Obrir plataforma","Open platform"),
 
-"coverage" to listOf("Búsqueda automática: USGS y Agrisera. Las demás tiendas y programas todavía no están integrados. Se revisan únicamente fuentes permitidas; no se busca en todo Internet.", "Cerca automàtica: USGS i Agrisera. Les altres botigues i programes encara no estan integrats. Només es revisen fonts permeses; no es cerca a tot Internet.", "Automatic discovery: USGS and Agrisera. Other stores and programs are not integrated yet. Only permitted sources are checked; coverage is not the entire Internet."),
+"coverage" to listOf("Consulta Fuentes para conocer qué búsquedas automáticas están activas. Productos completos a 0 €, muestras y otras promociones se muestran por separado. No están integrados todos los marketplaces.", "Consulta Fonts per conèixer les cerques automàtiques actives. Els productes complets a 0 €, les mostres i altres promocions es mostren separats. No tots els marketplaces estan integrats.", "See Sources for active automatic searches. Full zero-price products, samples and other promotions are separate. Not all marketplaces are integrated."),
 "stale_source" to listOf("La fuente no ha podido confirmar de nuevo esta oferta", "La font no ha pogut tornar a confirmar aquesta oferta", "The source could not reconfirm this offer"),
 "opportunities" to listOf("Oportunidades","Oportunitats","Opportunities"),
 "observed" to listOf("ofertas observadas","ofertes observades","observed offers"),

@@ -47,7 +47,7 @@ class Repository(app:Application){
             val seen=collected.map{it.id}.toSet()
             val archived=oldRows.filter { it.id !in seen }.map { row->CachedOffer(row.id,gson.toJson(gson.fromJson(row.json,Offer::class.java).copy(cachedOnly=true))) }
             // Retain disappeared and expired entries locally for personal history.
-            db.withTransaction {dao.insert(archived+collected.map { CachedOffer(it.id,gson.toJson(it.copy(cachedOnly=false))) })}
+            db.withTransaction {dao.insert(archived+collected.map { CachedOffer(it.id,gson.toJson(it.copy(cachedOnly=it.sourceStatus=="missing"))) })}
             prefs.synced(gson.toJson(runs),sources)
             collected.filter { it.id !in old }
         } finally {mutex.unlock()}

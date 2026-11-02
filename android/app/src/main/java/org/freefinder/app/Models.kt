@@ -27,7 +27,7 @@ data class Offer(
     @SerializedName("checked_at") val checkedAt:String="",
     @SerializedName("ends_at") val endsAt:String?=null,
     val status:String="pending", val keepable:Boolean?=null,
-    @SerializedName("purchase_required") val purchaseRequired:Boolean=false,
+    @SerializedName("purchase_required") val purchaseRequired:Boolean?=null,
     val cachedOnly:Boolean=false, val confidence:Double=0.0, val evidence:List<Evidence> = emptyList(),
     @SerializedName("risk_reasons") val riskReasons:List<String> = emptyList()
 )
@@ -38,7 +38,7 @@ data class Filters(val query:String="",val category:String="",val country:String
         (brand.isBlank()||o.brand==brand) && (platform.isBlank()||o.platform==platform) && (status.isBlank()||o.status==status) &&
         (category.isBlank()||o.category==category) && (kind.isBlank()||o.kind==kind) &&
         when(country){"ES"->(o.shippingEs=="confirmed"||(includeUnknown&&o.shippingEs=="unknown"));"AD"->(o.shippingAd=="confirmed"||(includeUnknown&&o.shippingAd=="unknown"));"both"->(o.shippingEs=="confirmed"||(includeUnknown&&o.shippingEs=="unknown"))&&(o.shippingAd=="confirmed"||(includeUnknown&&o.shippingAd=="unknown"));"pickup"->o.kind=="private_gift";else->true} &&
-        (!keepOnly||o.keepable==true) && (!o.purchaseRequired) &&
+        (!keepOnly||o.keepable==true) && (o.purchaseRequired!=true) &&
         (maxShipping==null || (if(country=="both") listOf(o.shippingCostEs,o.shippingCostAd) else listOf(if(country=="AD") o.shippingCostAd else o.shippingCostEs)).all { it!=null && it<=maxShipping })
 }
 val categories=listOf("electronics","computing","appliances","home","tools","clothing","shoes","accessories","beauty","hygiene","food","pets","sport","automotive","office","garden","children","other")
@@ -49,3 +49,11 @@ data class Source(val id:String="",val name:String="",val url:String="",val mode
     val categories:List<String> = emptyList(),val notes:String="",
     @SerializedName("policy_note") val policyNote:String="",
     @SerializedName("policy_url") val policyUrl:String?=null)
+
+/** Actual unit price zero, never a sample, lottery, cashback or returnable loan. */
+fun Offer.matchesCatalog(mode:String):Boolean=when(mode){
+    "zero"->promoPrice==0.0&&purchaseRequired==false&&kind !in listOf("sample","giveaway","cashback","loan","selection","keep_trial")
+    "samples"->kind=="sample"
+    "draws"->kind in listOf("giveaway","selection","keep_trial","cashback","loan")
+    else->true
+}

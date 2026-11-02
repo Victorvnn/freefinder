@@ -8,11 +8,11 @@ android {
     namespace = "org.freefinder.app"
     compileSdk = 35
     defaultConfig {
-        applicationId = "org.freefinder.design"
+        applicationId = "org.freefinder.mobile"
         minSdk = 34
         targetSdk = 35
-        versionCode = 4
-        versionName = "0.3.1"
+        versionCode = 5
+        versionName = "0.4.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures { compose = true; buildConfig = true }

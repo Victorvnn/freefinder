@@ -11,6 +11,10 @@ from .connectors.safe_http import SafeHTTP
 from .connectors.html import HtmlConnector
 from .connectors.usgs import UsgsConnector
 from .connectors.agrisera import AgriseraConnector
+from .connectors.bemz import BemzConnector
+from .connectors.mgl import MglConnector
+from .connectors.kvik import KvikConnector
+from .connectors.promotion_feed import PromotionFeedConnector
 
 def reconcile_source(session, source_id, seen):
     """A missing link or failed scan is not proof of expiry or stock."""
@@ -38,7 +42,7 @@ def _run_locked(force=False):
         http=None
         try:
             http=SafeHTTP(source['hosts'])
-            adapter={'usgs':UsgsConnector,'agrisera':AgriseraConnector,'html':HtmlConnector}[source['adapter']]
+            adapter={'usgs':UsgsConnector,'agrisera':AgriseraConnector,'html':HtmlConnector,'mgl':MglConnector,'bemz':BemzConnector,'kvik':KvikConnector,'promotion_feed':PromotionFeedConnector}[source['adapter']]
             offers=adapter(source,http).collect()
             with db.Session() as s:
                 seen={o['id'] for o in offers}

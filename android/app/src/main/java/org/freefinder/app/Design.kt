@@ -65,7 +65,7 @@ fun categoryIcon(category:String):ImageVector=when(category){
 }
 
 @Composable fun ProductPhoto(o:Offer,l:String,height:Int=190){
-    Box(Modifier.fillMaxWidth().height(height.dp).background(Color(0xFFFDFDFB)),contentAlignment=Alignment.Center){
+    Box(Modifier.fillMaxWidth().height(height.dp).background(Color(0xFFFFFFFF)),contentAlignment=Alignment.Center){
         if(o.imageUrl!=null)SubcomposeAsyncImage(model=o.imageUrl,contentDescription=o.name,contentScale=ContentScale.Fit,modifier=Modifier.fillMaxSize().padding(10.dp),
             loading={Box(Modifier.fillMaxSize(),contentAlignment=Alignment.Center){CircularProgressIndicator(Modifier.size(24.dp),strokeWidth=2.dp)}},
             error={PhotoFallback(o,l,true)})
@@ -74,8 +74,8 @@ fun categoryIcon(category:String):ImageVector=when(category){
 }
 @Composable private fun PhotoFallback(o:Offer,l:String,failed:Boolean){
     Column(Modifier.fillMaxSize().padding(12.dp),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.Center){
-        Icon(categoryIcon(o.category),null,Modifier.size(38.dp),tint=Color(0xFF527163))
-        Spacer(Modifier.height(8.dp));Text(tr(l,if(failed)"image_failed" else "no_photo"),style=MaterialTheme.typography.labelSmall,color=Color(0xFF527163))
+        Icon(categoryIcon(o.category),null,Modifier.size(38.dp),tint=Color(0xFF707070))
+        Spacer(Modifier.height(8.dp));Text(tr(l,if(failed)"image_failed" else "no_photo"),style=MaterialTheme.typography.labelSmall,color=Color(0xFF707070))
     }
 }
 

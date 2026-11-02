@@ -53,10 +53,15 @@ class MainActivity:ComponentActivity(){
     val loading by vm.loading.collectAsStateWithLifecycle()
     val error by vm.error.collectAsStateWithLifecycle()
     val dark=when(settings.dark){"dark"->true;"light"->false;else->isSystemInDarkTheme()}
-    val palette=if(dark) darkColorScheme(primary=Color(0xFF91E3B8),onPrimary=Color(0xFF073825),primaryContainer=Color(0xFF154C38),onPrimaryContainer=Color(0xFFC2F8D9),secondary=Color(0xFFACCDBB),secondaryContainer=Color(0xFF2A4236),onSecondaryContainer=Color(0xFFDFECE2),background=Color(0xFF0C1511),surface=Color(0xFF16241D),surfaceVariant=Color(0xFF2C3B32),onSurfaceVariant=Color(0xFFB6C5BA),outline=Color(0xFF819487)) else lightColorScheme(primary=Color(0xFF146341),onPrimary=Color.White,primaryContainer=Color(0xFFDCF4E3),onPrimaryContainer=Color(0xFF0A3825),secondary=Color(0xFF4D6D58),secondaryContainer=Color(0xFFE8EEE3),onSecondaryContainer=Color(0xFF2D4935),background=Color(0xFFF3F6F0),surface=Color(0xFFFFFFFF),surfaceVariant=Color(0xFFE6ECE3),onSurfaceVariant=Color(0xFF536658),outline=Color(0xFF819487))
+    val neutralPalette=if(dark) darkColorScheme(primary=Color(0xFFF3F3F3),onPrimary=Color(0xFF171717),primaryContainer=Color(0xFF292929),onPrimaryContainer=Color(0xFFF3F3F3),secondary=Color(0xFFC7C7C7),secondaryContainer=Color(0xFF333333),onSecondaryContainer=Color(0xFFEFEFEF),background=Color(0xFF101010),surface=Color(0xFF1C1C1C),surfaceVariant=Color(0xFF333333),onSurfaceVariant=Color(0xFFC0C0C0),outline=Color(0xFF909090)) else lightColorScheme(primary=Color(0xFF171717),onPrimary=Color.White,primaryContainer=Color(0xFFE8E8E8),onPrimaryContainer=Color(0xFF171717),secondary=Color(0xFF606060),secondaryContainer=Color(0xFFEFEFEF),onSecondaryContainer=Color(0xFF282828),background=Color(0xFFF5F5F5),surface=Color(0xFFFFFFFF),surfaceVariant=Color(0xFFEAEAEA),onSurfaceVariant=Color(0xFF606060),outline=Color(0xFF909090))
+    val palette=if(settings.accent=="blue") {
+        if(dark)neutralPalette.copy(primary=Color(0xFFBFDBFE),onPrimary=Color(0xFF102E5E),primaryContainer=Color(0xFF1D3A66),onPrimaryContainer=Color(0xFFD9E8FF))
+        else neutralPalette.copy(primary=Color(0xFF1D4ED8),onPrimary=Color.White,primaryContainer=Color(0xFFDBEAFE),onPrimaryContainer=Color(0xFF102E5E))
+    } else neutralPalette
     val l=settings.lang;fun t(k:String)=tr(l,k)
     var tab by remember {mutableStateOf("catalog")}
     var filters by remember {mutableStateOf(Filters())}
+    var catalogMode by remember {mutableStateOf("zero")}
     var filterDialog by remember {mutableStateOf(false)}
     var selected by remember {mutableStateOf<String?>(null)}
     val context=LocalContext.current
@@ -93,11 +98,12 @@ class MainActivity:ComponentActivity(){
                         items(personal.values.filter{it.state.isNotBlank()},key={"p"+it.id}){p->offers.find{it.id==p.id}?.let{o->Card(onClick={selected=o.id},modifier=Modifier.fillMaxWidth()){Column(Modifier.padding(12.dp)){Text(o.name);Text(t(p.state)+" · "+p.paid)}}}}
                     }
                     else->{
-                        val filtered=offers.filter{filters.matches(it)&&(if(tab=="favorites")personal[it.id]?.favorite==true else !it.cachedOnly)}
+                        val filtered=offers.filter{filters.matches(it)&&it.matchesCatalog(catalogMode)&&(if(tab=="favorites")personal[it.id]?.favorite==true else !it.cachedOnly)}
                         val sorted=when(filters.sort){"ending"->filtered.sortedBy{it.endsAt?:"9999"};"total"->filtered.sortedBy{if(filters.country=="AD")it.totalAd?:Double.MAX_VALUE else it.totalEs?:Double.MAX_VALUE};"value"->filtered.sortedByDescending{it.regularPrice?:-1.0};"confidence"->filtered.sortedByDescending{it.confidence};else->filtered.sortedByDescending{it.discoveredAt}}
                         val columns=if(LocalDensity.current.fontScale>1.2f)GridCells.Fixed(1) else GridCells.Adaptive(165.dp)
                         LazyVerticalGrid(columns=columns,contentPadding=PaddingValues(16.dp),horizontalArrangement=Arrangement.spacedBy(12.dp),verticalArrangement=Arrangement.spacedBy(14.dp)){
-                            item(span={GridItemSpan(maxLineSpan)}){CatalogHero(if(tab=="favorites")personal.values.count{it.favorite} else offers.count{!it.cachedOnly},settings.lastSync,l)}
+                            item(span={GridItemSpan(maxLineSpan)}){CatalogHero(if(tab=="favorites")personal.values.count{it.favorite} else offers.count{!it.cachedOnly&&it.matchesCatalog(catalogMode)},settings.lastSync,l)}
+                            item(span={GridItemSpan(maxLineSpan)}){LazyRow(horizontalArrangement=Arrangement.spacedBy(8.dp)){items(listOf("zero","samples","draws","all_modes")){mode->FilterChip(selected=catalogMode==mode,onClick={catalogMode=mode;filters=Filters()},label={Text(t("mode_"+mode))})}}}
                             item(span={GridItemSpan(maxLineSpan)}){OutlinedTextField(value=filters.query,onValueChange={filters=filters.copy(query=it)},modifier=Modifier.fillMaxWidth(),placeholder={Text(t("search"))},leadingIcon={Icon(Icons.Outlined.Search,null)},trailingIcon={if(filters.query.isNotEmpty())IconButton(onClick={filters=filters.copy(query="")}){Icon(Icons.Outlined.Close,t("reset"))}},shape=RoundedCornerShape(20.dp),singleLine=true)}
                             item(span={GridItemSpan(maxLineSpan)}){LazyRow(horizontalArrangement=Arrangement.spacedBy(8.dp)){
                                 item{FilterChip(selected=filters.category.isBlank(),onClick={filters=filters.copy(category="")},leadingIcon={Icon(Icons.Outlined.Apps,null,Modifier.size(18.dp))},label={Text(t("all"))})}
@@ -108,7 +114,7 @@ class MainActivity:ComponentActivity(){
                                 Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically){Text("${sorted.size} "+t("results"),Modifier.weight(1f),style=MaterialTheme.typography.titleMedium,fontWeight=FontWeight.Bold);if(filters!=Filters())TextButton(onClick={filters=Filters()}){Text(t("reset"))};TextButton(onClick={tab="sources"}){Text(t("sources"));Icon(Icons.Outlined.ArrowForward,null,Modifier.size(16.dp))}}
                                 if(filters.country.isNotBlank())Text(t(if(filters.includeUnknown)"unknown_note" else "country_note"),style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
                             }}
-                            if(sorted.isEmpty())item(span={GridItemSpan(maxLineSpan)}){Card{Column(Modifier.fillMaxWidth().padding(26.dp),verticalArrangement=Arrangement.spacedBy(14.dp),horizontalAlignment=Alignment.CenterHorizontally){Icon(Icons.Outlined.TravelExplore,null,Modifier.size(42.dp));Text(t(if(offers.isEmpty())"empty" else "empty_filters"));if(offers.isNotEmpty())TextButton(onClick={filters=Filters()}){Text(t("reset"))};Button(onClick=vm::sync,enabled=!loading){Text(t("sync"))}}}}
+                            if(sorted.isEmpty())item(span={GridItemSpan(maxLineSpan)}){Card{Column(Modifier.fillMaxWidth().padding(26.dp),verticalArrangement=Arrangement.spacedBy(14.dp),horizontalAlignment=Alignment.CenterHorizontally){Icon(Icons.Outlined.TravelExplore,null,Modifier.size(42.dp));Text(t(if(catalogMode=="zero")"no_zero_products" else if(offers.isEmpty())"empty" else "empty_filters"));if(offers.isNotEmpty())TextButton(onClick={filters=Filters()}){Text(t("reset"))};Button(onClick=vm::sync,enabled=!loading){Text(t("sync"))}}}}
                             gridItems(sorted,key={it.id}){o->ProductTile(o,personal[o.id]?.favorite==true,l,filters.country,{selected=o.id},{vm.favorite(o.id)})}
                             item(span={GridItemSpan(maxLineSpan)}){Text(t("catalog_footer"),style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant,modifier=Modifier.padding(vertical=12.dp))}
                         }
@@ -175,6 +181,7 @@ fun money(v:Double?,currency:String)=v?.let{String.format(java.util.Locale.getDe
         OutlinedTextField(draft.url,{draft=draft.copy(url=it)},label={Text(tr(l,"url"))},placeholder={Text("https://freefinder.example/")},modifier=Modifier.fillMaxWidth(),singleLine=true)
         Choice(tr(l,"language"),listOf("es","ca","en"),draft.lang,{when(it){"es"->"Castellano";"ca"->"Català";else->"English"}}){draft=draft.copy(lang=it)}
         Choice(tr(l,"theme"),listOf("system","light","dark"),draft.dark,{tr(l,it)}){draft=draft.copy(dark=it)}
+        Choice(tr(l,"accent"),listOf("neutral","blue"),draft.accent,{tr(l,"palette_"+it)}){draft=draft.copy(accent=it)}
         Choice(tr(l,"hours"),listOf("0","1","3","6","12","24"),draft.hours.toString(),{if(it=="0")tr(l,"manual") else "$it h"}){draft=draft.copy(hours=it.toInt())}
         Row(verticalAlignment=Alignment.CenterVertically){Switch(draft.notifications,{draft=draft.copy(notifications=it)});Text(tr(l,"notifications"),Modifier.padding(start=8.dp))}
         Row(verticalAlignment=Alignment.CenterVertically){Switch(draft.night,{draft=draft.copy(night=it)});Text(tr(l,"night"),Modifier.padding(start=8.dp))}
