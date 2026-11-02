@@ -1,8 +1,472 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T06:06:15.324444+00:00",
-  "last_successful_scan": "2026-11-02T06:06:15.285315+00:00",
+  "generated_at": "2026-11-02T07:59:16.660586+00:00",
+  "last_successful_scan": "2026-11-02T07:59:16.653190+00:00",
   "offers": [
+    {
+      "id": "0be3d7118e238d181d83a5e7",
+      "name": "Rosalique y Candela Rosa · un lote de belleza y bienestar",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+      "request_url": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-01T20:01:42+00:00",
+      "discovered_at": "2026-11-02T07:57:35.224272+00:00",
+      "checked_at": "2026-11-02T07:57:35.224272+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T07:57:35.224272+00:00",
+          "method": "public_rss",
+          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+          "checked_at": "2026-11-02T07:57:37.859279+00:00",
+          "method": "public_html",
+          "sha256": "555ad52174e9ff73bd09da63a59dd3bb5f529a38324fea6ea29357a32b3d4ceb",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "0e65f1f8cde16d765e320b6d",
+      "name": "Muestra de tela: Organic Panama Cotton Chocolate Plum",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-OT191",
+      "request_url": "https://bemz.com/es-es/products/SWA1-OT191",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "377f055fc8c6edee27138be6",
+      "name": "Muestra de tela: Organic Panama Cotton Sky Gray",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-OT190",
+      "request_url": "https://bemz.com/es-es/products/SWA1-OT190",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "39bd8abd6c620e3d193a38be",
+      "name": "Muestra de tela: Jacquard Bouclé Damask Chocolate/Lime Cream",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-JBD102",
+      "request_url": "https://bemz.com/es-es/products/SWA1-JBD102",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "3a341953e0a52b4983f36c9d",
+      "name": "Muestra de tela: Satin Stripe Sky Gray",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-SAS101",
+      "request_url": "https://bemz.com/es-es/products/SWA1-SAS101",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "3da9738a20c8fcedec0e4905",
+      "name": "Muestra de tela: Jacquard Satin Damask Chocolate/Oyster Black",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-JSD102",
+      "request_url": "https://bemz.com/es-es/products/SWA1-JSD102",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "431cf8ae0f15ab5218f5d144",
+      "name": "Muestra de tela: Jacquard Bouclé Floral Chocolate/Sky Gray",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-JBF101",
+      "request_url": "https://bemz.com/es-es/products/SWA1-JBF101",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "48535728cc0ad341231c8379",
+      "name": "Gospel coin (Gujarati)",
+      "description": "Moneda física de divulgación religiosa ofrecida como producto completo a precio cero. No es una muestra. Concesión y pedido sujetos a la fuente.",
+      "brand": "MGL Multilingual",
+      "category": "other",
+      "platform": "MGL Multilingual",
+      "url": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
+      "request_url": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "USD",
+      "kind": "promotion",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "La fuente puede limitar la cantidad y pide explicar el uso previsto de las monedas para divulgación religiosa.",
+        "Precio del artículo cero; transporte, destinos, impuestos y aprobación del pedido sin confirmar.",
+        "La página indica existencias en la revisión; no se ha solicitado ni reservado el producto."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:58:56.670841+00:00",
+      "checked_at": "2026-11-02T07:58:56.670841+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.6,
+      "rejection_reason": null,
+      "risk_reasons": [],
+      "evidence": [
+        {
+          "field": "price_stock",
+          "source": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
+          "checked_at": "2026-11-02T07:58:56.670841+00:00",
+          "method": "public_html",
+          "sha256": "14e5425b0959902a9888970ddef37fede7477698fd37c8ac7faeae3db1e7f1cf",
+          "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
+        },
+        {
+          "field": "conditions",
+          "source": "https://mgl-southasian.com/product-category/free-products/",
+          "checked_at": "2026-11-02T07:58:56.670841+00:00",
+          "method": "public_html",
+          "sha256": "c50a092a75d6dbf668cde73c030b691bca27683ab92d2225bb01dd91d48086aa",
+          "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
+        }
+      ],
+      "source_id": "mgl_zero_products",
+      "source_status": "current"
+    },
     {
       "id": "486c5e566bdc71f122e1c62b",
       "name": "Poster 1: Oxygenic Photosynthesis",
@@ -61,6 +525,121 @@
       "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24039480.v3",
       "image_license": "CC BY 4.0",
       "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "5136a8f6b9f7874d9abec56f",
+      "name": "Gospel coin (Hungarian)",
+      "description": "Moneda física de divulgación religiosa ofrecida como producto completo a precio cero. No es una muestra. Concesión y pedido sujetos a la fuente.",
+      "brand": "MGL Multilingual",
+      "category": "other",
+      "platform": "MGL Multilingual",
+      "url": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
+      "request_url": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "USD",
+      "kind": "promotion",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "La fuente puede limitar la cantidad y pide explicar el uso previsto de las monedas para divulgación religiosa.",
+        "Precio del artículo cero; transporte, destinos, impuestos y aprobación del pedido sin confirmar.",
+        "La página indica existencias en la revisión; no se ha solicitado ni reservado el producto."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:59:16.650491+00:00",
+      "checked_at": "2026-11-02T07:59:16.650491+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.6,
+      "rejection_reason": null,
+      "risk_reasons": [],
+      "evidence": [
+        {
+          "field": "price_stock",
+          "source": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
+          "checked_at": "2026-11-02T07:59:16.650491+00:00",
+          "method": "public_html",
+          "sha256": "0280a7accf2b8606acaf4fa373907e508872a218e9a2056b670e87f8d37d62a5",
+          "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
+        },
+        {
+          "field": "conditions",
+          "source": "https://mgl-southasian.com/product-category/free-products/",
+          "checked_at": "2026-11-02T07:59:16.650491+00:00",
+          "method": "public_html",
+          "sha256": "c50a092a75d6dbf668cde73c030b691bca27683ab92d2225bb01dd91d48086aa",
+          "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
+        }
+      ],
+      "source_id": "mgl_zero_products",
+      "source_status": "current"
+    },
+    {
+      "id": "527ae32834949eff29407980",
+      "name": "Muestra de tela: Plain Satin Andorra",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-SAT102",
+      "request_url": "https://bemz.com/es-es/products/SWA1-SAT102",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
     },
     {
       "id": "571705d4ccdd2353115c3251",
@@ -179,6 +758,239 @@
       "image_credit": "Joanna Porankiewicz-Asplund · Dmitry Shevela · Agrisera · 10.6084/m9.figshare.29086685.v1",
       "image_license": "CC BY 4.0",
       "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "71a8fa66715eb98d72cc3938",
+      "name": "Central Lechera Asturiana · 4 espumadores SOGO",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "appliances",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/central-lechera-asturiana-sortea-4-espumadores-sogo.html",
+      "request_url": "https://regalosymuestrasgratis.com/central-lechera-asturiana-sortea-4-espumadores-sogo.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-01T12:24:33+00:00",
+      "discovered_at": "2026-11-02T07:57:35.225020+00:00",
+      "checked_at": "2026-11-02T07:57:35.225020+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T07:57:35.225020+00:00",
+          "method": "public_rss",
+          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/central-lechera-asturiana-sortea-4-espumadores-sogo.html",
+          "checked_at": "2026-11-02T07:57:40.864988+00:00",
+          "method": "public_html",
+          "sha256": "4601e01db8b2718a12bc1b888e2b5a10ba0609254a047b97be3c5c1294d48dda",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "839e37fb07e1dd49224dcd16",
+      "name": "Muestra de tela: Plain Satin Oasis",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-SAT101",
+      "request_url": "https://bemz.com/es-es/products/SWA1-SAT101",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "8502381841bb227f75766abb",
+      "name": "Muestra de tela: Jacquard Satin Damask Chocolate Plum",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-JSD101",
+      "request_url": "https://bemz.com/es-es/products/SWA1-JSD101",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "90d2e319928187bd3950426f",
+      "name": "Muestra de tela: Jacquard Bouclé Damask Black Oyster/Chocolate",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-JBD101",
+      "request_url": "https://bemz.com/es-es/products/SWA1-JBD101",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
     },
     {
       "id": "974086a3774f136218119eb0",
@@ -417,6 +1229,358 @@
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
     },
     {
+      "id": "a0572b4a264a49503b281b1d",
+      "name": "Nelly · un Pack Halloween para 3 ganadores",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+      "request_url": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-10-30T15:30:03+00:00",
+      "discovered_at": "2026-11-02T07:57:35.228409+00:00",
+      "checked_at": "2026-11-02T07:57:35.228409+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T07:57:35.228409+00:00",
+          "method": "public_rss",
+          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+          "checked_at": "2026-11-02T07:57:55.865987+00:00",
+          "method": "public_html",
+          "sha256": "b6c55599f1b97bbb4b6ce8c4afbb84959278e95bb3e23a0e29c5431bf1681d0b",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "a54a239d1096c3bb0179bb58",
+      "name": "Vidal Golosinas y Niche Beauty Lab · un lote de belleza y otro de chocolate",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+      "request_url": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-10-30T18:01:54+00:00",
+      "discovered_at": "2026-11-02T07:57:35.227782+00:00",
+      "checked_at": "2026-11-02T07:57:35.227782+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T07:57:35.227782+00:00",
+          "method": "public_rss",
+          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+          "checked_at": "2026-11-02T07:57:52.864160+00:00",
+          "method": "public_html",
+          "sha256": "04e8ca60c70db2502eea37faf28e58c95104ed6ddd670e6c1085c119e133a12f",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "b3f0a05b213f55d8b1e621b0",
+      "name": "Dulcesol y Fisura · un lote de Halloween con Manjus, lámpara de lava y macetero calavera",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "home",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/dulcesol-y-fisura-sortean-un-lote-de-halloween-con-manjus-lampara-de-lava-y-macetero-calavera.html",
+      "request_url": "https://regalosymuestrasgratis.com/dulcesol-y-fisura-sortean-un-lote-de-halloween-con-manjus-lampara-de-lava-y-macetero-calavera.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-10-31T08:01:55+00:00",
+      "discovered_at": "2026-11-02T07:57:35.226295+00:00",
+      "checked_at": "2026-11-02T07:57:35.226295+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T07:57:35.226295+00:00",
+          "method": "public_rss",
+          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/dulcesol-y-fisura-sortean-un-lote-de-halloween-con-manjus-lampara-de-lava-y-macetero-calavera.html",
+          "checked_at": "2026-11-02T07:57:47.239326+00:00",
+          "method": "public_html",
+          "sha256": "d39dadd226537ecbab68e2ea86785d151179548ec301938636a6c65afe243f20",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "ba166a233cbff80e54611b4e",
+      "name": "Consorcio · un lote de conservas para tus quedadas de otoño",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "food",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/consorcio-sortea-un-lote-de-conservas-para-tus-quedadas-de-otono.html",
+      "request_url": "https://regalosymuestrasgratis.com/consorcio-sortea-un-lote-de-conservas-para-tus-quedadas-de-otono.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-10-30T20:01:53+00:00",
+      "discovered_at": "2026-11-02T07:57:35.227375+00:00",
+      "checked_at": "2026-11-02T07:57:35.227375+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T07:57:35.227375+00:00",
+          "method": "public_rss",
+          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/consorcio-sortea-un-lote-de-conservas-para-tus-quedadas-de-otono.html",
+          "checked_at": "2026-11-02T07:57:49.864871+00:00",
+          "method": "public_html",
+          "sha256": "0678672ede94f42145e0a77c19fa5c5378cf4bc61d63c807c7ebd5ca081b78b0",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "bdcb7b1aeedfabd55b52c3c7",
+      "name": "Guaw · 6 packs sorpresa para tu mascota por su 6º aniversario",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "pets",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/guaw-sortea-6-packs-sorpresa-para-tu-mascota-por-su-6o-aniversario.html",
+      "request_url": "https://regalosymuestrasgratis.com/guaw-sortea-6-packs-sorpresa-para-tu-mascota-por-su-6o-aniversario.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-10-31T20:01:38+00:00",
+      "discovered_at": "2026-11-02T07:57:35.225420+00:00",
+      "checked_at": "2026-11-02T07:57:35.225420+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-02T07:57:35.225420+00:00",
+          "method": "public_rss",
+          "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/guaw-sortea-6-packs-sorpresa-para-tu-mascota-por-su-6o-aniversario.html",
+          "checked_at": "2026-11-02T07:57:43.864214+00:00",
+          "method": "public_html",
+          "sha256": "530244e1d08d90f8d036b8abffe8be58ee196e526dfd5856be34c2acfee04fd0",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "be36d3f41c0ef296efe7b9ea",
+      "name": "Gospel coin (Greek)",
+      "description": "Moneda física de divulgación religiosa ofrecida como producto completo a precio cero. No es una muestra. Concesión y pedido sujetos a la fuente.",
+      "brand": "MGL Multilingual",
+      "category": "other",
+      "platform": "MGL Multilingual",
+      "url": "https://mgl-southasian.com/product/gospel-coin-greek/",
+      "request_url": "https://mgl-southasian.com/product/gospel-coin-greek/",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "USD",
+      "kind": "promotion",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "La fuente puede limitar la cantidad y pide explicar el uso previsto de las monedas para divulgación religiosa.",
+        "Precio del artículo cero; transporte, destinos, impuestos y aprobación del pedido sin confirmar.",
+        "La página indica existencias en la revisión; no se ha solicitado ni reservado el producto."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:58:36.636901+00:00",
+      "checked_at": "2026-11-02T07:58:36.636901+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.6,
+      "rejection_reason": null,
+      "risk_reasons": [],
+      "evidence": [
+        {
+          "field": "price_stock",
+          "source": "https://mgl-southasian.com/product/gospel-coin-greek/",
+          "checked_at": "2026-11-02T07:58:36.636901+00:00",
+          "method": "public_html",
+          "sha256": "35858fab232f01e608d46acbf472c7bf0bda13dad9e9fa39ae6e01ec2e9eb7c3",
+          "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
+        },
+        {
+          "field": "conditions",
+          "source": "https://mgl-southasian.com/product-category/free-products/",
+          "checked_at": "2026-11-02T07:58:36.636901+00:00",
+          "method": "public_html",
+          "sha256": "c50a092a75d6dbf668cde73c030b691bca27683ab92d2225bb01dd91d48086aa",
+          "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
+        }
+      ],
+      "source_id": "mgl_zero_products",
+      "source_status": "current"
+    },
+    {
       "id": "c33a5b95831d841c23614c82",
       "name": "Poster 5: Photosystem II",
       "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
@@ -474,6 +1638,112 @@
       "image_credit": "Dmitry Shevela · Jan F. Kern · John Whitmarsh · Johannes Messinger · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14802924.v3",
       "image_license": "CC BY 4.0",
       "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "c3e32c5f3effc77598ef3e3d",
+      "name": "Muestra de tela: Jacquard Satin Damask Andorra/Sky Gray",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-JSD103",
+      "request_url": "https://bemz.com/es-es/products/SWA1-JSD103",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
+    },
+    {
+      "id": "cc62023f81087daf1f42b431",
+      "name": "Muestras de color Mano",
+      "description": "Muestras físicas de color anunciadas gratuitamente para recibir en casa. Solicitud y existencias sin comprobar.",
+      "brand": "Kvik",
+      "category": "home",
+      "platform": "Kvik",
+      "url": "https://www.kvik.es/",
+      "request_url": "https://www.kvik.es/",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "La página anuncia entrega en casa; destinos, posibles portes y condiciones del formulario pendientes de confirmar.",
+        "Abre la página oficial y busca el botón de muestras de color; no se ha enviado ninguna solicitud."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:28.441015+00:00",
+      "checked_at": "2026-11-02T07:57:28.441015+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.5,
+      "rejection_reason": null,
+      "risk_reasons": [],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://www.kvik.es/",
+          "checked_at": "2026-11-02T07:57:28.441015+00:00",
+          "method": "public_html",
+          "sha256": "e6b8704da84cdd1e39e3ea536e758b3e03702e587e404413614ff19603d5c0e5",
+          "note": "Matched named physical colour samples, free claim, home delivery and request card; no form submitted."
+        }
+      ],
+      "source_id": "kvik_samples",
+      "source_status": "current"
     },
     {
       "id": "e022cc3114e2f2be5dfcb045",
@@ -641,9 +1911,103 @@
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+    },
+    {
+      "id": "fbf189302a3efe903efc2edc",
+      "name": "Muestra de tela: Satin Stripe Andorra",
+      "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+      "brand": "Bemz",
+      "category": "home",
+      "platform": "Bemz",
+      "url": "https://bemz.com/es-es/products/SWA1-SAS102",
+      "request_url": "https://bemz.com/es-es/products/SWA1-SAS102",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": 0.0,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+        "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+      "checked_at": "2026-11-02T07:57:24.989908+00:00",
+      "status": "conditional",
+      "purchase_required": false,
+      "keepable": true,
+      "confidence": 0.55,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Límite de muestras contradictorio entre catálogo y condiciones."
+      ],
+      "evidence": [
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/fabrics",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+          "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+        },
+        {
+          "field": "conditions",
+          "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+          "checked_at": "2026-11-02T07:57:24.989908+00:00",
+          "method": "public_html",
+          "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+          "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+        }
+      ],
+      "source_id": "bemz_samples",
+      "source_status": "current"
     }
   ],
   "runs": [
+    {
+      "id": 8,
+      "source": "mgl_zero_products",
+      "started_at": "2026-11-02T07:57:55.871984+00:00",
+      "finished_at": "2026-11-02T07:59:16.653190+00:00",
+      "status": "ok",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": 7,
+      "source": "promotion_rss",
+      "started_at": "2026-11-02T07:57:28.445791+00:00",
+      "finished_at": "2026-11-02T07:57:55.869774+00:00",
+      "status": "ok",
+      "count": 7,
+      "error": null
+    },
+    {
+      "id": 6,
+      "source": "kvik_samples",
+      "started_at": "2026-11-02T07:57:25.087373+00:00",
+      "finished_at": "2026-11-02T07:57:28.443951+00:00",
+      "status": "ok",
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": 5,
+      "source": "bemz_samples",
+      "started_at": "2026-11-02T07:57:18.185504+00:00",
+      "finished_at": "2026-11-02T07:57:25.084970+00:00",
+      "status": "ok",
+      "count": 12,
+      "error": null
+    },
     {
       "id": 4,
       "source": "usgs_education",
@@ -682,6 +2046,1449 @@
     }
   ],
   "revisions": [
+    {
+      "id": 36,
+      "offer_id": "5136a8f6b9f7874d9abec56f",
+      "at": "2026-11-02T07:59:16.652314+00:00",
+      "payload": {
+        "id": "5136a8f6b9f7874d9abec56f",
+        "name": "Gospel coin (Hungarian)",
+        "description": "Moneda física de divulgación religiosa ofrecida como producto completo a precio cero. No es una muestra. Concesión y pedido sujetos a la fuente.",
+        "brand": "MGL Multilingual",
+        "category": "other",
+        "platform": "MGL Multilingual",
+        "url": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
+        "request_url": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La fuente puede limitar la cantidad y pide explicar el uso previsto de las monedas para divulgación religiosa.",
+          "Precio del artículo cero; transporte, destinos, impuestos y aprobación del pedido sin confirmar.",
+          "La página indica existencias en la revisión; no se ha solicitado ni reservado el producto."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:59:16.650491+00:00",
+        "checked_at": "2026-11-02T07:59:16.650491+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.6,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "price_stock",
+            "source": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
+            "checked_at": "2026-11-02T07:59:16.650491+00:00",
+            "method": "public_html",
+            "sha256": "0280a7accf2b8606acaf4fa373907e508872a218e9a2056b670e87f8d37d62a5",
+            "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
+          },
+          {
+            "field": "conditions",
+            "source": "https://mgl-southasian.com/product-category/free-products/",
+            "checked_at": "2026-11-02T07:59:16.650491+00:00",
+            "method": "public_html",
+            "sha256": "c50a092a75d6dbf668cde73c030b691bca27683ab92d2225bb01dd91d48086aa",
+            "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
+          }
+        ],
+        "source_id": "mgl_zero_products",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 35,
+      "offer_id": "48535728cc0ad341231c8379",
+      "at": "2026-11-02T07:59:16.651969+00:00",
+      "payload": {
+        "id": "48535728cc0ad341231c8379",
+        "name": "Gospel coin (Gujarati)",
+        "description": "Moneda física de divulgación religiosa ofrecida como producto completo a precio cero. No es una muestra. Concesión y pedido sujetos a la fuente.",
+        "brand": "MGL Multilingual",
+        "category": "other",
+        "platform": "MGL Multilingual",
+        "url": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
+        "request_url": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La fuente puede limitar la cantidad y pide explicar el uso previsto de las monedas para divulgación religiosa.",
+          "Precio del artículo cero; transporte, destinos, impuestos y aprobación del pedido sin confirmar.",
+          "La página indica existencias en la revisión; no se ha solicitado ni reservado el producto."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:58:56.670841+00:00",
+        "checked_at": "2026-11-02T07:58:56.670841+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.6,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "price_stock",
+            "source": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
+            "checked_at": "2026-11-02T07:58:56.670841+00:00",
+            "method": "public_html",
+            "sha256": "14e5425b0959902a9888970ddef37fede7477698fd37c8ac7faeae3db1e7f1cf",
+            "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
+          },
+          {
+            "field": "conditions",
+            "source": "https://mgl-southasian.com/product-category/free-products/",
+            "checked_at": "2026-11-02T07:58:56.670841+00:00",
+            "method": "public_html",
+            "sha256": "c50a092a75d6dbf668cde73c030b691bca27683ab92d2225bb01dd91d48086aa",
+            "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
+          }
+        ],
+        "source_id": "mgl_zero_products",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 34,
+      "offer_id": "be36d3f41c0ef296efe7b9ea",
+      "at": "2026-11-02T07:59:16.651202+00:00",
+      "payload": {
+        "id": "be36d3f41c0ef296efe7b9ea",
+        "name": "Gospel coin (Greek)",
+        "description": "Moneda física de divulgación religiosa ofrecida como producto completo a precio cero. No es una muestra. Concesión y pedido sujetos a la fuente.",
+        "brand": "MGL Multilingual",
+        "category": "other",
+        "platform": "MGL Multilingual",
+        "url": "https://mgl-southasian.com/product/gospel-coin-greek/",
+        "request_url": "https://mgl-southasian.com/product/gospel-coin-greek/",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La fuente puede limitar la cantidad y pide explicar el uso previsto de las monedas para divulgación religiosa.",
+          "Precio del artículo cero; transporte, destinos, impuestos y aprobación del pedido sin confirmar.",
+          "La página indica existencias en la revisión; no se ha solicitado ni reservado el producto."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:58:36.636901+00:00",
+        "checked_at": "2026-11-02T07:58:36.636901+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.6,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "price_stock",
+            "source": "https://mgl-southasian.com/product/gospel-coin-greek/",
+            "checked_at": "2026-11-02T07:58:36.636901+00:00",
+            "method": "public_html",
+            "sha256": "35858fab232f01e608d46acbf472c7bf0bda13dad9e9fa39ae6e01ec2e9eb7c3",
+            "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
+          },
+          {
+            "field": "conditions",
+            "source": "https://mgl-southasian.com/product-category/free-products/",
+            "checked_at": "2026-11-02T07:58:36.636901+00:00",
+            "method": "public_html",
+            "sha256": "c50a092a75d6dbf668cde73c030b691bca27683ab92d2225bb01dd91d48086aa",
+            "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
+          }
+        ],
+        "source_id": "mgl_zero_products",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 33,
+      "offer_id": "a0572b4a264a49503b281b1d",
+      "at": "2026-11-02T07:57:55.868931+00:00",
+      "payload": {
+        "id": "a0572b4a264a49503b281b1d",
+        "name": "Nelly · un Pack Halloween para 3 ganadores",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+        "request_url": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-10-30T15:30:03+00:00",
+        "discovered_at": "2026-11-02T07:57:35.228409+00:00",
+        "checked_at": "2026-11-02T07:57:35.228409+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.228409+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/nelly-sorteo-halloween-3-ganadores.html",
+            "checked_at": "2026-11-02T07:57:55.865987+00:00",
+            "method": "public_html",
+            "sha256": "b6c55599f1b97bbb4b6ce8c4afbb84959278e95bb3e23a0e29c5431bf1681d0b",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 32,
+      "offer_id": "a54a239d1096c3bb0179bb58",
+      "at": "2026-11-02T07:57:55.868667+00:00",
+      "payload": {
+        "id": "a54a239d1096c3bb0179bb58",
+        "name": "Vidal Golosinas y Niche Beauty Lab · un lote de belleza y otro de chocolate",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+        "request_url": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-10-30T18:01:54+00:00",
+        "discovered_at": "2026-11-02T07:57:35.227782+00:00",
+        "checked_at": "2026-11-02T07:57:35.227782+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.227782+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/vidal-golosinas-y-niche-beauty-lab-sortean-un-lote-de-belleza-y-otro-de-chocolate.html",
+            "checked_at": "2026-11-02T07:57:52.864160+00:00",
+            "method": "public_html",
+            "sha256": "04e8ca60c70db2502eea37faf28e58c95104ed6ddd670e6c1085c119e133a12f",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 31,
+      "offer_id": "ba166a233cbff80e54611b4e",
+      "at": "2026-11-02T07:57:55.868384+00:00",
+      "payload": {
+        "id": "ba166a233cbff80e54611b4e",
+        "name": "Consorcio · un lote de conservas para tus quedadas de otoño",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "food",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/consorcio-sortea-un-lote-de-conservas-para-tus-quedadas-de-otono.html",
+        "request_url": "https://regalosymuestrasgratis.com/consorcio-sortea-un-lote-de-conservas-para-tus-quedadas-de-otono.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-10-30T20:01:53+00:00",
+        "discovered_at": "2026-11-02T07:57:35.227375+00:00",
+        "checked_at": "2026-11-02T07:57:35.227375+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.227375+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/consorcio-sortea-un-lote-de-conservas-para-tus-quedadas-de-otono.html",
+            "checked_at": "2026-11-02T07:57:49.864871+00:00",
+            "method": "public_html",
+            "sha256": "0678672ede94f42145e0a77c19fa5c5378cf4bc61d63c807c7ebd5ca081b78b0",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 30,
+      "offer_id": "b3f0a05b213f55d8b1e621b0",
+      "at": "2026-11-02T07:57:55.868096+00:00",
+      "payload": {
+        "id": "b3f0a05b213f55d8b1e621b0",
+        "name": "Dulcesol y Fisura · un lote de Halloween con Manjus, lámpara de lava y macetero calavera",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "home",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/dulcesol-y-fisura-sortean-un-lote-de-halloween-con-manjus-lampara-de-lava-y-macetero-calavera.html",
+        "request_url": "https://regalosymuestrasgratis.com/dulcesol-y-fisura-sortean-un-lote-de-halloween-con-manjus-lampara-de-lava-y-macetero-calavera.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-10-31T08:01:55+00:00",
+        "discovered_at": "2026-11-02T07:57:35.226295+00:00",
+        "checked_at": "2026-11-02T07:57:35.226295+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.226295+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/dulcesol-y-fisura-sortean-un-lote-de-halloween-con-manjus-lampara-de-lava-y-macetero-calavera.html",
+            "checked_at": "2026-11-02T07:57:47.239326+00:00",
+            "method": "public_html",
+            "sha256": "d39dadd226537ecbab68e2ea86785d151179548ec301938636a6c65afe243f20",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 29,
+      "offer_id": "bdcb7b1aeedfabd55b52c3c7",
+      "at": "2026-11-02T07:57:55.867790+00:00",
+      "payload": {
+        "id": "bdcb7b1aeedfabd55b52c3c7",
+        "name": "Guaw · 6 packs sorpresa para tu mascota por su 6º aniversario",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "pets",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/guaw-sortea-6-packs-sorpresa-para-tu-mascota-por-su-6o-aniversario.html",
+        "request_url": "https://regalosymuestrasgratis.com/guaw-sortea-6-packs-sorpresa-para-tu-mascota-por-su-6o-aniversario.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-10-31T20:01:38+00:00",
+        "discovered_at": "2026-11-02T07:57:35.225420+00:00",
+        "checked_at": "2026-11-02T07:57:35.225420+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.225420+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/guaw-sortea-6-packs-sorpresa-para-tu-mascota-por-su-6o-aniversario.html",
+            "checked_at": "2026-11-02T07:57:43.864214+00:00",
+            "method": "public_html",
+            "sha256": "530244e1d08d90f8d036b8abffe8be58ee196e526dfd5856be34c2acfee04fd0",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 28,
+      "offer_id": "71a8fa66715eb98d72cc3938",
+      "at": "2026-11-02T07:57:55.867425+00:00",
+      "payload": {
+        "id": "71a8fa66715eb98d72cc3938",
+        "name": "Central Lechera Asturiana · 4 espumadores SOGO",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/central-lechera-asturiana-sortea-4-espumadores-sogo.html",
+        "request_url": "https://regalosymuestrasgratis.com/central-lechera-asturiana-sortea-4-espumadores-sogo.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-01T12:24:33+00:00",
+        "discovered_at": "2026-11-02T07:57:35.225020+00:00",
+        "checked_at": "2026-11-02T07:57:35.225020+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.225020+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/central-lechera-asturiana-sortea-4-espumadores-sogo.html",
+            "checked_at": "2026-11-02T07:57:40.864988+00:00",
+            "method": "public_html",
+            "sha256": "4601e01db8b2718a12bc1b888e2b5a10ba0609254a047b97be3c5c1294d48dda",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 27,
+      "offer_id": "0be3d7118e238d181d83a5e7",
+      "at": "2026-11-02T07:57:55.866751+00:00",
+      "payload": {
+        "id": "0be3d7118e238d181d83a5e7",
+        "name": "Rosalique y Candela Rosa · un lote de belleza y bienestar",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+        "request_url": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-01T20:01:42+00:00",
+        "discovered_at": "2026-11-02T07:57:35.224272+00:00",
+        "checked_at": "2026-11-02T07:57:35.224272+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-02T07:57:35.224272+00:00",
+            "method": "public_rss",
+            "sha256": "a05bc6ca4b202ec18b0680bf142d375b539274727f0e8650bf9fd731a51d550d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+            "checked_at": "2026-11-02T07:57:37.859279+00:00",
+            "method": "public_html",
+            "sha256": "555ad52174e9ff73bd09da63a59dd3bb5f529a38324fea6ea29357a32b3d4ceb",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 26,
+      "offer_id": "cc62023f81087daf1f42b431",
+      "at": "2026-11-02T07:57:28.442686+00:00",
+      "payload": {
+        "id": "cc62023f81087daf1f42b431",
+        "name": "Muestras de color Mano",
+        "description": "Muestras físicas de color anunciadas gratuitamente para recibir en casa. Solicitud y existencias sin comprobar.",
+        "brand": "Kvik",
+        "category": "home",
+        "platform": "Kvik",
+        "url": "https://www.kvik.es/",
+        "request_url": "https://www.kvik.es/",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página anuncia entrega en casa; destinos, posibles portes y condiciones del formulario pendientes de confirmar.",
+          "Abre la página oficial y busca el botón de muestras de color; no se ha enviado ninguna solicitud."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:28.441015+00:00",
+        "checked_at": "2026-11-02T07:57:28.441015+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.5,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.kvik.es/",
+            "checked_at": "2026-11-02T07:57:28.441015+00:00",
+            "method": "public_html",
+            "sha256": "e6b8704da84cdd1e39e3ea536e758b3e03702e587e404413614ff19603d5c0e5",
+            "note": "Matched named physical colour samples, free claim, home delivery and request card; no form submitted."
+          }
+        ],
+        "source_id": "kvik_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 25,
+      "offer_id": "0e65f1f8cde16d765e320b6d",
+      "at": "2026-11-02T07:57:25.083427+00:00",
+      "payload": {
+        "id": "0e65f1f8cde16d765e320b6d",
+        "name": "Muestra de tela: Organic Panama Cotton Chocolate Plum",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-OT191",
+        "request_url": "https://bemz.com/es-es/products/SWA1-OT191",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 24,
+      "offer_id": "377f055fc8c6edee27138be6",
+      "at": "2026-11-02T07:57:25.083174+00:00",
+      "payload": {
+        "id": "377f055fc8c6edee27138be6",
+        "name": "Muestra de tela: Organic Panama Cotton Sky Gray",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-OT190",
+        "request_url": "https://bemz.com/es-es/products/SWA1-OT190",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 23,
+      "offer_id": "c3e32c5f3effc77598ef3e3d",
+      "at": "2026-11-02T07:57:25.082915+00:00",
+      "payload": {
+        "id": "c3e32c5f3effc77598ef3e3d",
+        "name": "Muestra de tela: Jacquard Satin Damask Andorra/Sky Gray",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-JSD103",
+        "request_url": "https://bemz.com/es-es/products/SWA1-JSD103",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 22,
+      "offer_id": "3da9738a20c8fcedec0e4905",
+      "at": "2026-11-02T07:57:25.082655+00:00",
+      "payload": {
+        "id": "3da9738a20c8fcedec0e4905",
+        "name": "Muestra de tela: Jacquard Satin Damask Chocolate/Oyster Black",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-JSD102",
+        "request_url": "https://bemz.com/es-es/products/SWA1-JSD102",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 21,
+      "offer_id": "8502381841bb227f75766abb",
+      "at": "2026-11-02T07:57:25.082369+00:00",
+      "payload": {
+        "id": "8502381841bb227f75766abb",
+        "name": "Muestra de tela: Jacquard Satin Damask Chocolate Plum",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-JSD101",
+        "request_url": "https://bemz.com/es-es/products/SWA1-JSD101",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 20,
+      "offer_id": "431cf8ae0f15ab5218f5d144",
+      "at": "2026-11-02T07:57:25.082109+00:00",
+      "payload": {
+        "id": "431cf8ae0f15ab5218f5d144",
+        "name": "Muestra de tela: Jacquard Bouclé Floral Chocolate/Sky Gray",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-JBF101",
+        "request_url": "https://bemz.com/es-es/products/SWA1-JBF101",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 19,
+      "offer_id": "39bd8abd6c620e3d193a38be",
+      "at": "2026-11-02T07:57:25.081832+00:00",
+      "payload": {
+        "id": "39bd8abd6c620e3d193a38be",
+        "name": "Muestra de tela: Jacquard Bouclé Damask Chocolate/Lime Cream",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-JBD102",
+        "request_url": "https://bemz.com/es-es/products/SWA1-JBD102",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 18,
+      "offer_id": "90d2e319928187bd3950426f",
+      "at": "2026-11-02T07:57:25.081514+00:00",
+      "payload": {
+        "id": "90d2e319928187bd3950426f",
+        "name": "Muestra de tela: Jacquard Bouclé Damask Black Oyster/Chocolate",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-JBD101",
+        "request_url": "https://bemz.com/es-es/products/SWA1-JBD101",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 17,
+      "offer_id": "527ae32834949eff29407980",
+      "at": "2026-11-02T07:57:25.081192+00:00",
+      "payload": {
+        "id": "527ae32834949eff29407980",
+        "name": "Muestra de tela: Plain Satin Andorra",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-SAT102",
+        "request_url": "https://bemz.com/es-es/products/SWA1-SAT102",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 16,
+      "offer_id": "839e37fb07e1dd49224dcd16",
+      "at": "2026-11-02T07:57:25.080877+00:00",
+      "payload": {
+        "id": "839e37fb07e1dd49224dcd16",
+        "name": "Muestra de tela: Plain Satin Oasis",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-SAT101",
+        "request_url": "https://bemz.com/es-es/products/SWA1-SAT101",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 15,
+      "offer_id": "fbf189302a3efe903efc2edc",
+      "at": "2026-11-02T07:57:25.080491+00:00",
+      "payload": {
+        "id": "fbf189302a3efe903efc2edc",
+        "name": "Muestra de tela: Satin Stripe Andorra",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-SAS102",
+        "request_url": "https://bemz.com/es-es/products/SWA1-SAS102",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 14,
+      "offer_id": "3a341953e0a52b4983f36c9d",
+      "at": "2026-11-02T07:57:25.079425+00:00",
+      "payload": {
+        "id": "3a341953e0a52b4983f36c9d",
+        "name": "Muestra de tela: Satin Stripe Sky Gray",
+        "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
+        "brand": "Bemz",
+        "category": "home",
+        "platform": "Bemz",
+        "url": "https://bemz.com/es-es/products/SWA1-SAS101",
+        "request_url": "https://bemz.com/es-es/products/SWA1-SAS101",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Hay una contradicción: el catálogo anuncia cinco muestras y las condiciones permiten tres sin cargo. Confirmar antes de solicitar.",
+          "Por encima del límite pueden cobrarse portes. Destinos, gastos finales, existencias y solicitud sin comprobar."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-02T07:57:24.989908+00:00",
+        "checked_at": "2026-11-02T07:57:24.989908+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.55,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Límite de muestras contradictorio entre catálogo y condiciones."
+        ],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/fabrics",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "0769e580bad70b292e3e59a4dc5b609820b65043b7539426ec40e34f8ecbca2f",
+            "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
+          },
+          {
+            "field": "conditions",
+            "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
+            "checked_at": "2026-11-02T07:57:24.989908+00:00",
+            "method": "public_html",
+            "sha256": "1a66d0c47b425ee11efcffcef6f4fbe5eed4968780da9bde669f2562cbf795ec",
+            "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
+          }
+        ],
+        "source_id": "bemz_samples",
+        "source_status": "current"
+      }
+    },
     {
       "id": 13,
       "offer_id": "f6e5a3d57532a058c515d605",
