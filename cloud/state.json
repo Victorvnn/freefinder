@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T14:19:09.001183+00:00",
-  "last_successful_scan": "2026-11-03T14:19:08.992281+00:00",
+  "generated_at": "2026-11-03T23:26:21.194328+00:00",
+  "last_successful_scan": "2026-11-03T23:26:21.179747+00:00",
   "offers": [
     {
       "id": "0be3d7118e238d181d83a5e7",
@@ -60,7 +60,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "0e65f1f8cde16d765e320b6d",
@@ -177,7 +177,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "377f055fc8c6edee27138be6",
@@ -1255,7 +1255,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-03T14:16:51.510483+00:00",
+      "checked_at": "2026-11-03T23:25:09.792101+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1268,9 +1268,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-03T14:16:51.510483+00:00",
+          "checked_at": "2026-11-03T23:25:09.792101+00:00",
           "method": "public_html",
-          "sha256": "8f57b74cb5db547b6dc20b8b30aa7be09cc986026703ffc982a481613ecd4789",
+          "sha256": "f0206936d431eae8b0a7934a4c350fa3d116ac09a6c94a2cfd0762a8b6dad338",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1640,6 +1640,65 @@
       "source_status": "current"
     },
     {
+      "id": "bf7d71e6429e85b12ba1dea0",
+      "name": "Xhekpon · 3 packs Collagen Essentials",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+      "request_url": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-03T14:01:50+00:00",
+      "discovered_at": "2026-11-03T23:26:15.013611+00:00",
+      "checked_at": "2026-11-03T23:26:15.013611+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-03T23:26:15.013611+00:00",
+          "method": "public_rss",
+          "sha256": "a786e30074ce5395c6f008c4b2e0a1e8b7e2b115fcece2b0dedf8aface37ae09",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+          "checked_at": "2026-11-03T23:26:17.791791+00:00",
+          "method": "public_html",
+          "sha256": "89bef676f2550820f38722ce829951ebd80f0bf22e699ce7f031b36763d9a6a9",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "c33a5b95831d841c23614c82",
       "name": "Poster 5: Photosystem II",
       "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
@@ -1941,7 +2000,7 @@
       "ends_at": null,
       "published_at": "2026-11-03T08:01:11+00:00",
       "discovered_at": "2026-11-03T14:17:39.458412+00:00",
-      "checked_at": "2026-11-03T14:17:39.458412+00:00",
+      "checked_at": "2026-11-03T23:26:15.015156+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1954,17 +2013,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-03T14:17:39.458412+00:00",
+          "checked_at": "2026-11-03T23:26:15.015156+00:00",
           "method": "public_rss",
-          "sha256": "a0561456da7389386b9165c5b789574cdb53cf5407813fbfdd08077757335fa1",
+          "sha256": "a786e30074ce5395c6f008c4b2e0a1e8b7e2b115fcece2b0dedf8aface37ae09",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/gastronosfera-sortea-una-cafetera-superautomatica-krups-my-coffee.html",
-          "checked_at": "2026-11-03T14:17:42.193018+00:00",
+          "checked_at": "2026-11-03T23:26:21.174097+00:00",
           "method": "public_html",
-          "sha256": "5e8a20068787ac55652cfe256f6eae9550b6df44018c475a256594c88c84070f",
+          "sha256": "c09fcca362e94ff4561402e0ccce98b85c925cfa967396c16abc15071e48eda4",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1998,7 +2057,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-03T14:16:54.639797+00:00",
+      "checked_at": "2026-11-03T23:25:12.768605+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2011,9 +2070,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-03T14:16:54.639797+00:00",
+          "checked_at": "2026-11-03T23:25:12.768605+00:00",
           "method": "public_html",
-          "sha256": "f175b6f2fe6bdf5536d5c0c8b44e9249598dab5f35d57f0367b4c1a7478ba640",
+          "sha256": "12b95db27d1e4195f71b970eafdcf54ccff37fc543847afc087675fd2cd97259",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2090,6 +2149,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 20,
+      "source": "promotion_rss",
+      "started_at": "2026-11-03T23:26:08.481001+00:00",
+      "finished_at": "2026-11-03T23:26:21.179747+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": 19,
+      "source": "usgs_education",
+      "started_at": "2026-11-03T23:24:42.449755+00:00",
+      "finished_at": "2026-11-03T23:26:08.476886+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 18,
       "source": "mgl_zero_products",
@@ -2254,6 +2331,198 @@
     }
   ],
   "revisions": [
+    {
+      "id": 59,
+      "offer_id": "3430b3913f804bf5d45633b0",
+      "at": "2026-11-03T23:26:21.177929+00:00",
+      "payload": {
+        "id": "3430b3913f804bf5d45633b0",
+        "name": "Sephora · la Gift Bag del Sephora Christmas Market",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+        "request_url": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-02T08:01:44+00:00",
+        "discovered_at": "2026-11-02T15:56:32.321884+00:00",
+        "checked_at": "2026-11-03T14:17:39.460887+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-03T14:17:39.460887+00:00",
+            "method": "public_rss",
+            "sha256": "a0561456da7389386b9165c5b789574cdb53cf5407813fbfdd08077757335fa1",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/sephora-sortea-la-gift-bag-del-sephora-christmas-market.html",
+            "checked_at": "2026-11-03T14:17:45.183128+00:00",
+            "method": "public_html",
+            "sha256": "1c0bd23845b25bf1eb3119d06e46cd59151f1e4899eb52e0f5c7b20a6ad7c221",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 58,
+      "offer_id": "0be3d7118e238d181d83a5e7",
+      "at": "2026-11-03T23:26:21.177855+00:00",
+      "payload": {
+        "id": "0be3d7118e238d181d83a5e7",
+        "name": "Rosalique y Candela Rosa · un lote de belleza y bienestar",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+        "request_url": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-01T20:01:42+00:00",
+        "discovered_at": "2026-11-02T07:57:35.224272+00:00",
+        "checked_at": "2026-11-03T14:17:39.461262+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-03T14:17:39.461262+00:00",
+            "method": "public_rss",
+            "sha256": "a0561456da7389386b9165c5b789574cdb53cf5407813fbfdd08077757335fa1",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/rosalique-y-candela-rosa-sortean-un-lote-de-belleza-y-bienestar.html",
+            "checked_at": "2026-11-03T14:17:48.188684+00:00",
+            "method": "public_html",
+            "sha256": "24be99a8467ff20ef8d7fcfc9f5b72912047947e904ecd824b75c98446ffe157",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 57,
+      "offer_id": "bf7d71e6429e85b12ba1dea0",
+      "at": "2026-11-03T23:26:21.175053+00:00",
+      "payload": {
+        "id": "bf7d71e6429e85b12ba1dea0",
+        "name": "Xhekpon · 3 packs Collagen Essentials",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+        "request_url": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-03T14:01:50+00:00",
+        "discovered_at": "2026-11-03T23:26:15.013611+00:00",
+        "checked_at": "2026-11-03T23:26:15.013611+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-03T23:26:15.013611+00:00",
+            "method": "public_rss",
+            "sha256": "a786e30074ce5395c6f008c4b2e0a1e8b7e2b115fcece2b0dedf8aface37ae09",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+            "checked_at": "2026-11-03T23:26:17.791791+00:00",
+            "method": "public_html",
+            "sha256": "89bef676f2550820f38722ce829951ebd80f0bf22e699ce7f031b36763d9a6a9",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
     {
       "id": 56,
       "offer_id": "bdcb7b1aeedfabd55b52c3c7",
