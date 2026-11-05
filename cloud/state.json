@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T19:49:05.293155+00:00",
-  "last_successful_scan": "2026-11-04T19:49:05.280371+00:00",
+  "generated_at": "2026-11-05T06:48:39.733058+00:00",
+  "last_successful_scan": "2026-11-05T06:48:39.718231+00:00",
   "offers": [
     {
       "id": "0be3d7118e238d181d83a5e7",
@@ -149,7 +149,7 @@
       "ends_at": null,
       "published_at": "2026-11-04T14:58:42+00:00",
       "discovered_at": "2026-11-04T19:47:38.889878+00:00",
-      "checked_at": "2026-11-04T19:47:38.889878+00:00",
+      "checked_at": "2026-11-05T06:48:36.940509+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -162,17 +162,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-04T19:47:38.889878+00:00",
+          "checked_at": "2026-11-05T06:48:36.940509+00:00",
           "method": "public_rss",
-          "sha256": "45041b6e08b6b96e9cf1f832d93a48458bed1ea9d78c0b5da115fc1e5f2a3c8a",
+          "sha256": "465dc3f69f5d9dbd2f93513cf160c23ccdce9a9aab3ca3fec1005df6fecb49cc",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/adtab-sortea-50-packs-para-perros-neceser-portabolsas-y-cuenco.html",
-          "checked_at": "2026-11-04T19:47:41.628155+00:00",
+          "checked_at": "2026-11-05T06:48:39.714618+00:00",
           "method": "public_html",
-          "sha256": "5311a360bf315e2b75d4b1dce669e38c9fa98a20ef58c3c25084c50d29425c68",
+          "sha256": "d6455f23833e4edf2ab185e701ef2cb13e2f8d7b78a3560c1b9b2c62e37ebde9",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -614,7 +614,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -625,9 +625,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -788,7 +788,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -799,9 +799,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -847,7 +847,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -858,9 +858,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1139,7 +1139,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1150,9 +1150,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1198,7 +1198,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1209,9 +1209,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1257,7 +1257,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1268,9 +1268,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1314,7 +1314,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-04T19:46:46.704052+00:00",
+      "checked_at": "2026-11-05T06:47:55.540487+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1327,9 +1327,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-04T19:46:46.704052+00:00",
+          "checked_at": "2026-11-05T06:47:55.540487+00:00",
           "method": "public_html",
-          "sha256": "e23c519af60fed13dce85daa240f07dae401111d1f6832065d850fa05a74456c",
+          "sha256": "7d068628da908da0cdbd5d4768fb058b0aa60a8e6369f2ed62e582284ac65c5c",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1755,7 +1755,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "c33a5b95831d841c23614c82",
@@ -1786,7 +1786,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1797,9 +1797,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1951,7 +1951,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1962,9 +1962,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -2010,7 +2010,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-04T06:25:28.004988+00:00",
+      "checked_at": "2026-11-05T06:48:30.237633+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2021,9 +2021,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-04T06:25:28.004988+00:00",
+          "checked_at": "2026-11-05T06:48:30.237633+00:00",
           "method": "public_html",
-          "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+          "sha256": "f4779e5d2953fd20664dc97b1f2010b346dc4fc5aea5ef3614fa37aa29c00cc2",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         }
       ],
@@ -2116,7 +2116,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-04T19:46:50.027012+00:00",
+      "checked_at": "2026-11-05T06:47:58.554500+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2129,9 +2129,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-04T19:46:50.027012+00:00",
+          "checked_at": "2026-11-05T06:47:58.554500+00:00",
           "method": "public_html",
-          "sha256": "f0a1438943b5877afb8999b277dfe72197f09faf77e42c40892a5f70dcd78bbf",
+          "sha256": "e9615163c9b1d0f23f86f6648fe0131d2ca9e7896a43593890afc56e9fe13593",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2208,6 +2208,33 @@
     }
   ],
   "runs": [
+    {
+      "id": 31,
+      "source": "promotion_rss",
+      "started_at": "2026-11-05T06:48:30.395704+00:00",
+      "finished_at": "2026-11-05T06:48:39.718231+00:00",
+      "status": "ok",
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": 30,
+      "source": "agrisera_posters",
+      "started_at": "2026-11-05T06:48:26.642626+00:00",
+      "finished_at": "2026-11-05T06:48:30.391892+00:00",
+      "status": "ok",
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": 29,
+      "source": "usgs_education",
+      "started_at": "2026-11-05T06:47:46.177562+00:00",
+      "finished_at": "2026-11-05T06:48:26.639820+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 28,
       "source": "mgl_zero_products",
@@ -2462,6 +2489,582 @@
     }
   ],
   "revisions": [
+    {
+      "id": 78,
+      "offer_id": "bf7d71e6429e85b12ba1dea0",
+      "at": "2026-11-05T06:48:39.717241+00:00",
+      "payload": {
+        "id": "bf7d71e6429e85b12ba1dea0",
+        "name": "Xhekpon · 3 packs Collagen Essentials",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+        "request_url": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-03T14:01:50+00:00",
+        "discovered_at": "2026-11-03T23:26:15.013611+00:00",
+        "checked_at": "2026-11-04T19:47:38.893628+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-04T19:47:38.893628+00:00",
+            "method": "public_rss",
+            "sha256": "45041b6e08b6b96e9cf1f832d93a48458bed1ea9d78c0b5da115fc1e5f2a3c8a",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/xhekpon-sortea-3-packs-collagen-essentials.html",
+            "checked_at": "2026-11-04T19:47:44.624209+00:00",
+            "method": "public_html",
+            "sha256": "487cd4f2b07f5fc2ef79577114ba27c8fdb84a445f36e0c6bb463306a59e4627",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 77,
+      "offer_id": "64b0c07a88cb37781ad9e05a",
+      "at": "2026-11-05T06:48:30.390155+00:00",
+      "payload": {
+        "id": "64b0c07a88cb37781ad9e05a",
+        "name": "Poster 9: Western Blotting",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-9-Western-blotting-updated-2025-05.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-9-Western-blotting-updated-2025-05.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/29086685",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Joanna Porankiewicz-Asplund · Dmitry Shevela · Agrisera · 10.6084/m9.figshare.29086685.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 76,
+      "offer_id": "974086a3774f136218119eb0",
+      "at": "2026-11-05T06:48:30.389021+00:00",
+      "payload": {
+        "id": "974086a3774f136218119eb0",
+        "name": "Poster 7: Plant Argonautes",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24006819",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · Nicolas Bologna · Rebecca Mosher · Agrisera · 10.6084/m9.figshare.24006819.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 75,
+      "offer_id": "e022cc3114e2f2be5dfcb045",
+      "at": "2026-11-05T06:48:30.388373+00:00",
+      "payload": {
+        "id": "e022cc3114e2f2be5dfcb045",
+        "name": "Poster 6: Plant small RNAs",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/21186073",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · R. Keith Slotkin · Agrisera · 10.6084/m9.figshare.21186073.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 74,
+      "offer_id": "c33a5b95831d841c23614c82",
+      "at": "2026-11-05T06:48:30.387712+00:00",
+      "payload": {
+        "id": "c33a5b95831d841c23614c82",
+        "name": "Poster 5: Photosystem II",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/14802924",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Jan F. Kern · John Whitmarsh · Johannes Messinger · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14802924.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 73,
+      "offer_id": "9b59fe1140da173ba5916094",
+      "at": "2026-11-05T06:48:30.387037+00:00",
+      "payload": {
+        "id": "9b59fe1140da173ba5916094",
+        "name": "Poster 4: Rubisco",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24061755",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Manajit Hayer-Hartl · Inger Andersson · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24061755.v2",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 72,
+      "offer_id": "571705d4ccdd2353115c3251",
+      "at": "2026-11-05T06:48:30.386376+00:00",
+      "payload": {
+        "id": "571705d4ccdd2353115c3251",
+        "name": "Poster 3: Photosynthesis and Respiration",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/14794281",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14794281.v6",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 71,
+      "offer_id": "9a0ff7004dac2b767d8f1024",
+      "at": "2026-11-05T06:48:30.385674+00:00",
+      "payload": {
+        "id": "9a0ff7004dac2b767d8f1024",
+        "name": "Poster 2: Z-Scheme",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24045549",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Lars Olof Björn · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24045549.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 70,
+      "offer_id": "486c5e566bdc71f122e1c62b",
+      "at": "2026-11-05T06:48:30.384405+00:00",
+      "payload": {
+        "id": "486c5e566bdc71f122e1c62b",
+        "name": "Poster 1: Oxygenic Photosynthesis",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-04T06:25:28.004988+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-04T06:25:28.004988+00:00",
+            "method": "public_html",
+            "sha256": "7ab8ecfb2dcf0369cf69c9b696441cf1f41ffd7e6278a067e2602790b6c6d75c",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24039480",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24039480.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
     {
       "id": 69,
       "offer_id": "f089149ce5ea0926b9b01126",
