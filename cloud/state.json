@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T06:49:01.400596+00:00",
-  "last_successful_scan": "2026-11-06T06:49:01.386132+00:00",
+  "generated_at": "2026-11-06T19:27:16.189512+00:00",
+  "last_successful_scan": "2026-11-06T19:27:16.180169+00:00",
   "offers": [
     {
       "id": "0be3d7118e238d181d83a5e7",
@@ -819,6 +819,65 @@
       "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
+      "id": "593cba3a1db0a997749dc6bf",
+      "name": "1.500 Muestras gratis de Rénergie Collagen Lift-Xtend",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+      "request_url": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "sample",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-06T17:08:03+00:00",
+      "discovered_at": "2026-11-06T19:27:10.413990+00:00",
+      "checked_at": "2026-11-06T19:27:10.413990+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-06T19:27:10.413990+00:00",
+          "method": "public_rss",
+          "sha256": "747d95b1ef93e14680e014f89b1c5b579fc3334ed0a5b36674c0381efdc77e5c",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+          "checked_at": "2026-11-06T19:27:13.175820+00:00",
+          "method": "public_html",
+          "sha256": "562f3bda30997dbf8636d3b0af9ff395fe55ed2b353af88988bc398891de0b65",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "64b0c07a88cb37781ad9e05a",
       "name": "Poster 9: Western Blotting",
       "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
@@ -1314,7 +1373,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-05T19:58:11.948092+00:00",
+      "checked_at": "2026-11-06T19:26:30.877633+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1327,9 +1386,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-05T19:58:11.948092+00:00",
+          "checked_at": "2026-11-06T19:26:30.877633+00:00",
           "method": "public_html",
-          "sha256": "eb7d6405e02b74608f99a750e94f51ca84f735ed9d068e4857613d236152ee27",
+          "sha256": "9f6ab6f9c347379fa1ea42a9ddf469da46cc0a430ddcfa909726a8b3409a7d44",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1341,7 +1400,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -1465,6 +1524,65 @@
       "source_status": "missing"
     },
     {
+      "id": "a7a047e969747da9134c95ab",
+      "name": "Teka · 200 delantales y una cafetera Steam",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "appliances",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+      "request_url": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-06T11:46:06+00:00",
+      "discovered_at": "2026-11-06T19:27:10.414747+00:00",
+      "checked_at": "2026-11-06T19:27:10.414747+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-06T19:27:10.414747+00:00",
+          "method": "public_rss",
+          "sha256": "747d95b1ef93e14680e014f89b1c5b579fc3334ed0a5b36674c0381efdc77e5c",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+          "checked_at": "2026-11-06T19:27:16.175836+00:00",
+          "method": "public_html",
+          "sha256": "c99df523666f06065ce2eaf9d6439a933f03de704e1b4292399b4c80abc2b86f",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "b3f0a05b213f55d8b1e621b0",
       "name": "Dulcesol y Fisura · un lote de Halloween con Manjus, lámpara de lava y macetero calavera",
       "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
@@ -1580,7 +1698,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "ba166a233cbff80e54611b4e",
@@ -2175,7 +2293,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-05T19:58:15.026811+00:00",
+      "checked_at": "2026-11-06T19:26:34.300917+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2188,9 +2306,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-05T19:58:15.026811+00:00",
+          "checked_at": "2026-11-06T19:26:34.300917+00:00",
           "method": "public_html",
-          "sha256": "5e00e3768192631cce1f5a749cca95f5c7cbef44dce6cacd66d016b2d90269d1",
+          "sha256": "289abdeb824db504e4b6d814407b1d66198e4dae51858dd51c435755b9ab5702",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2202,7 +2320,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -2267,6 +2385,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 41,
+      "source": "promotion_rss",
+      "started_at": "2026-11-06T19:27:03.726300+00:00",
+      "finished_at": "2026-11-06T19:27:16.180169+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": 40,
+      "source": "usgs_education",
+      "started_at": "2026-11-06T19:26:21.464463+00:00",
+      "finished_at": "2026-11-06T19:27:03.722844+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 39,
       "source": "promotion_rss",
@@ -2620,6 +2756,326 @@
     }
   ],
   "revisions": [
+    {
+      "id": 95,
+      "offer_id": "b6cd2777751b8dd085c219b7",
+      "at": "2026-11-06T19:27:16.179582+00:00",
+      "payload": {
+        "id": "b6cd2777751b8dd085c219b7",
+        "name": "Arenal Perfumerías · 1 calendario de Adviento de IDC Institute",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/arenal-perfumerias-sortea-1-calendario-de-adviento-de-idc-institute.html",
+        "request_url": "https://regalosymuestrasgratis.com/arenal-perfumerias-sortea-1-calendario-de-adviento-de-idc-institute.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-05T08:01:42+00:00",
+        "discovered_at": "2026-11-05T19:58:59.730319+00:00",
+        "checked_at": "2026-11-06T06:48:58.550117+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-06T06:48:58.550117+00:00",
+            "method": "public_rss",
+            "sha256": "11f4c26f0ae9c2fb023406636a0e3e3218e46438e56019c9bffa79e8619a055b",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/arenal-perfumerias-sortea-1-calendario-de-adviento-de-idc-institute.html",
+            "checked_at": "2026-11-06T06:49:01.356287+00:00",
+            "method": "public_html",
+            "sha256": "2637b5519bedd8e43b0bffc1a07878ede7276718da3b7e79976e87b294b68f99",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 94,
+      "offer_id": "a7a047e969747da9134c95ab",
+      "at": "2026-11-06T19:27:16.177506+00:00",
+      "payload": {
+        "id": "a7a047e969747da9134c95ab",
+        "name": "Teka · 200 delantales y una cafetera Steam",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+        "request_url": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-06T11:46:06+00:00",
+        "discovered_at": "2026-11-06T19:27:10.414747+00:00",
+        "checked_at": "2026-11-06T19:27:10.414747+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-06T19:27:10.414747+00:00",
+            "method": "public_rss",
+            "sha256": "747d95b1ef93e14680e014f89b1c5b579fc3334ed0a5b36674c0381efdc77e5c",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+            "checked_at": "2026-11-06T19:27:16.175836+00:00",
+            "method": "public_html",
+            "sha256": "c99df523666f06065ce2eaf9d6439a933f03de704e1b4292399b4c80abc2b86f",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 93,
+      "offer_id": "593cba3a1db0a997749dc6bf",
+      "at": "2026-11-06T19:27:16.176633+00:00",
+      "payload": {
+        "id": "593cba3a1db0a997749dc6bf",
+        "name": "1.500 Muestras gratis de Rénergie Collagen Lift-Xtend",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+        "request_url": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-06T17:08:03+00:00",
+        "discovered_at": "2026-11-06T19:27:10.413990+00:00",
+        "checked_at": "2026-11-06T19:27:10.413990+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-06T19:27:10.413990+00:00",
+            "method": "public_rss",
+            "sha256": "747d95b1ef93e14680e014f89b1c5b579fc3334ed0a5b36674c0381efdc77e5c",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+            "checked_at": "2026-11-06T19:27:13.175820+00:00",
+            "method": "public_html",
+            "sha256": "562f3bda30997dbf8636d3b0af9ff395fe55ed2b353af88988bc398891de0b65",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 92,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-06T19:27:03.721129+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-05T19:58:15.026811+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-05T19:58:15.026811+00:00",
+            "method": "public_html",
+            "sha256": "5e00e3768192631cce1f5a749cca95f5c7cbef44dce6cacd66d016b2d90269d1",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 91,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-06T19:27:03.719753+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-05T19:58:11.948092+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-05T19:58:11.948092+00:00",
+            "method": "public_html",
+            "sha256": "eb7d6405e02b74608f99a750e94f51ca84f735ed9d068e4857613d236152ee27",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 90,
       "offer_id": "138e684b76739784f2637507",
