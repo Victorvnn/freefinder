@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T13:03:40.417856+00:00",
-  "last_successful_scan": "2026-11-07T13:03:40.054670+00:00",
+  "generated_at": "2026-11-07T21:53:19.722776+00:00",
+  "last_successful_scan": "2026-11-07T21:53:19.653555+00:00",
   "offers": [
     {
       "id": "0be3d7118e238d181d83a5e7",
@@ -847,7 +847,7 @@
       "ends_at": null,
       "published_at": "2026-11-06T17:08:03+00:00",
       "discovered_at": "2026-11-06T19:27:10.413990+00:00",
-      "checked_at": "2026-11-07T13:03:34.474244+00:00",
+      "checked_at": "2026-11-07T21:53:10.961610+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -860,17 +860,76 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-07T13:03:34.474244+00:00",
+          "checked_at": "2026-11-07T21:53:10.961610+00:00",
           "method": "public_rss",
-          "sha256": "8efc13bba0676983756652c71ed1bdcef60a8eb222d7bbda0b12aa2d7e2f9c6c",
+          "sha256": "29f3810843cbf932e4f61eec5f44b16dc4f88a3106d78ef95ef2677d06dd68c3",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
-          "checked_at": "2026-11-07T13:03:37.051078+00:00",
+          "checked_at": "2026-11-07T21:53:16.655159+00:00",
           "method": "public_html",
-          "sha256": "6bf3e386649e41a14585108b6f26a74579309fe9d33014ac0ae789b457adc0ca",
+          "sha256": "bcb5c2b8bedd47c33552fd941a6280f65c9577c1aa09dc872a78bd9b4bce118e",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
+      "id": "5e6e41ae5be323dcff13ba9b",
+      "name": "Vogue · 50 sets de maquillaje Real Techniques",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+      "request_url": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-07T16:01:05+00:00",
+      "discovered_at": "2026-11-07T21:53:10.958716+00:00",
+      "checked_at": "2026-11-07T21:53:10.958716+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-07T21:53:10.958716+00:00",
+          "method": "public_rss",
+          "sha256": "29f3810843cbf932e4f61eec5f44b16dc4f88a3106d78ef95ef2677d06dd68c3",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+          "checked_at": "2026-11-07T21:53:13.649088+00:00",
+          "method": "public_html",
+          "sha256": "49263f985a091ae09c43f20a3cd9e023033d62057869c929234fa61868f187dc",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1373,7 +1432,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-07T13:02:52.388940+00:00",
+      "checked_at": "2026-11-07T21:52:32.788984+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1386,9 +1445,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-07T13:02:52.388940+00:00",
+          "checked_at": "2026-11-07T21:52:32.788984+00:00",
           "method": "public_html",
-          "sha256": "d9728ed5ac0716e4245fafb606b2f0fc4ce34785844629dc9ba9535f78f83ba3",
+          "sha256": "fbbbfeebe9a1b35902954906313cedd704749ad3ff3b1d8767c02375bd83132a",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1552,7 +1611,7 @@
       "ends_at": null,
       "published_at": "2026-11-06T11:46:06+00:00",
       "discovered_at": "2026-11-06T19:27:10.414747+00:00",
-      "checked_at": "2026-11-07T13:03:34.475067+00:00",
+      "checked_at": "2026-11-07T21:53:10.962387+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1565,17 +1624,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-07T13:03:34.475067+00:00",
+          "checked_at": "2026-11-07T21:53:10.962387+00:00",
           "method": "public_rss",
-          "sha256": "8efc13bba0676983756652c71ed1bdcef60a8eb222d7bbda0b12aa2d7e2f9c6c",
+          "sha256": "29f3810843cbf932e4f61eec5f44b16dc4f88a3106d78ef95ef2677d06dd68c3",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
-          "checked_at": "2026-11-07T13:03:40.051398+00:00",
+          "checked_at": "2026-11-07T21:53:19.649438+00:00",
           "method": "public_html",
-          "sha256": "054e7e8794d100bd30cce7e7437c5feb845be759e88896cba7962c1ae4268b92",
+          "sha256": "02c906f46ea2a4767cf8d2261256c7d5210b4301a2b0ba879ee0190aa4455051",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2293,7 +2352,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-07T13:02:55.422854+00:00",
+      "checked_at": "2026-11-07T21:52:35.676801+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2306,9 +2365,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-07T13:02:55.422854+00:00",
+          "checked_at": "2026-11-07T21:52:35.676801+00:00",
           "method": "public_html",
-          "sha256": "d67245a83e1a76881fb39fa518068923a2e4eaf6a20478a172407d27d445510f",
+          "sha256": "7231faa532ab366c7259e69cc37a30a8b8ab213bd66fcf2c8022c8866995f508",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2385,6 +2444,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 51,
+      "source": "promotion_rss",
+      "started_at": "2026-11-07T21:53:04.131970+00:00",
+      "finished_at": "2026-11-07T21:53:19.653555+00:00",
+      "status": "ok",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": 50,
+      "source": "usgs_education",
+      "started_at": "2026-11-07T21:52:23.081187+00:00",
+      "finished_at": "2026-11-07T21:53:04.111739+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 49,
       "source": "promotion_rss",
@@ -2828,6 +2905,70 @@
     }
   ],
   "revisions": [
+    {
+      "id": 108,
+      "offer_id": "5e6e41ae5be323dcff13ba9b",
+      "at": "2026-11-07T21:53:19.650299+00:00",
+      "payload": {
+        "id": "5e6e41ae5be323dcff13ba9b",
+        "name": "Vogue · 50 sets de maquillaje Real Techniques",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+        "request_url": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-07T16:01:05+00:00",
+        "discovered_at": "2026-11-07T21:53:10.958716+00:00",
+        "checked_at": "2026-11-07T21:53:10.958716+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-07T21:53:10.958716+00:00",
+            "method": "public_rss",
+            "sha256": "29f3810843cbf932e4f61eec5f44b16dc4f88a3106d78ef95ef2677d06dd68c3",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+            "checked_at": "2026-11-07T21:53:13.649088+00:00",
+            "method": "public_html",
+            "sha256": "49263f985a091ae09c43f20a3cd9e023033d62057869c929234fa61868f187dc",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
     {
       "id": 107,
       "offer_id": "64b0c07a88cb37781ad9e05a",
