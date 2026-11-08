@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T13:27:24.020934+00:00",
-  "last_successful_scan": "2026-11-08T13:27:24.005539+00:00",
+  "generated_at": "2026-11-08T22:07:37.349035+00:00",
+  "last_successful_scan": "2026-11-08T22:07:37.332091+00:00",
   "offers": [
     {
       "id": "0be3d7118e238d181d83a5e7",
@@ -847,7 +847,7 @@
       "ends_at": null,
       "published_at": "2026-11-06T17:08:03+00:00",
       "discovered_at": "2026-11-06T19:27:10.413990+00:00",
-      "checked_at": "2026-11-08T13:27:12.334509+00:00",
+      "checked_at": "2026-11-08T22:07:25.524550+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -860,17 +860,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-08T13:27:12.334509+00:00",
+          "checked_at": "2026-11-08T22:07:25.524550+00:00",
           "method": "public_rss",
-          "sha256": "3ec1b7487ba6f88c234cb26b59316f7aacaf01e380985326c52eda8db2c1a845",
+          "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
-          "checked_at": "2026-11-08T13:27:21.001197+00:00",
+          "checked_at": "2026-11-08T22:07:37.326136+00:00",
           "method": "public_html",
-          "sha256": "da77a338e81e6833433de4524766932dd01cb8f97f95e55a61a302f6548305e7",
+          "sha256": "b831badb67cc8ac68b932ea657c40a35222e01d8bf184508efebdf5fdd44518c",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -906,7 +906,7 @@
       "ends_at": null,
       "published_at": "2026-11-07T16:01:05+00:00",
       "discovered_at": "2026-11-07T21:53:10.958716+00:00",
-      "checked_at": "2026-11-08T13:27:12.331661+00:00",
+      "checked_at": "2026-11-08T22:07:25.520443+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -919,17 +919,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-08T13:27:12.331661+00:00",
+          "checked_at": "2026-11-08T22:07:25.520443+00:00",
           "method": "public_rss",
-          "sha256": "3ec1b7487ba6f88c234cb26b59316f7aacaf01e380985326c52eda8db2c1a845",
+          "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
-          "checked_at": "2026-11-08T13:27:18.001064+00:00",
+          "checked_at": "2026-11-08T22:07:34.326967+00:00",
           "method": "public_html",
-          "sha256": "fba08c8ee2ccb6d6e922a013031180faab6c4e6e933fab4bd2e6edcf435e1be5",
+          "sha256": "948f83a5bd4c761b31f469b78bde2fe98ad8f87cd7227cbd285f818d917daada",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1316,7 +1316,7 @@
       "ends_at": null,
       "published_at": "2026-11-08T08:01:53+00:00",
       "discovered_at": "2026-11-08T13:27:12.330764+00:00",
-      "checked_at": "2026-11-08T13:27:12.330764+00:00",
+      "checked_at": "2026-11-08T22:07:25.519000+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1329,17 +1329,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-08T13:27:12.330764+00:00",
+          "checked_at": "2026-11-08T22:07:25.519000+00:00",
           "method": "public_rss",
-          "sha256": "3ec1b7487ba6f88c234cb26b59316f7aacaf01e380985326c52eda8db2c1a845",
+          "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/tractopon-sortea-3-packs-de-crema-urea-10-y-silica-8-5.html",
-          "checked_at": "2026-11-08T13:27:15.012044+00:00",
+          "checked_at": "2026-11-08T22:07:31.328590+00:00",
           "method": "public_html",
-          "sha256": "9d9c90bd04e60c0eb87800d37f27143760cec3d3d4bd9101d708f14421525393",
+          "sha256": "5612354c50352b7da2c567718f61cc2ceb86bac05a6c9d10901d0b4a0e70ad60",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1491,7 +1491,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-08T13:26:28.784867+00:00",
+      "checked_at": "2026-11-08T22:06:47.702948+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1504,9 +1504,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-08T13:26:28.784867+00:00",
+          "checked_at": "2026-11-08T22:06:47.702948+00:00",
           "method": "public_html",
-          "sha256": "bd78c3ce092fb194822ceb23cddde2b5e1d3569fde1e2753e6032614a71351f1",
+          "sha256": "89f6a540a78fb81f2b3f9f766013648369ea74c9cdd340fa5e445ea3cf46c276",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1698,7 +1698,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "b3f0a05b213f55d8b1e621b0",
@@ -1758,6 +1758,65 @@
       ],
       "source_id": "promotion_rss",
       "source_status": "missing"
+    },
+    {
+      "id": "b4f4a63ab1916cb4fbf0a38b",
+      "name": "Fleurance Nature · el calendario de Adviento Noche Estrellada",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+      "request_url": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-08T20:01:50+00:00",
+      "discovered_at": "2026-11-08T22:07:25.517644+00:00",
+      "checked_at": "2026-11-08T22:07:25.517644+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-08T22:07:25.517644+00:00",
+          "method": "public_rss",
+          "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+          "checked_at": "2026-11-08T22:07:28.325734+00:00",
+          "method": "public_html",
+          "sha256": "88d2b39182b377dbf03b6c02bcba3f730f44f88dbd318717ffa898ef671ab266",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     },
     {
       "id": "b6cd2777751b8dd085c219b7",
@@ -2411,7 +2470,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-08T13:26:31.789707+00:00",
+      "checked_at": "2026-11-08T22:06:50.721292+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2424,9 +2483,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-08T13:26:31.789707+00:00",
+          "checked_at": "2026-11-08T22:06:50.721292+00:00",
           "method": "public_html",
-          "sha256": "5d4c27d019e874bf627c003f7d378be1695293565fa04bb5bcc0b4a9e486e19e",
+          "sha256": "831d97c641bada133f6b91c75beecf59cda5212183ece0b87c92788694a753fb",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2503,6 +2562,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 61,
+      "source": "promotion_rss",
+      "started_at": "2026-11-08T22:07:19.080010+00:00",
+      "finished_at": "2026-11-08T22:07:37.332091+00:00",
+      "status": "ok",
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": 60,
+      "source": "usgs_education",
+      "started_at": "2026-11-08T22:06:38.265576+00:00",
+      "finished_at": "2026-11-08T22:07:19.075574+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 59,
       "source": "promotion_rss",
@@ -3036,6 +3113,134 @@
     }
   ],
   "revisions": [
+    {
+      "id": 123,
+      "offer_id": "a7a047e969747da9134c95ab",
+      "at": "2026-11-08T22:07:37.331065+00:00",
+      "payload": {
+        "id": "a7a047e969747da9134c95ab",
+        "name": "Teka · 200 delantales y una cafetera Steam",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+        "request_url": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-06T11:46:06+00:00",
+        "discovered_at": "2026-11-06T19:27:10.414747+00:00",
+        "checked_at": "2026-11-08T13:27:12.335258+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-08T13:27:12.335258+00:00",
+            "method": "public_rss",
+            "sha256": "3ec1b7487ba6f88c234cb26b59316f7aacaf01e380985326c52eda8db2c1a845",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/teka-sortea-200-delantales-y-una-cafetera-steam.html",
+            "checked_at": "2026-11-08T13:27:24.001342+00:00",
+            "method": "public_html",
+            "sha256": "7341fd4c56ce8ba9932ac1b19665fdbcf0cec893fe967d13f6bcac9ec9d18937",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 122,
+      "offer_id": "b4f4a63ab1916cb4fbf0a38b",
+      "at": "2026-11-08T22:07:37.327152+00:00",
+      "payload": {
+        "id": "b4f4a63ab1916cb4fbf0a38b",
+        "name": "Fleurance Nature · el calendario de Adviento Noche Estrellada",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+        "request_url": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-08T20:01:50+00:00",
+        "discovered_at": "2026-11-08T22:07:25.517644+00:00",
+        "checked_at": "2026-11-08T22:07:25.517644+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-08T22:07:25.517644+00:00",
+            "method": "public_rss",
+            "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+            "checked_at": "2026-11-08T22:07:28.325734+00:00",
+            "method": "public_html",
+            "sha256": "88d2b39182b377dbf03b6c02bcba3f730f44f88dbd318717ffa898ef671ab266",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
     {
       "id": 121,
       "offer_id": "99e66e46106f6b740e2c2c3a",
