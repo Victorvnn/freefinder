@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T06:34:12.323817+00:00",
-  "last_successful_scan": "2026-11-09T06:34:12.270588+00:00",
+  "generated_at": "2026-11-09T22:24:34.951789+00:00",
+  "last_successful_scan": "2026-11-09T22:24:34.941091+00:00",
   "offers": [
     {
       "id": "0be3d7118e238d181d83a5e7",
@@ -614,7 +614,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -625,9 +625,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -788,7 +788,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -799,9 +799,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -875,7 +875,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "5e6e41ae5be323dcff13ba9b",
@@ -934,7 +934,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "64b0c07a88cb37781ad9e05a",
@@ -965,7 +965,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -976,9 +976,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1257,7 +1257,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1268,9 +1268,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1316,7 +1316,7 @@
       "ends_at": null,
       "published_at": "2026-11-08T08:01:53+00:00",
       "discovered_at": "2026-11-08T13:27:12.330764+00:00",
-      "checked_at": "2026-11-09T06:32:40.113569+00:00",
+      "checked_at": "2026-11-09T22:24:22.849545+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1329,17 +1329,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-09T06:32:40.113569+00:00",
+          "checked_at": "2026-11-09T22:24:22.849545+00:00",
           "method": "public_rss",
-          "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
+          "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/tractopon-sortea-3-packs-de-crema-urea-10-y-silica-8-5.html",
-          "checked_at": "2026-11-09T06:32:45.752671+00:00",
+          "checked_at": "2026-11-09T22:24:34.935193+00:00",
           "method": "public_html",
-          "sha256": "faf346ec64d20ab81bdd4623c907202411cdfeb25f56ae80eac5e7838548303e",
+          "sha256": "594fe508bd5c2c913c232f1dad3f71538eaa10b6a9c7122b2c454a1af11dc1de",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1375,7 +1375,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1386,9 +1386,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1434,7 +1434,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1445,9 +1445,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1491,7 +1491,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-08T22:06:47.702948+00:00",
+      "checked_at": "2026-11-09T22:23:41.115046+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1504,9 +1504,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-08T22:06:47.702948+00:00",
+          "checked_at": "2026-11-09T22:23:41.115046+00:00",
           "method": "public_html",
-          "sha256": "89f6a540a78fb81f2b3f9f766013648369ea74c9cdd340fa5e445ea3cf46c276",
+          "sha256": "2f99a147ce36b210295abdbed0ba37a97db345f792c8dab41dd5295956e69124",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1518,7 +1518,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -1788,7 +1788,7 @@
       "ends_at": null,
       "published_at": "2026-11-08T20:01:50+00:00",
       "discovered_at": "2026-11-08T22:07:25.517644+00:00",
-      "checked_at": "2026-11-09T06:32:40.112376+00:00",
+      "checked_at": "2026-11-09T22:24:22.848832+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1801,17 +1801,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-09T06:32:40.112376+00:00",
+          "checked_at": "2026-11-09T22:24:22.848832+00:00",
           "method": "public_rss",
-          "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
+          "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
-          "checked_at": "2026-11-09T06:32:42.752638+00:00",
+          "checked_at": "2026-11-09T22:24:31.555934+00:00",
           "method": "public_html",
-          "sha256": "19dd1f764a9ac7279347c9e29b4f5c984cde2d91d0009688f68d57a67048d304",
+          "sha256": "8df6ff673b31d4a6671bfcacfbf572c617af96b98a99dbb83ce3f0901f1e86c6",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1876,6 +1876,65 @@
       ],
       "source_id": "promotion_rss",
       "source_status": "missing"
+    },
+    {
+      "id": "b70e8781bbce005837d65258",
+      "name": "Alma Secret · 20 calendarios de Adviento",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/alma-secret-sortea-20-calendarios-de-adviento.html",
+      "request_url": "https://regalosymuestrasgratis.com/alma-secret-sortea-20-calendarios-de-adviento.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-09T16:01:43+00:00",
+      "discovered_at": "2026-11-09T22:24:22.847383+00:00",
+      "checked_at": "2026-11-09T22:24:22.847383+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-09T22:24:22.847383+00:00",
+          "method": "public_rss",
+          "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/alma-secret-sortea-20-calendarios-de-adviento.html",
+          "checked_at": "2026-11-09T22:24:25.556832+00:00",
+          "method": "public_html",
+          "sha256": "268d64ef52b9347eaabcad2f3e65edcff3084a0b1decd7993c6be697bb744b5b",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     },
     {
       "id": "ba166a233cbff80e54611b4e",
@@ -2140,7 +2199,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2151,9 +2210,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -2305,7 +2364,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2316,9 +2375,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -2364,7 +2423,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-08T13:27:05.465700+00:00",
+      "checked_at": "2026-11-09T22:24:16.090138+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2375,9 +2434,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-08T13:27:05.465700+00:00",
+          "checked_at": "2026-11-09T22:24:16.090138+00:00",
           "method": "public_html",
-          "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+          "sha256": "30a4bc2b23a42358985885065bc4800f272943b833cb4a0f0bbdecc8bfc7626f",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         }
       ],
@@ -2470,7 +2529,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-08T22:06:50.721292+00:00",
+      "checked_at": "2026-11-09T22:23:44.081068+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2483,9 +2542,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-08T22:06:50.721292+00:00",
+          "checked_at": "2026-11-09T22:23:44.081068+00:00",
           "method": "public_html",
-          "sha256": "831d97c641bada133f6b91c75beecf59cda5212183ece0b87c92788694a753fb",
+          "sha256": "3b21d3c0a6ef5cb62471a783c3d7cdd0b06c032823da63496a86b974f84877bc",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2497,7 +2556,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -2559,9 +2618,95 @@
       ],
       "source_id": "bemz_samples",
       "source_status": "current"
+    },
+    {
+      "id": "fe78b2cd61fe0dc03c95a740",
+      "name": "El Corte Inglés · 2 calendarios de Adviento de belleza",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+      "request_url": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-09T08:01:54+00:00",
+      "discovered_at": "2026-11-09T22:24:22.848463+00:00",
+      "checked_at": "2026-11-09T22:24:22.848463+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-09T22:24:22.848463+00:00",
+          "method": "public_rss",
+          "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+          "checked_at": "2026-11-09T22:24:28.947515+00:00",
+          "method": "public_html",
+          "sha256": "ba048d9db5f0d6abc0c40d07518983f2a78d2bad2d2fcc0eefb9f45960edf6b4",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     }
   ],
   "runs": [
+    {
+      "id": 69,
+      "source": "promotion_rss",
+      "started_at": "2026-11-09T22:24:16.188474+00:00",
+      "finished_at": "2026-11-09T22:24:34.941091+00:00",
+      "status": "ok",
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": 68,
+      "source": "agrisera_posters",
+      "started_at": "2026-11-09T22:24:11.858709+00:00",
+      "finished_at": "2026-11-09T22:24:16.185948+00:00",
+      "status": "ok",
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": 67,
+      "source": "usgs_education",
+      "started_at": "2026-11-09T22:23:31.458114+00:00",
+      "finished_at": "2026-11-09T22:24:11.856486+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 66,
       "source": "mgl_zero_products",
@@ -3158,6 +3303,902 @@
     }
   ],
   "revisions": [
+    {
+      "id": 139,
+      "offer_id": "5e6e41ae5be323dcff13ba9b",
+      "at": "2026-11-09T22:24:34.939780+00:00",
+      "payload": {
+        "id": "5e6e41ae5be323dcff13ba9b",
+        "name": "Vogue · 50 sets de maquillaje Real Techniques",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+        "request_url": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-07T16:01:05+00:00",
+        "discovered_at": "2026-11-07T21:53:10.958716+00:00",
+        "checked_at": "2026-11-09T06:32:40.114660+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-09T06:32:40.114660+00:00",
+            "method": "public_rss",
+            "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/vogue-sortea-50-sets-de-maquillaje-real-techniques.html",
+            "checked_at": "2026-11-09T06:32:48.753547+00:00",
+            "method": "public_html",
+            "sha256": "22d32911544494c43774a0fc2d9ee5e17c445151a52539b2a354e7363f0cfbcb",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 138,
+      "offer_id": "593cba3a1db0a997749dc6bf",
+      "at": "2026-11-09T22:24:34.939739+00:00",
+      "payload": {
+        "id": "593cba3a1db0a997749dc6bf",
+        "name": "1.500 Muestras gratis de Rénergie Collagen Lift-Xtend",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+        "request_url": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "sample",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-06T17:08:03+00:00",
+        "discovered_at": "2026-11-06T19:27:10.413990+00:00",
+        "checked_at": "2026-11-09T06:32:40.118378+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-09T06:32:40.118378+00:00",
+            "method": "public_rss",
+            "sha256": "7724f9975420384b02d4179d54588d528a832ecf34d8dcf0f3625d4838c4f7c4",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/muestras-gratis-de-renergie-collagen-lift-xtend-cream-de-lancome.html",
+            "checked_at": "2026-11-09T06:32:51.753084+00:00",
+            "method": "public_html",
+            "sha256": "f5bda2a4b3668bef3d4999c6127330af443017706437922262e1fcc3f40b1b45",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 137,
+      "offer_id": "fe78b2cd61fe0dc03c95a740",
+      "at": "2026-11-09T22:24:34.937040+00:00",
+      "payload": {
+        "id": "fe78b2cd61fe0dc03c95a740",
+        "name": "El Corte Inglés · 2 calendarios de Adviento de belleza",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+        "request_url": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-09T08:01:54+00:00",
+        "discovered_at": "2026-11-09T22:24:22.848463+00:00",
+        "checked_at": "2026-11-09T22:24:22.848463+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-09T22:24:22.848463+00:00",
+            "method": "public_rss",
+            "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+            "checked_at": "2026-11-09T22:24:28.947515+00:00",
+            "method": "public_html",
+            "sha256": "ba048d9db5f0d6abc0c40d07518983f2a78d2bad2d2fcc0eefb9f45960edf6b4",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 136,
+      "offer_id": "b70e8781bbce005837d65258",
+      "at": "2026-11-09T22:24:34.936155+00:00",
+      "payload": {
+        "id": "b70e8781bbce005837d65258",
+        "name": "Alma Secret · 20 calendarios de Adviento",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/alma-secret-sortea-20-calendarios-de-adviento.html",
+        "request_url": "https://regalosymuestrasgratis.com/alma-secret-sortea-20-calendarios-de-adviento.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-09T16:01:43+00:00",
+        "discovered_at": "2026-11-09T22:24:22.847383+00:00",
+        "checked_at": "2026-11-09T22:24:22.847383+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-09T22:24:22.847383+00:00",
+            "method": "public_rss",
+            "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/alma-secret-sortea-20-calendarios-de-adviento.html",
+            "checked_at": "2026-11-09T22:24:25.556832+00:00",
+            "method": "public_html",
+            "sha256": "268d64ef52b9347eaabcad2f3e65edcff3084a0b1decd7993c6be697bb744b5b",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 135,
+      "offer_id": "64b0c07a88cb37781ad9e05a",
+      "at": "2026-11-09T22:24:16.184787+00:00",
+      "payload": {
+        "id": "64b0c07a88cb37781ad9e05a",
+        "name": "Poster 9: Western Blotting",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-9-Western-blotting-updated-2025-05.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-9-Western-blotting-updated-2025-05.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/29086685",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Joanna Porankiewicz-Asplund · Dmitry Shevela · Agrisera · 10.6084/m9.figshare.29086685.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 134,
+      "offer_id": "974086a3774f136218119eb0",
+      "at": "2026-11-09T22:24:16.184267+00:00",
+      "payload": {
+        "id": "974086a3774f136218119eb0",
+        "name": "Poster 7: Plant Argonautes",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24006819",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · Nicolas Bologna · Rebecca Mosher · Agrisera · 10.6084/m9.figshare.24006819.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 133,
+      "offer_id": "e022cc3114e2f2be5dfcb045",
+      "at": "2026-11-09T22:24:16.183950+00:00",
+      "payload": {
+        "id": "e022cc3114e2f2be5dfcb045",
+        "name": "Poster 6: Plant small RNAs",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/21186073",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · R. Keith Slotkin · Agrisera · 10.6084/m9.figshare.21186073.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 132,
+      "offer_id": "c33a5b95831d841c23614c82",
+      "at": "2026-11-09T22:24:16.183612+00:00",
+      "payload": {
+        "id": "c33a5b95831d841c23614c82",
+        "name": "Poster 5: Photosystem II",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/14802924",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Jan F. Kern · John Whitmarsh · Johannes Messinger · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14802924.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 131,
+      "offer_id": "9b59fe1140da173ba5916094",
+      "at": "2026-11-09T22:24:16.183279+00:00",
+      "payload": {
+        "id": "9b59fe1140da173ba5916094",
+        "name": "Poster 4: Rubisco",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24061755",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Manajit Hayer-Hartl · Inger Andersson · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24061755.v2",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 130,
+      "offer_id": "571705d4ccdd2353115c3251",
+      "at": "2026-11-09T22:24:16.182910+00:00",
+      "payload": {
+        "id": "571705d4ccdd2353115c3251",
+        "name": "Poster 3: Photosynthesis and Respiration",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/14794281",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14794281.v6",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 129,
+      "offer_id": "9a0ff7004dac2b767d8f1024",
+      "at": "2026-11-09T22:24:16.182515+00:00",
+      "payload": {
+        "id": "9a0ff7004dac2b767d8f1024",
+        "name": "Poster 2: Z-Scheme",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24045549",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Lars Olof Björn · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24045549.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 128,
+      "offer_id": "486c5e566bdc71f122e1c62b",
+      "at": "2026-11-09T22:24:16.181737+00:00",
+      "payload": {
+        "id": "486c5e566bdc71f122e1c62b",
+        "name": "Poster 1: Oxygenic Photosynthesis",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-08T13:27:05.465700+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-08T13:27:05.465700+00:00",
+            "method": "public_html",
+            "sha256": "7cfc86dea11849d25bba061f1a4fbd284ca016be0d63a5ce491b04ab04c3c3a3",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24039480",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24039480.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 127,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-09T22:24:11.854770+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-08T22:06:50.721292+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-08T22:06:50.721292+00:00",
+            "method": "public_html",
+            "sha256": "831d97c641bada133f6b91c75beecf59cda5212183ece0b87c92788694a753fb",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 126,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-09T22:24:11.853580+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-08T22:06:47.702948+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-08T22:06:47.702948+00:00",
+            "method": "public_html",
+            "sha256": "89f6a540a78fb81f2b3f9f766013648369ea74c9cdd340fa5e445ea3cf46c276",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 125,
       "offer_id": "f6e5a3d57532a058c515d605",
