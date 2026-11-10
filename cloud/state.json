@@ -1,8 +1,67 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T07:22:05.245790+00:00",
-  "last_successful_scan": "2026-11-10T07:22:05.202155+00:00",
+  "generated_at": "2026-11-10T19:45:47.626735+00:00",
+  "last_successful_scan": "2026-11-10T19:45:47.608349+00:00",
   "offers": [
+    {
+      "id": "0307807c656c20dfa8f0a5f4",
+      "name": "Nestlé · 10 cestas de Navidad",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "appliances",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/nestle-sortea-10-cestas-de-navidad-valoradas-en-unos-460-e.html",
+      "request_url": "https://regalosymuestrasgratis.com/nestle-sortea-10-cestas-de-navidad-valoradas-en-unos-460-e.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-10T12:34:12+00:00",
+      "discovered_at": "2026-11-10T19:45:38.830577+00:00",
+      "checked_at": "2026-11-10T19:45:38.830577+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-10T19:45:38.830577+00:00",
+          "method": "public_rss",
+          "sha256": "97c360f689711b47e2a48ddb4e10d334c450417ab79ceb58ae45c410fa0eb764",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/nestle-sortea-10-cestas-de-navidad-valoradas-en-unos-460-e.html",
+          "checked_at": "2026-11-10T19:45:41.598148+00:00",
+          "method": "public_html",
+          "sha256": "daca94e19a1d3da7b8617e17c37401092089a03a7d8a02a4bdaf14f4cb66a0d0",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
     {
       "id": "0be3d7118e238d181d83a5e7",
       "name": "Rosalique y Candela Rosa · un lote de belleza y bienestar",
@@ -178,6 +237,65 @@
       ],
       "source_id": "promotion_rss",
       "source_status": "missing"
+    },
+    {
+      "id": "252c62665f78e7d013f30d57",
+      "name": "Blissim · su Calendario de Adviento con 24 productos de belleza",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/blissim-sortea-su-calendario-de-adviento-con-24-productos-de-belleza.html",
+      "request_url": "https://regalosymuestrasgratis.com/blissim-sortea-su-calendario-de-adviento-con-24-productos-de-belleza.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-10T08:01:41+00:00",
+      "discovered_at": "2026-11-10T19:45:38.831482+00:00",
+      "checked_at": "2026-11-10T19:45:38.831482+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-10T19:45:38.831482+00:00",
+          "method": "public_rss",
+          "sha256": "97c360f689711b47e2a48ddb4e10d334c450417ab79ceb58ae45c410fa0eb764",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/blissim-sortea-su-calendario-de-adviento-con-24-productos-de-belleza.html",
+          "checked_at": "2026-11-10T19:45:44.604819+00:00",
+          "method": "public_html",
+          "sha256": "76b1a6285175dbd2d0f6ce15eff0628d07f46ddb263a12ff13c7a4a9b54c4f25",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     },
     {
       "id": "3430b3913f804bf5d45633b0",
@@ -1344,7 +1462,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "9a0ff7004dac2b767d8f1024",
@@ -1491,7 +1609,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-09T22:23:41.115046+00:00",
+      "checked_at": "2026-11-10T19:45:00.659729+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1504,9 +1622,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-09T22:23:41.115046+00:00",
+          "checked_at": "2026-11-10T19:45:00.659729+00:00",
           "method": "public_html",
-          "sha256": "2f99a147ce36b210295abdbed0ba37a97db345f792c8dab41dd5295956e69124",
+          "sha256": "1609f4990859a1c566c414049a3763784d04125c7fce062a591d452f21d8520c",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1518,7 +1636,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -1816,7 +1934,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "b6cd2777751b8dd085c219b7",
@@ -1906,7 +2024,7 @@
       "ends_at": null,
       "published_at": "2026-11-09T16:01:43+00:00",
       "discovered_at": "2026-11-09T22:24:22.847383+00:00",
-      "checked_at": "2026-11-10T07:20:32.457061+00:00",
+      "checked_at": "2026-11-10T19:45:38.833572+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1919,17 +2037,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-10T07:20:32.457061+00:00",
+          "checked_at": "2026-11-10T19:45:38.833572+00:00",
           "method": "public_rss",
-          "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+          "sha256": "97c360f689711b47e2a48ddb4e10d334c450417ab79ceb58ae45c410fa0eb764",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/alma-secret-sortea-20-calendarios-de-adviento.html",
-          "checked_at": "2026-11-10T07:20:35.240963+00:00",
+          "checked_at": "2026-11-10T19:45:47.601992+00:00",
           "method": "public_html",
-          "sha256": "1422c03e87868bdbd100afcd499b60b18d7b3b0da8e81636a3d73c6b4c51a0f6",
+          "sha256": "fa8f3ae0114ab8e26f63fb6b592c555fea46359c56b0045dbd39d711e66f45e6",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2529,7 +2647,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-09T22:23:44.081068+00:00",
+      "checked_at": "2026-11-10T19:45:03.842615+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2542,9 +2660,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-09T22:23:44.081068+00:00",
+          "checked_at": "2026-11-10T19:45:03.842615+00:00",
           "method": "public_html",
-          "sha256": "3b21d3c0a6ef5cb62471a783c3d7cdd0b06c032823da63496a86b974f84877bc",
+          "sha256": "b169bc3a0a73dd347acf93bc079c2278bda895b2963105068e12152e04f88f74",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2556,7 +2674,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -2676,10 +2794,28 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     }
   ],
   "runs": [
+    {
+      "id": 76,
+      "source": "promotion_rss",
+      "started_at": "2026-11-10T19:45:32.311826+00:00",
+      "finished_at": "2026-11-10T19:45:47.608349+00:00",
+      "status": "ok",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": 75,
+      "source": "usgs_education",
+      "started_at": "2026-11-10T19:44:50.928875+00:00",
+      "finished_at": "2026-11-10T19:45:32.307568+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 74,
       "source": "mgl_zero_products",
@@ -3348,6 +3484,454 @@
     }
   ],
   "revisions": [
+    {
+      "id": 148,
+      "offer_id": "fe78b2cd61fe0dc03c95a740",
+      "at": "2026-11-10T19:45:47.606440+00:00",
+      "payload": {
+        "id": "fe78b2cd61fe0dc03c95a740",
+        "name": "El Corte Inglés · 2 calendarios de Adviento de belleza",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+        "request_url": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-09T08:01:54+00:00",
+        "discovered_at": "2026-11-09T22:24:22.848463+00:00",
+        "checked_at": "2026-11-10T07:20:32.459227+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-10T07:20:32.459227+00:00",
+            "method": "public_rss",
+            "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-2-calendarios-de-adviento-de-belleza.html",
+            "checked_at": "2026-11-10T07:20:38.562367+00:00",
+            "method": "public_html",
+            "sha256": "60c5b4e591d93aca6ba5644de6f1f9a9bc30e92fe6a62f5d620eaf5b624512c7",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 147,
+      "offer_id": "b4f4a63ab1916cb4fbf0a38b",
+      "at": "2026-11-10T19:45:47.606339+00:00",
+      "payload": {
+        "id": "b4f4a63ab1916cb4fbf0a38b",
+        "name": "Fleurance Nature · el calendario de Adviento Noche Estrellada",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+        "request_url": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-08T20:01:50+00:00",
+        "discovered_at": "2026-11-08T22:07:25.517644+00:00",
+        "checked_at": "2026-11-10T07:20:32.460016+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-10T07:20:32.460016+00:00",
+            "method": "public_rss",
+            "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/fleurance-nature-sortea-el-calendario-de-adviento-noche-estrellada.html",
+            "checked_at": "2026-11-10T07:20:41.242394+00:00",
+            "method": "public_html",
+            "sha256": "6bd4d43950806fb85e844aeb800ce43f42cd61e2f7c31364a9192b560926e236",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 146,
+      "offer_id": "99e66e46106f6b740e2c2c3a",
+      "at": "2026-11-10T19:45:47.606226+00:00",
+      "payload": {
+        "id": "99e66e46106f6b740e2c2c3a",
+        "name": "Tractopon · 3 packs de crema UREA 10 y SILICA 8.5",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/tractopon-sortea-3-packs-de-crema-urea-10-y-silica-8-5.html",
+        "request_url": "https://regalosymuestrasgratis.com/tractopon-sortea-3-packs-de-crema-urea-10-y-silica-8-5.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-08T08:01:53+00:00",
+        "discovered_at": "2026-11-08T13:27:12.330764+00:00",
+        "checked_at": "2026-11-10T07:20:32.461447+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-10T07:20:32.461447+00:00",
+            "method": "public_rss",
+            "sha256": "33093559cc7a215d771342ee63288bc364b2d9f60cfc62f9b5d19a713064fe59",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/tractopon-sortea-3-packs-de-crema-urea-10-y-silica-8-5.html",
+            "checked_at": "2026-11-10T07:20:44.641911+00:00",
+            "method": "public_html",
+            "sha256": "611748b8aeccf91947539fabd734381a88ca7cdd1d3e90329cc050d7cf2f6603",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 145,
+      "offer_id": "252c62665f78e7d013f30d57",
+      "at": "2026-11-10T19:45:47.604062+00:00",
+      "payload": {
+        "id": "252c62665f78e7d013f30d57",
+        "name": "Blissim · su Calendario de Adviento con 24 productos de belleza",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/blissim-sortea-su-calendario-de-adviento-con-24-productos-de-belleza.html",
+        "request_url": "https://regalosymuestrasgratis.com/blissim-sortea-su-calendario-de-adviento-con-24-productos-de-belleza.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-10T08:01:41+00:00",
+        "discovered_at": "2026-11-10T19:45:38.831482+00:00",
+        "checked_at": "2026-11-10T19:45:38.831482+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-10T19:45:38.831482+00:00",
+            "method": "public_rss",
+            "sha256": "97c360f689711b47e2a48ddb4e10d334c450417ab79ceb58ae45c410fa0eb764",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/blissim-sortea-su-calendario-de-adviento-con-24-productos-de-belleza.html",
+            "checked_at": "2026-11-10T19:45:44.604819+00:00",
+            "method": "public_html",
+            "sha256": "76b1a6285175dbd2d0f6ce15eff0628d07f46ddb263a12ff13c7a4a9b54c4f25",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 144,
+      "offer_id": "0307807c656c20dfa8f0a5f4",
+      "at": "2026-11-10T19:45:47.602886+00:00",
+      "payload": {
+        "id": "0307807c656c20dfa8f0a5f4",
+        "name": "Nestlé · 10 cestas de Navidad",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/nestle-sortea-10-cestas-de-navidad-valoradas-en-unos-460-e.html",
+        "request_url": "https://regalosymuestrasgratis.com/nestle-sortea-10-cestas-de-navidad-valoradas-en-unos-460-e.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-10T12:34:12+00:00",
+        "discovered_at": "2026-11-10T19:45:38.830577+00:00",
+        "checked_at": "2026-11-10T19:45:38.830577+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-10T19:45:38.830577+00:00",
+            "method": "public_rss",
+            "sha256": "97c360f689711b47e2a48ddb4e10d334c450417ab79ceb58ae45c410fa0eb764",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/nestle-sortea-10-cestas-de-navidad-valoradas-en-unos-460-e.html",
+            "checked_at": "2026-11-10T19:45:41.598148+00:00",
+            "method": "public_html",
+            "sha256": "daca94e19a1d3da7b8617e17c37401092089a03a7d8a02a4bdaf14f4cb66a0d0",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 143,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-10T19:45:32.304655+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-09T22:23:44.081068+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-09T22:23:44.081068+00:00",
+            "method": "public_html",
+            "sha256": "3b21d3c0a6ef5cb62471a783c3d7cdd0b06c032823da63496a86b974f84877bc",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 142,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-10T19:45:32.302937+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-09T22:23:41.115046+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-09T22:23:41.115046+00:00",
+            "method": "public_html",
+            "sha256": "2f99a147ce36b210295abdbed0ba37a97db345f792c8dab41dd5295956e69124",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 141,
       "offer_id": "f6e5a3d57532a058c515d605",
