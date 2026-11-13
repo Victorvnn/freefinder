@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T19:57:39.534346+00:00",
-  "last_successful_scan": "2026-11-12T19:57:39.516647+00:00",
+  "generated_at": "2026-11-13T06:47:30.410059+00:00",
+  "last_successful_scan": "2026-11-13T06:47:30.389207+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -1636,7 +1636,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -2317,7 +2317,7 @@
       "ends_at": null,
       "published_at": "2026-11-12T08:01:08+00:00",
       "discovered_at": "2026-11-12T19:56:16.002599+00:00",
-      "checked_at": "2026-11-12T19:56:16.002599+00:00",
+      "checked_at": "2026-11-13T06:47:24.743348+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2330,17 +2330,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-12T19:56:16.002599+00:00",
+          "checked_at": "2026-11-13T06:47:24.743348+00:00",
           "method": "public_rss",
-          "sha256": "371961890d36f4dfa543aab2e7e330ed904847f3b4fcca822019af6d21558c6a",
+          "sha256": "553e13662534753488dd649ffa2136166a1fb6f3f5e7f57cd5edaa4786913ab3",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/krups-sortea-2-cafeteras-mini-maestro-con-color-a-elegir.html",
-          "checked_at": "2026-11-12T19:56:18.733511+00:00",
+          "checked_at": "2026-11-13T06:47:30.383200+00:00",
           "method": "public_html",
-          "sha256": "5d3d546d01fbe4a0bda94d71f1892b17a20fcead175e964ece708b35a4e51a87",
+          "sha256": "fe5ca23a33ac0273ffb1acbff448169f631dc74ffcbd2af88559497e50f46d16",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2733,10 +2733,69 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+    },
+    {
+      "id": "fbdf25965c0e0a74d7ba19f0",
+      "name": "Ducros · al instante 33 premios con freidoras UFESA",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "appliances",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+      "request_url": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-12T20:01:14+00:00",
+      "discovered_at": "2026-11-13T06:47:24.738929+00:00",
+      "checked_at": "2026-11-13T06:47:24.738929+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-13T06:47:24.738929+00:00",
+          "method": "public_rss",
+          "sha256": "553e13662534753488dd649ffa2136166a1fb6f3f5e7f57cd5edaa4786913ab3",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+          "checked_at": "2026-11-13T06:47:27.404891+00:00",
+          "method": "public_html",
+          "sha256": "2238aa1195c66f173718726369de6b4bdffeb0db76b90e1167908670efa041f9",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     },
     {
       "id": "fbf189302a3efe903efc2edc",
@@ -2857,6 +2916,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 94,
+      "source": "promotion_rss",
+      "started_at": "2026-11-13T06:47:17.750722+00:00",
+      "finished_at": "2026-11-13T06:47:30.389207+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": 93,
+      "source": "usgs_education",
+      "started_at": "2026-11-13T06:46:57.668344+00:00",
+      "finished_at": "2026-11-13T06:47:17.745699+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "ReadTimeout"
+    },
     {
       "id": 92,
       "source": "mgl_zero_products",
@@ -3687,6 +3764,198 @@
     }
   ],
   "revisions": [
+    {
+      "id": 179,
+      "offer_id": "fbdf25965c0e0a74d7ba19f0",
+      "at": "2026-11-13T06:47:30.384779+00:00",
+      "payload": {
+        "id": "fbdf25965c0e0a74d7ba19f0",
+        "name": "Ducros · al instante 33 premios con freidoras UFESA",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+        "request_url": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-12T20:01:14+00:00",
+        "discovered_at": "2026-11-13T06:47:24.738929+00:00",
+        "checked_at": "2026-11-13T06:47:24.738929+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-13T06:47:24.738929+00:00",
+            "method": "public_rss",
+            "sha256": "553e13662534753488dd649ffa2136166a1fb6f3f5e7f57cd5edaa4786913ab3",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+            "checked_at": "2026-11-13T06:47:27.404891+00:00",
+            "method": "public_html",
+            "sha256": "2238aa1195c66f173718726369de6b4bdffeb0db76b90e1167908670efa041f9",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 178,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-13T06:47:17.742730+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-12T19:55:30.627790+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-12T19:55:30.627790+00:00",
+            "method": "public_html",
+            "sha256": "e13217fb84896b53425ca6731ec0e0dae6e4d104f8d5bc89ba87518b61381321",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 177,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-13T06:47:17.742615+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-12T19:55:27.615734+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-12T19:55:27.615734+00:00",
+            "method": "public_html",
+            "sha256": "da38d6742dd833af9901e00f44817c141f5e9284ff75e203cc8cfdd14e69929a",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 176,
       "offer_id": "c10d98e1216568b935e45d5a",
