@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T22:25:52.288436+00:00",
-  "last_successful_scan": "2026-11-14T22:25:52.262231+00:00",
+  "generated_at": "2026-11-15T06:36:09.811902+00:00",
+  "last_successful_scan": "2026-11-15T06:36:09.759770+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -149,7 +149,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -162,17 +162,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -384,7 +384,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -397,17 +397,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -442,7 +442,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -455,17 +455,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -500,7 +500,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -513,17 +513,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -558,7 +558,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -571,17 +571,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -616,7 +616,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -629,17 +629,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -675,7 +675,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:58:56.670841+00:00",
-      "checked_at": "2026-11-14T06:26:28.783088+00:00",
+      "checked_at": "2026-11-15T06:35:49.680488+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -686,17 +686,17 @@
         {
           "field": "price_stock",
           "source": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
-          "checked_at": "2026-11-14T06:26:28.783088+00:00",
+          "checked_at": "2026-11-15T06:35:49.680488+00:00",
           "method": "public_html",
-          "sha256": "51c23bdf75de077d38ca9dff292793057ecea03b48a3472bcff01d42e26be664",
+          "sha256": "3da80744f3755baabf13ba2e5a75279aeb3c9b428764747304877b809f3ad936",
           "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
         },
         {
           "field": "conditions",
           "source": "https://mgl-southasian.com/product-category/free-products/",
-          "checked_at": "2026-11-14T06:26:28.783088+00:00",
+          "checked_at": "2026-11-15T06:35:49.680488+00:00",
           "method": "public_html",
-          "sha256": "b3a94ddb926009c9877ccb6b70d3e97bcc1a63db3311bcdc331fdebcf45a8e82",
+          "sha256": "cf71dc45ae8749f27bbb0e90b2c07c71c019c23346b74f66bab026ee1cd1c524",
           "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
         }
       ],
@@ -791,7 +791,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:59:16.650491+00:00",
-      "checked_at": "2026-11-14T06:26:48.767989+00:00",
+      "checked_at": "2026-11-15T06:36:09.756773+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -802,17 +802,17 @@
         {
           "field": "price_stock",
           "source": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
-          "checked_at": "2026-11-14T06:26:48.767989+00:00",
+          "checked_at": "2026-11-15T06:36:09.756773+00:00",
           "method": "public_html",
-          "sha256": "23461117367517aab3eadd03ea94fe08b33d0c61e9b8c8af983e8d66864afb0f",
+          "sha256": "88dad4475ec3ce250e5e6ab2674daa6315720636250532d823f5becc1fe1ad2b",
           "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
         },
         {
           "field": "conditions",
           "source": "https://mgl-southasian.com/product-category/free-products/",
-          "checked_at": "2026-11-14T06:26:48.767989+00:00",
+          "checked_at": "2026-11-15T06:36:09.756773+00:00",
           "method": "public_html",
-          "sha256": "b3a94ddb926009c9877ccb6b70d3e97bcc1a63db3311bcdc331fdebcf45a8e82",
+          "sha256": "cf71dc45ae8749f27bbb0e90b2c07c71c019c23346b74f66bab026ee1cd1c524",
           "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
         }
       ],
@@ -847,7 +847,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -860,17 +860,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1200,7 +1200,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1213,17 +1213,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1258,7 +1258,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1271,17 +1271,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1316,7 +1316,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1329,17 +1329,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1636,7 +1636,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -1847,7 +1847,7 @@
       "ends_at": null,
       "published_at": "2026-11-13T08:01:30+00:00",
       "discovered_at": "2026-11-13T19:44:29.712415+00:00",
-      "checked_at": "2026-11-14T18:03:54.683463+00:00",
+      "checked_at": "2026-11-15T06:34:42.897099+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1860,17 +1860,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-14T18:03:54.683463+00:00",
+          "checked_at": "2026-11-15T06:34:42.897099+00:00",
           "method": "public_rss",
-          "sha256": "a1d0f27311eb1596b57e443a56078a7797028287dc7a11bf4d1eaece76972363",
+          "sha256": "3c952358f012816aa12d8a0ce54b7041ff0ec26e62bb3b98df37869b4bf5879f",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/camaleon-cosmetics-sortea-25-packs-magic-colourstick-y-lacasitos.html",
-          "checked_at": "2026-11-14T18:03:57.381090+00:00",
+          "checked_at": "2026-11-15T06:34:45.884281+00:00",
           "method": "public_html",
-          "sha256": "49ccd3c7a08d072821379c03e70e013eabe4c6abb47708dedd77c763ec668451",
+          "sha256": "f0631ea66d972301b6c50533ab20f1b2afe770f730ae6a381c112aec3bf9cb5c",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2260,7 +2260,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:58:36.636901+00:00",
-      "checked_at": "2026-11-14T06:26:08.841597+00:00",
+      "checked_at": "2026-11-15T06:35:29.725487+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2271,17 +2271,17 @@
         {
           "field": "price_stock",
           "source": "https://mgl-southasian.com/product/gospel-coin-greek/",
-          "checked_at": "2026-11-14T06:26:08.841597+00:00",
+          "checked_at": "2026-11-15T06:35:29.725487+00:00",
           "method": "public_html",
-          "sha256": "89158cf13ccbcbf55db57a815a4c5e877bcd69d7a04ab1fb9ff68e071d2df9aa",
+          "sha256": "10f828259744be48b12e068f380c62600ad685ebbaf564952f32a757cb6b3f4a",
           "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
         },
         {
           "field": "conditions",
           "source": "https://mgl-southasian.com/product-category/free-products/",
-          "checked_at": "2026-11-14T06:26:08.841597+00:00",
+          "checked_at": "2026-11-15T06:35:29.725487+00:00",
           "method": "public_html",
-          "sha256": "b3a94ddb926009c9877ccb6b70d3e97bcc1a63db3311bcdc331fdebcf45a8e82",
+          "sha256": "cf71dc45ae8749f27bbb0e90b2c07c71c019c23346b74f66bab026ee1cd1c524",
           "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
         }
       ],
@@ -2493,7 +2493,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2506,17 +2506,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -2551,7 +2551,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:28.441015+00:00",
-      "checked_at": "2026-11-14T06:25:15.963870+00:00",
+      "checked_at": "2026-11-15T06:34:36.082949+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2562,7 +2562,7 @@
         {
           "field": "conditions",
           "source": "https://www.kvik.es/",
-          "checked_at": "2026-11-14T06:25:15.963870+00:00",
+          "checked_at": "2026-11-15T06:34:36.082949+00:00",
           "method": "public_html",
           "sha256": "50c7fa5d694ef1a5f1d6b2eae866e64d4681239121bd1d838a86fbbdc65308d6",
           "note": "Matched named physical colour samples, free claim, home delivery and request card; no form submitted."
@@ -2792,7 +2792,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -2826,7 +2826,7 @@
       "ends_at": null,
       "published_at": "2026-11-12T20:01:14+00:00",
       "discovered_at": "2026-11-13T06:47:24.738929+00:00",
-      "checked_at": "2026-11-14T18:03:54.684085+00:00",
+      "checked_at": "2026-11-15T06:34:42.897456+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2839,17 +2839,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-14T18:03:54.684085+00:00",
+          "checked_at": "2026-11-15T06:34:42.897456+00:00",
           "method": "public_rss",
-          "sha256": "a1d0f27311eb1596b57e443a56078a7797028287dc7a11bf4d1eaece76972363",
+          "sha256": "3c952358f012816aa12d8a0ce54b7041ff0ec26e62bb3b98df37869b4bf5879f",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
-          "checked_at": "2026-11-14T18:04:00.382184+00:00",
+          "checked_at": "2026-11-15T06:34:48.899238+00:00",
           "method": "public_html",
-          "sha256": "d8ac2e4cb8b6f0c9bce21c04471ac99fd7a511c7e6138df556e91e844b488d91",
+          "sha256": "74663781e486f0667669fb0ac1f1f5ec9eaa49fa5d6837d2392e5f3d3358ac25",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2884,7 +2884,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-14T06:25:12.399234+00:00",
+      "checked_at": "2026-11-15T06:34:32.617229+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2897,17 +2897,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "bbcbbb781395a8e47543385af905c40173661518cfa61334f89083d60060d235",
+          "sha256": "68771532aff9b1a41f1d08befb0467999c6335f85ae47d215e6e57bb3511e169",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-14T06:25:12.399234+00:00",
+          "checked_at": "2026-11-15T06:34:32.617229+00:00",
           "method": "public_html",
-          "sha256": "d671eb314e4ea5018e035f90ac4e4bf9bc2fb416119d71aeaf77c39a4f45767f",
+          "sha256": "d7b8e7a33c2b79bec2767f5d0e133440c6beb3df802c91cdb80af857205edd5c",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -2975,6 +2975,51 @@
     }
   ],
   "runs": [
+    {
+      "id": 110,
+      "source": "mgl_zero_products",
+      "started_at": "2026-11-15T06:34:48.940785+00:00",
+      "finished_at": "2026-11-15T06:36:09.759770+00:00",
+      "status": "ok",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": 109,
+      "source": "promotion_rss",
+      "started_at": "2026-11-15T06:34:36.088611+00:00",
+      "finished_at": "2026-11-15T06:34:48.902182+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": 108,
+      "source": "kvik_samples",
+      "started_at": "2026-11-15T06:34:32.717295+00:00",
+      "finished_at": "2026-11-15T06:34:36.086011+00:00",
+      "status": "ok",
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": 107,
+      "source": "bemz_samples",
+      "started_at": "2026-11-15T06:34:25.580796+00:00",
+      "finished_at": "2026-11-15T06:34:32.714956+00:00",
+      "status": "ok",
+      "count": 12,
+      "error": null
+    },
+    {
+      "id": 106,
+      "source": "usgs_education",
+      "started_at": "2026-11-15T06:34:15.438670+00:00",
+      "finished_at": "2026-11-15T06:34:25.578347+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "HTTPStatusError"
+    },
     {
       "id": 105,
       "source": "agrisera_posters",
@@ -3831,51 +3876,6 @@
       "error": null
     },
     {
-      "id": 10,
-      "source": "promotion_rss",
-      "started_at": "2026-11-02T15:56:25.829890+00:00",
-      "finished_at": "2026-11-02T15:56:50.137362+00:00",
-      "status": "ok",
-      "count": 6,
-      "error": null
-    },
-    {
-      "id": 9,
-      "source": "usgs_education",
-      "started_at": "2026-11-02T15:56:05.663286+00:00",
-      "finished_at": "2026-11-02T15:56:25.823890+00:00",
-      "status": "error",
-      "count": 0,
-      "error": "ReadTimeout"
-    },
-    {
-      "id": 8,
-      "source": "mgl_zero_products",
-      "started_at": "2026-11-02T07:57:55.871984+00:00",
-      "finished_at": "2026-11-02T07:59:16.653190+00:00",
-      "status": "ok",
-      "count": 3,
-      "error": null
-    },
-    {
-      "id": 7,
-      "source": "promotion_rss",
-      "started_at": "2026-11-02T07:57:28.445791+00:00",
-      "finished_at": "2026-11-02T07:57:55.869774+00:00",
-      "status": "ok",
-      "count": 7,
-      "error": null
-    },
-    {
-      "id": 6,
-      "source": "kvik_samples",
-      "started_at": "2026-11-02T07:57:25.087373+00:00",
-      "finished_at": "2026-11-02T07:57:28.443951+00:00",
-      "status": "ok",
-      "count": 1,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -3886,6 +3886,134 @@
     }
   ],
   "revisions": [
+    {
+      "id": 205,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-15T06:34:25.576178+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-14T18:03:20.204546+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-14T18:03:20.204546+00:00",
+            "method": "public_html",
+            "sha256": "6072c2ea5c5bfea71e0343a7dda825b9d03d20da3dc15e1ed00aa36466e652e7",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 204,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-15T06:34:25.576086+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-14T18:03:17.218648+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-14T18:03:17.218648+00:00",
+            "method": "public_html",
+            "sha256": "0b12fd53bd87a20716d1c6cd64a909af4c5b53c69454195c9d9b2573bd7f6b6a",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 203,
       "offer_id": "64b0c07a88cb37781ad9e05a",
