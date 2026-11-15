@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T06:36:09.811902+00:00",
-  "last_successful_scan": "2026-11-15T06:36:09.759770+00:00",
+  "generated_at": "2026-11-15T18:53:50.414025+00:00",
+  "last_successful_scan": "2026-11-15T18:53:50.393944+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -1875,7 +1875,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "b3f0a05b213f55d8b1e621b0",
@@ -2854,7 +2854,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "fbf189302a3efe903efc2edc",
@@ -2975,6 +2975,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 112,
+      "source": "promotion_rss",
+      "started_at": "2026-11-15T18:53:43.629624+00:00",
+      "finished_at": "2026-11-15T18:53:50.393944+00:00",
+      "status": "ok",
+      "count": 0,
+      "error": null
+    },
+    {
+      "id": 111,
+      "source": "usgs_education",
+      "started_at": "2026-11-15T18:53:19.452864+00:00",
+      "finished_at": "2026-11-15T18:53:43.625160+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "ReadTimeout"
+    },
     {
       "id": 110,
       "source": "mgl_zero_products",
@@ -3858,24 +3876,6 @@
       "error": null
     },
     {
-      "id": 12,
-      "source": "agrisera_posters",
-      "started_at": "2026-11-03T00:59:45.531838+00:00",
-      "finished_at": "2026-11-03T00:59:49.798156+00:00",
-      "status": "ok",
-      "count": 9,
-      "error": null
-    },
-    {
-      "id": 11,
-      "source": "usgs_education",
-      "started_at": "2026-11-03T00:59:00.221559+00:00",
-      "finished_at": "2026-11-03T00:59:45.527332+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -3886,6 +3886,134 @@
     }
   ],
   "revisions": [
+    {
+      "id": 207,
+      "offer_id": "fbdf25965c0e0a74d7ba19f0",
+      "at": "2026-11-15T18:53:50.391588+00:00",
+      "payload": {
+        "id": "fbdf25965c0e0a74d7ba19f0",
+        "name": "Ducros · al instante 33 premios con freidoras UFESA",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+        "request_url": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-12T20:01:14+00:00",
+        "discovered_at": "2026-11-13T06:47:24.738929+00:00",
+        "checked_at": "2026-11-15T06:34:42.897456+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-15T06:34:42.897456+00:00",
+            "method": "public_rss",
+            "sha256": "3c952358f012816aa12d8a0ce54b7041ff0ec26e62bb3b98df37869b4bf5879f",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/ducros-sortea-al-instante-33-premios-con-freidoras-ufesa.html",
+            "checked_at": "2026-11-15T06:34:48.899238+00:00",
+            "method": "public_html",
+            "sha256": "74663781e486f0667669fb0ac1f1f5ec9eaa49fa5d6837d2392e5f3d3358ac25",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 206,
+      "offer_id": "af7c5993a2ae31cdc7a26f36",
+      "at": "2026-11-15T18:53:50.391392+00:00",
+      "payload": {
+        "id": "af7c5993a2ae31cdc7a26f36",
+        "name": "Camaleon Cosmetics · 25 packs Magic Colourstick y Lacasitos",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/camaleon-cosmetics-sortea-25-packs-magic-colourstick-y-lacasitos.html",
+        "request_url": "https://regalosymuestrasgratis.com/camaleon-cosmetics-sortea-25-packs-magic-colourstick-y-lacasitos.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-13T08:01:30+00:00",
+        "discovered_at": "2026-11-13T19:44:29.712415+00:00",
+        "checked_at": "2026-11-15T06:34:42.897099+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-15T06:34:42.897099+00:00",
+            "method": "public_rss",
+            "sha256": "3c952358f012816aa12d8a0ce54b7041ff0ec26e62bb3b98df37869b4bf5879f",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/camaleon-cosmetics-sortea-25-packs-magic-colourstick-y-lacasitos.html",
+            "checked_at": "2026-11-15T06:34:45.884281+00:00",
+            "method": "public_html",
+            "sha256": "f0631ea66d972301b6c50533ab20f1b2afe770f730ae6a381c112aec3bf9cb5c",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
     {
       "id": 205,
       "offer_id": "f6e5a3d57532a058c515d605",
