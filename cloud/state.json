@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T07:56:55.651991+00:00",
-  "last_successful_scan": "2026-11-17T07:56:55.635420+00:00",
+  "generated_at": "2026-11-17T20:57:35.838922+00:00",
+  "last_successful_scan": "2026-11-17T20:57:35.798109+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -237,6 +237,65 @@
       ],
       "source_id": "promotion_rss",
       "source_status": "missing"
+    },
+    {
+      "id": "1fac5c4ffb8ec0e4a39aa8df",
+      "name": "The Body Shop · 1 Calendario de Adviento Classic 2026",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/the-body-shop-sortea-1-calendario-de-adviento-classic-2026.html",
+      "request_url": "https://regalosymuestrasgratis.com/the-body-shop-sortea-1-calendario-de-adviento-classic-2026.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-17T16:01:17+00:00",
+      "discovered_at": "2026-11-17T20:57:30.103426+00:00",
+      "checked_at": "2026-11-17T20:57:30.103426+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-17T20:57:30.103426+00:00",
+          "method": "public_rss",
+          "sha256": "fbc26fe485908693dc9b278b7c2a1c33f52cd9058ebf5a2b06d3e828d6d7360d",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/the-body-shop-sortea-1-calendario-de-adviento-classic-2026.html",
+          "checked_at": "2026-11-17T20:57:32.788938+00:00",
+          "method": "public_html",
+          "sha256": "c19bb2587f550c68bfd3e8717ebe428e1ba190332035840fc9c05e51c3d6f987",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     },
     {
       "id": "252c62665f78e7d013f30d57",
@@ -559,7 +618,7 @@
       "ends_at": null,
       "published_at": "2026-11-16T15:06:32+00:00",
       "discovered_at": "2026-11-16T22:04:54.212687+00:00",
-      "checked_at": "2026-11-17T07:56:52.822581+00:00",
+      "checked_at": "2026-11-17T20:57:30.107679+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -572,17 +631,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-17T07:56:52.822581+00:00",
+          "checked_at": "2026-11-17T20:57:30.107679+00:00",
           "method": "public_rss",
-          "sha256": "faf9d0ed73f04196239fa4a8f38b747420688401060e4f173411f8eb672c9304",
+          "sha256": "fbc26fe485908693dc9b278b7c2a1c33f52cd9058ebf5a2b06d3e828d6d7360d",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/aldi-sortea-1-pack-de-juguetes-valorado-en-17894-e.html",
-          "checked_at": "2026-11-17T07:56:55.632383+00:00",
+          "checked_at": "2026-11-17T20:57:35.793924+00:00",
           "method": "public_html",
-          "sha256": "9c3c3eccb1bb77e7e453e498478d22dd7f46c497c1277af3774bb3a2ff8a00d6",
+          "sha256": "16ed078782ffe24bfa94eae05fd98127105d6e5f657e640c7cca7353acf513b2",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1668,7 +1727,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-17T07:56:11.060889+00:00",
+      "checked_at": "2026-11-17T20:56:52.197150+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1681,9 +1740,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-17T07:56:11.060889+00:00",
+          "checked_at": "2026-11-17T20:56:52.197150+00:00",
           "method": "public_html",
-          "sha256": "a2334beb852062f2fc7afff40c577bfe65376229424acebcfb91c76dcfad1c22",
+          "sha256": "eab5f54998ac411ac25fa73d4d8180328422b396ccf2dd37ee0b5b8dea8a5fec",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2824,7 +2883,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-17T07:56:14.067679+00:00",
+      "checked_at": "2026-11-17T20:56:55.196525+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2837,9 +2896,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-17T07:56:14.067679+00:00",
+          "checked_at": "2026-11-17T20:56:55.196525+00:00",
           "method": "public_html",
-          "sha256": "55b1f655f69c8b4aeeaad7d479b167f2526addacb8768f762cb0ebb42c9a075b",
+          "sha256": "6991bed60249bd429f23be734875171709d3d871701fffb503f7bbeb1bf978f7",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -3034,6 +3093,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 125,
+      "source": "promotion_rss",
+      "started_at": "2026-11-17T20:57:23.162454+00:00",
+      "finished_at": "2026-11-17T20:57:35.798109+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": 124,
+      "source": "usgs_education",
+      "started_at": "2026-11-17T20:56:34.083645+00:00",
+      "finished_at": "2026-11-17T20:57:23.152870+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 123,
       "source": "promotion_rss",
@@ -3917,24 +3994,6 @@
       "error": null
     },
     {
-      "id": 25,
-      "source": "bemz_samples",
-      "started_at": "2026-11-04T19:47:21.849561+00:00",
-      "finished_at": "2026-11-04T19:47:28.689437+00:00",
-      "status": "ok",
-      "count": 12,
-      "error": null
-    },
-    {
-      "id": 24,
-      "source": "usgs_education",
-      "started_at": "2026-11-04T19:46:37.277205+00:00",
-      "finished_at": "2026-11-04T19:47:21.846524+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -3945,6 +4004,70 @@
     }
   ],
   "revisions": [
+    {
+      "id": 227,
+      "offer_id": "1fac5c4ffb8ec0e4a39aa8df",
+      "at": "2026-11-17T20:57:35.794747+00:00",
+      "payload": {
+        "id": "1fac5c4ffb8ec0e4a39aa8df",
+        "name": "The Body Shop · 1 Calendario de Adviento Classic 2026",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/the-body-shop-sortea-1-calendario-de-adviento-classic-2026.html",
+        "request_url": "https://regalosymuestrasgratis.com/the-body-shop-sortea-1-calendario-de-adviento-classic-2026.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-17T16:01:17+00:00",
+        "discovered_at": "2026-11-17T20:57:30.103426+00:00",
+        "checked_at": "2026-11-17T20:57:30.103426+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-17T20:57:30.103426+00:00",
+            "method": "public_rss",
+            "sha256": "fbc26fe485908693dc9b278b7c2a1c33f52cd9058ebf5a2b06d3e828d6d7360d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/the-body-shop-sortea-1-calendario-de-adviento-classic-2026.html",
+            "checked_at": "2026-11-17T20:57:32.788938+00:00",
+            "method": "public_html",
+            "sha256": "c19bb2587f550c68bfd3e8717ebe428e1ba190332035840fc9c05e51c3d6f987",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
     {
       "id": 226,
       "offer_id": "64b0c07a88cb37781ad9e05a",
