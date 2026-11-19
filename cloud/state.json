@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T20:33:34.838451+00:00",
-  "last_successful_scan": "2026-11-18T20:33:34.817503+00:00",
+  "generated_at": "2026-11-19T07:28:48.090021+00:00",
+  "last_successful_scan": "2026-11-19T07:28:48.076491+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -267,7 +267,7 @@
       "ends_at": null,
       "published_at": "2026-11-17T16:01:17+00:00",
       "discovered_at": "2026-11-17T20:57:30.103426+00:00",
-      "checked_at": "2026-11-18T20:33:29.006144+00:00",
+      "checked_at": "2026-11-19T07:28:42.292761+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -280,7 +280,7 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-18T20:33:29.006144+00:00",
+          "checked_at": "2026-11-19T07:28:42.292761+00:00",
           "method": "public_rss",
           "sha256": "16f85c3fa6be0d0831ee63a9e0fb8046b584b0736dad4f2b4f5d012c1832ec2d",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
@@ -288,9 +288,9 @@
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/the-body-shop-sortea-1-calendario-de-adviento-classic-2026.html",
-          "checked_at": "2026-11-18T20:33:34.811119+00:00",
+          "checked_at": "2026-11-19T07:28:48.073462+00:00",
           "method": "public_html",
-          "sha256": "b390855157a541ee8a5011dcecf752c77cda04941891e96b39c9829096ce0ad7",
+          "sha256": "96ca4166cf1451170c7923babf505f37ad2dc6fea822139e82522f6322a68836",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -444,7 +444,7 @@
       "ends_at": null,
       "published_at": "2026-11-18T20:01:39+00:00",
       "discovered_at": "2026-11-18T20:33:29.000363+00:00",
-      "checked_at": "2026-11-18T20:33:29.000363+00:00",
+      "checked_at": "2026-11-19T07:28:42.289827+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -457,7 +457,7 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-18T20:33:29.000363+00:00",
+          "checked_at": "2026-11-19T07:28:42.289827+00:00",
           "method": "public_rss",
           "sha256": "16f85c3fa6be0d0831ee63a9e0fb8046b584b0736dad4f2b4f5d012c1832ec2d",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
@@ -465,9 +465,9 @@
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/benefit-sortea-su-joyero-dos-productos-y-joyas-de-singularu-para-2-ganadores.html",
-          "checked_at": "2026-11-18T20:33:31.810918+00:00",
+          "checked_at": "2026-11-19T07:28:45.069435+00:00",
           "method": "public_html",
-          "sha256": "4ce13901f2537f88e02bdb9b9eaa223def57a7d3bef95045009ccf0676eacdc4",
+          "sha256": "b225f458d259a474e8e8badc6f4c1ef3b86990df015ae10dff57836361c59671",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1786,7 +1786,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-18T07:30:19.656456+00:00",
+      "checked_at": "2026-11-19T07:28:04.876395+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1799,9 +1799,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-18T07:30:19.656456+00:00",
+          "checked_at": "2026-11-19T07:28:04.876395+00:00",
           "method": "public_html",
-          "sha256": "b8d2c8de04fc80976a2601d65c011839782f1759174ff0feb6a1b348d6f78112",
+          "sha256": "7c9490a1d697b07e356a431809cdb243a54fa0bac0fdf026fb0d787470aeee9d",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -1813,7 +1813,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -2942,7 +2942,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-18T07:30:22.580543+00:00",
+      "checked_at": "2026-11-19T07:28:07.684698+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2955,9 +2955,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-18T07:30:22.580543+00:00",
+          "checked_at": "2026-11-19T07:28:07.684698+00:00",
           "method": "public_html",
-          "sha256": "ef322167573846bccecde3b09a56f4c3263afdb75fde98a7dcfa235bb2e76351",
+          "sha256": "96f9bd043a7c3f097a4a45478da2a8f593e6d81418c1993a863f1692db01c315",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2969,7 +2969,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -3152,6 +3152,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 135,
+      "source": "promotion_rss",
+      "started_at": "2026-11-19T07:28:35.785280+00:00",
+      "finished_at": "2026-11-19T07:28:48.076491+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": 134,
+      "source": "usgs_education",
+      "started_at": "2026-11-19T07:27:55.341192+00:00",
+      "finished_at": "2026-11-19T07:28:35.781993+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 133,
       "source": "promotion_rss",
@@ -4035,24 +4053,6 @@
       "error": null
     },
     {
-      "id": 35,
-      "source": "promotion_rss",
-      "started_at": "2026-11-05T19:58:53.012731+00:00",
-      "finished_at": "2026-11-05T19:59:05.417728+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
-      "id": 34,
-      "source": "kvik_samples",
-      "started_at": "2026-11-05T19:58:49.595974+00:00",
-      "finished_at": "2026-11-05T19:58:53.010779+00:00",
-      "status": "ok",
-      "count": 1,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -4063,6 +4063,134 @@
     }
   ],
   "revisions": [
+    {
+      "id": 241,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-19T07:28:35.780273+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-18T07:30:22.580543+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-18T07:30:22.580543+00:00",
+            "method": "public_html",
+            "sha256": "ef322167573846bccecde3b09a56f4c3263afdb75fde98a7dcfa235bb2e76351",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 240,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-19T07:28:35.779088+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-18T07:30:19.656456+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-18T07:30:19.656456+00:00",
+            "method": "public_html",
+            "sha256": "b8d2c8de04fc80976a2601d65c011839782f1759174ff0feb6a1b348d6f78112",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 239,
       "offer_id": "3bf67776289d631eaa1a3eb7",
