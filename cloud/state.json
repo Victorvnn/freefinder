@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T07:18:09.180932+00:00",
-  "last_successful_scan": "2026-11-20T07:18:09.158261+00:00",
+  "generated_at": "2026-11-20T20:22:52.308290+00:00",
+  "last_successful_scan": "2026-11-20T20:22:52.294264+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -180,6 +180,65 @@
       "source_status": "current"
     },
     {
+      "id": "1357b44c7525368514fb6f91",
+      "name": "ALE-HOP · 10 calendarios de Adviento de calcetines",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "food",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
+      "request_url": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-20T16:01:39+00:00",
+      "discovered_at": "2026-11-20T20:22:40.550697+00:00",
+      "checked_at": "2026-11-20T20:22:40.550697+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-20T20:22:40.550697+00:00",
+          "method": "public_rss",
+          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
+          "checked_at": "2026-11-20T20:22:46.286597+00:00",
+          "method": "public_html",
+          "sha256": "cb7bea83517f2b9f416646535e01e1ff05d0ec6252e5f0bee149c848940ff771",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "138e684b76739784f2637507",
       "name": "AdTab · 50 packs para perros: neceser, portabolsas y cuenco",
       "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
@@ -237,6 +296,65 @@
       ],
       "source_id": "promotion_rss",
       "source_status": "missing"
+    },
+    {
+      "id": "15c14c5ae0c0bdbd6300e7e7",
+      "name": "Vidal Golosinas · 3 combos de GTA VI y Foamy Mix",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "food",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
+      "request_url": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-20T18:01:44+00:00",
+      "discovered_at": "2026-11-20T20:22:40.550211+00:00",
+      "checked_at": "2026-11-20T20:22:40.550211+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-20T20:22:40.550211+00:00",
+          "method": "public_rss",
+          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
+          "checked_at": "2026-11-20T20:22:43.297966+00:00",
+          "method": "public_html",
+          "sha256": "99622dcdb32611741b8b5770571ae99c06e3e30e4b1565300c53d8bfa0f7d498",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     },
     {
       "id": "1fac5c4ffb8ec0e4a39aa8df",
@@ -472,7 +590,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "377f055fc8c6edee27138be6",
@@ -2083,7 +2201,7 @@
       "ends_at": null,
       "published_at": "2026-11-19T11:53:04+00:00",
       "discovered_at": "2026-11-19T20:40:02.501458+00:00",
-      "checked_at": "2026-11-20T07:18:03.378917+00:00",
+      "checked_at": "2026-11-20T20:22:40.553555+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2096,17 +2214,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-20T07:18:03.378917+00:00",
+          "checked_at": "2026-11-20T20:22:40.553555+00:00",
           "method": "public_rss",
-          "sha256": "4b10250b12ed476915c4737b48c70adf7bc9429640186312679bc449fce0ee2d",
+          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/lancome-sortea-un-calendario-de-adviento-2026-con-24-productos.html",
-          "checked_at": "2026-11-20T07:18:06.179227+00:00",
+          "checked_at": "2026-11-20T20:22:52.287928+00:00",
           "method": "public_html",
-          "sha256": "a228aa5b00bcab5b41b42ac890e160309ea0000840caa005d85af9e9b7b5e0af",
+          "sha256": "9177d96659ae395c230549ede2f0e40268fe47b5e0588f32dc73ba05079bd333",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2867,6 +2985,65 @@
       "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
+      "id": "e248a6afb46a6ec2ace143a9",
+      "name": "Lidl · un lote de juguetes de cocina de madera",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "appliances",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
+      "request_url": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-20T08:01:47+00:00",
+      "discovered_at": "2026-11-20T20:22:40.552033+00:00",
+      "checked_at": "2026-11-20T20:22:40.552033+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-20T20:22:40.552033+00:00",
+          "method": "public_rss",
+          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
+          "checked_at": "2026-11-20T20:22:49.288240+00:00",
+          "method": "public_html",
+          "sha256": "8d8ff5c5f81d4100edb7b1b58c8f8aa6449cf17d29422c2d92a1af3843b3f044",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "e54f48ff9fe7422976657a7c",
       "name": "Poster 8: Protein Extraction",
       "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
@@ -3211,6 +3388,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 145,
+      "source": "promotion_rss",
+      "started_at": "2026-11-20T20:22:33.899200+00:00",
+      "finished_at": "2026-11-20T20:22:52.294264+00:00",
+      "status": "ok",
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": 144,
+      "source": "usgs_education",
+      "started_at": "2026-11-20T20:22:10.773946+00:00",
+      "finished_at": "2026-11-20T20:22:33.885038+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "ReadTimeout"
+    },
     {
       "id": 143,
       "source": "promotion_rss",
@@ -4094,24 +4289,6 @@
       "error": null
     },
     {
-      "id": 45,
-      "source": "promotion_rss",
-      "started_at": "2026-11-07T05:59:41.398429+00:00",
-      "finished_at": "2026-11-07T05:59:53.706855+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
-      "id": 44,
-      "source": "kvik_samples",
-      "started_at": "2026-11-07T05:59:38.032668+00:00",
-      "finished_at": "2026-11-07T05:59:41.393755+00:00",
-      "status": "ok",
-      "count": 1,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -4122,6 +4299,262 @@
     }
   ],
   "revisions": [
+    {
+      "id": 257,
+      "offer_id": "35721cf73b4c6dabe4604f1a",
+      "at": "2026-11-20T20:22:52.293454+00:00",
+      "payload": {
+        "id": "35721cf73b4c6dabe4604f1a",
+        "name": "Benefit · su joyero, dos productos y joyas de Singularu para 2 ganadores",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/benefit-sortea-su-joyero-dos-productos-y-joyas-de-singularu-para-2-ganadores.html",
+        "request_url": "https://regalosymuestrasgratis.com/benefit-sortea-su-joyero-dos-productos-y-joyas-de-singularu-para-2-ganadores.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-18T20:01:39+00:00",
+        "discovered_at": "2026-11-18T20:33:29.000363+00:00",
+        "checked_at": "2026-11-20T07:18:03.381349+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-20T07:18:03.381349+00:00",
+            "method": "public_rss",
+            "sha256": "4b10250b12ed476915c4737b48c70adf7bc9429640186312679bc449fce0ee2d",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/benefit-sortea-su-joyero-dos-productos-y-joyas-de-singularu-para-2-ganadores.html",
+            "checked_at": "2026-11-20T07:18:09.152975+00:00",
+            "method": "public_html",
+            "sha256": "c6e68935175e5e68f82686b89f2d61f1aa7a96f5a3e183e140dcc56ab9f2d598",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 256,
+      "offer_id": "e248a6afb46a6ec2ace143a9",
+      "at": "2026-11-20T20:22:52.291828+00:00",
+      "payload": {
+        "id": "e248a6afb46a6ec2ace143a9",
+        "name": "Lidl · un lote de juguetes de cocina de madera",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
+        "request_url": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-20T08:01:47+00:00",
+        "discovered_at": "2026-11-20T20:22:40.552033+00:00",
+        "checked_at": "2026-11-20T20:22:40.552033+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-20T20:22:40.552033+00:00",
+            "method": "public_rss",
+            "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
+            "checked_at": "2026-11-20T20:22:49.288240+00:00",
+            "method": "public_html",
+            "sha256": "8d8ff5c5f81d4100edb7b1b58c8f8aa6449cf17d29422c2d92a1af3843b3f044",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 255,
+      "offer_id": "1357b44c7525368514fb6f91",
+      "at": "2026-11-20T20:22:52.291452+00:00",
+      "payload": {
+        "id": "1357b44c7525368514fb6f91",
+        "name": "ALE-HOP · 10 calendarios de Adviento de calcetines",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "food",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
+        "request_url": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-20T16:01:39+00:00",
+        "discovered_at": "2026-11-20T20:22:40.550697+00:00",
+        "checked_at": "2026-11-20T20:22:40.550697+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-20T20:22:40.550697+00:00",
+            "method": "public_rss",
+            "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
+            "checked_at": "2026-11-20T20:22:46.286597+00:00",
+            "method": "public_html",
+            "sha256": "cb7bea83517f2b9f416646535e01e1ff05d0ec6252e5f0bee149c848940ff771",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 254,
+      "offer_id": "15c14c5ae0c0bdbd6300e7e7",
+      "at": "2026-11-20T20:22:52.290447+00:00",
+      "payload": {
+        "id": "15c14c5ae0c0bdbd6300e7e7",
+        "name": "Vidal Golosinas · 3 combos de GTA VI y Foamy Mix",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "food",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
+        "request_url": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-20T18:01:44+00:00",
+        "discovered_at": "2026-11-20T20:22:40.550211+00:00",
+        "checked_at": "2026-11-20T20:22:40.550211+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-20T20:22:40.550211+00:00",
+            "method": "public_rss",
+            "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
+            "checked_at": "2026-11-20T20:22:43.297966+00:00",
+            "method": "public_html",
+            "sha256": "99622dcdb32611741b8b5770571ae99c06e3e30e4b1565300c53d8bfa0f7d498",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
     {
       "id": 253,
       "offer_id": "f6e5a3d57532a058c515d605",
