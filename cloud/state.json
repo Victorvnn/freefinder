@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T20:22:52.308290+00:00",
-  "last_successful_scan": "2026-11-20T20:22:52.294264+00:00",
+  "generated_at": "2026-11-21T07:12:11.754297+00:00",
+  "last_successful_scan": "2026-11-21T07:12:11.738016+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -149,7 +149,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -162,17 +162,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -208,7 +208,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T16:01:39+00:00",
       "discovered_at": "2026-11-20T20:22:40.550697+00:00",
-      "checked_at": "2026-11-20T20:22:40.550697+00:00",
+      "checked_at": "2026-11-21T07:10:39.419865+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -221,17 +221,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-20T20:22:40.550697+00:00",
+          "checked_at": "2026-11-21T07:10:39.419865+00:00",
           "method": "public_rss",
-          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+          "sha256": "3816e5b46329cb0364a61a0265edd94e2ec45fdf3d488b403169f6d8e66ce771",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
-          "checked_at": "2026-11-20T20:22:46.286597+00:00",
+          "checked_at": "2026-11-21T07:10:45.211685+00:00",
           "method": "public_html",
-          "sha256": "cb7bea83517f2b9f416646535e01e1ff05d0ec6252e5f0bee149c848940ff771",
+          "sha256": "4a6318291b41bbdab8f7dd863b3b57f9f8306fba5fb5b493eb739a7ee076c331",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -326,7 +326,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T18:01:44+00:00",
       "discovered_at": "2026-11-20T20:22:40.550211+00:00",
-      "checked_at": "2026-11-20T20:22:40.550211+00:00",
+      "checked_at": "2026-11-21T07:10:39.419303+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -339,17 +339,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-20T20:22:40.550211+00:00",
+          "checked_at": "2026-11-21T07:10:39.419303+00:00",
           "method": "public_rss",
-          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+          "sha256": "3816e5b46329cb0364a61a0265edd94e2ec45fdf3d488b403169f6d8e66ce771",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
-          "checked_at": "2026-11-20T20:22:43.297966+00:00",
+          "checked_at": "2026-11-21T07:10:42.212159+00:00",
           "method": "public_html",
-          "sha256": "99622dcdb32611741b8b5770571ae99c06e3e30e4b1565300c53d8bfa0f7d498",
+          "sha256": "c155f4d71984102fd7b71ff5a7c2e1bfe7eb86480e5c1a4f9e0e826e45751ce3",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -620,7 +620,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -633,17 +633,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -678,7 +678,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -691,17 +691,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -736,7 +736,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -749,17 +749,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -853,7 +853,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -866,17 +866,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -911,7 +911,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -924,17 +924,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -970,7 +970,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:58:56.670841+00:00",
-      "checked_at": "2026-11-19T20:41:08.909139+00:00",
+      "checked_at": "2026-11-21T07:11:51.658764+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -981,17 +981,17 @@
         {
           "field": "price_stock",
           "source": "https://mgl-southasian.com/product/gospel-coin-gujarati/",
-          "checked_at": "2026-11-19T20:41:08.909139+00:00",
+          "checked_at": "2026-11-21T07:11:51.658764+00:00",
           "method": "public_html",
-          "sha256": "cc5d46d81350051919a0b11f27eda3c95ab1ad505b0d9d8526fd73cbd3e7183b",
+          "sha256": "b5efffd12afbd52cd4a4ca80c8be6a85318afdb15f1451c8a38dc38de427d13c",
           "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
         },
         {
           "field": "conditions",
           "source": "https://mgl-southasian.com/product-category/free-products/",
-          "checked_at": "2026-11-19T20:41:08.909139+00:00",
+          "checked_at": "2026-11-21T07:11:51.658764+00:00",
           "method": "public_html",
-          "sha256": "49c00a9dcac8f485d8bcc0922c4a5947f175c7c883c7d654e0511728136e75e3",
+          "sha256": "29ac2844788efa81ee6e31a9144d36ac197864af1906488e68c6606fd4236ced",
           "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
         }
       ],
@@ -1027,7 +1027,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1038,9 +1038,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1086,7 +1086,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:59:16.650491+00:00",
-      "checked_at": "2026-11-19T20:41:28.901407+00:00",
+      "checked_at": "2026-11-21T07:12:11.734395+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1097,17 +1097,17 @@
         {
           "field": "price_stock",
           "source": "https://mgl-southasian.com/product/gospel-coin-hungarian/",
-          "checked_at": "2026-11-19T20:41:28.901407+00:00",
+          "checked_at": "2026-11-21T07:12:11.734395+00:00",
           "method": "public_html",
-          "sha256": "f423f130e9fb4abc8aa621ffbd0afac1f0a1e0e44851b0136d4ed22fdccc0775",
+          "sha256": "d5de7258cea36d913c2e2573fb8aac64ad7e2963f546402ba3e3562246d03749",
           "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
         },
         {
           "field": "conditions",
           "source": "https://mgl-southasian.com/product-category/free-products/",
-          "checked_at": "2026-11-19T20:41:28.901407+00:00",
+          "checked_at": "2026-11-21T07:12:11.734395+00:00",
           "method": "public_html",
-          "sha256": "49c00a9dcac8f485d8bcc0922c4a5947f175c7c883c7d654e0511728136e75e3",
+          "sha256": "29ac2844788efa81ee6e31a9144d36ac197864af1906488e68c6606fd4236ced",
           "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
         }
       ],
@@ -1142,7 +1142,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1155,17 +1155,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1201,7 +1201,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1212,9 +1212,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1378,7 +1378,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1389,9 +1389,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1495,7 +1495,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1508,17 +1508,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1553,7 +1553,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1566,17 +1566,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1611,7 +1611,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1624,17 +1624,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -1670,7 +1670,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1681,9 +1681,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1788,7 +1788,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1799,9 +1799,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -1847,7 +1847,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -1858,9 +1858,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -2201,7 +2201,7 @@
       "ends_at": null,
       "published_at": "2026-11-19T11:53:04+00:00",
       "discovered_at": "2026-11-19T20:40:02.501458+00:00",
-      "checked_at": "2026-11-20T20:22:40.553555+00:00",
+      "checked_at": "2026-11-21T07:10:39.423343+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2214,17 +2214,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-20T20:22:40.553555+00:00",
+          "checked_at": "2026-11-21T07:10:39.423343+00:00",
           "method": "public_rss",
-          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+          "sha256": "3816e5b46329cb0364a61a0265edd94e2ec45fdf3d488b403169f6d8e66ce771",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/lancome-sortea-un-calendario-de-adviento-2026-con-24-productos.html",
-          "checked_at": "2026-11-20T20:22:52.287928+00:00",
+          "checked_at": "2026-11-21T07:10:51.213695+00:00",
           "method": "public_html",
-          "sha256": "9177d96659ae395c230549ede2f0e40268fe47b5e0588f32dc73ba05079bd333",
+          "sha256": "a214ed55ce74c61d08eeaf93acffcf4a918f80fc53361ff561d74de5d2d3b1e1",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2614,7 +2614,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:58:36.636901+00:00",
-      "checked_at": "2026-11-19T20:40:48.896785+00:00",
+      "checked_at": "2026-11-21T07:11:31.686464+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2625,17 +2625,17 @@
         {
           "field": "price_stock",
           "source": "https://mgl-southasian.com/product/gospel-coin-greek/",
-          "checked_at": "2026-11-19T20:40:48.896785+00:00",
+          "checked_at": "2026-11-21T07:11:31.686464+00:00",
           "method": "public_html",
-          "sha256": "c09dba2c67a2962f8a3c30d806e0c3ddc3ec005b76a94824e0eac12d2fefbc4e",
+          "sha256": "6c9c5cb6e1a50df78ccd5812139fbd55b71afdf5fe5f827372603ae39977a7cd",
           "note": "Complete physical outreach coin, zero numeric price, in-stock marker and order action observed."
         },
         {
           "field": "conditions",
           "source": "https://mgl-southasian.com/product-category/free-products/",
-          "checked_at": "2026-11-19T20:40:48.896785+00:00",
+          "checked_at": "2026-11-21T07:11:31.686464+00:00",
           "method": "public_html",
-          "sha256": "49c00a9dcac8f485d8bcc0922c4a5947f175c7c883c7d654e0511728136e75e3",
+          "sha256": "29ac2844788efa81ee6e31a9144d36ac197864af1906488e68c6606fd4236ced",
           "note": "Free grant catalog: quantities may be limited and intended-use explanation requested. No shipping promise."
         }
       ],
@@ -2789,7 +2789,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2800,9 +2800,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -2847,7 +2847,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2860,17 +2860,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -2905,7 +2905,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:28.441015+00:00",
-      "checked_at": "2026-11-19T20:39:55.795877+00:00",
+      "checked_at": "2026-11-21T07:10:32.947438+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2916,9 +2916,9 @@
         {
           "field": "conditions",
           "source": "https://www.kvik.es/",
-          "checked_at": "2026-11-19T20:39:55.795877+00:00",
+          "checked_at": "2026-11-21T07:10:32.947438+00:00",
           "method": "public_html",
-          "sha256": "eb44ed80a66741cb6ad95889e8d77b95914d9b0b8710717a215a66b36f10d635",
+          "sha256": "9e22038392d26019f377530b9e115620bae0f7318e51f935edead0e1437f8b00",
           "note": "Matched named physical colour samples, free claim, home delivery and request card; no form submitted."
         }
       ],
@@ -2954,7 +2954,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -2965,9 +2965,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         },
         {
@@ -3013,7 +3013,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T08:01:47+00:00",
       "discovered_at": "2026-11-20T20:22:40.552033+00:00",
-      "checked_at": "2026-11-20T20:22:40.552033+00:00",
+      "checked_at": "2026-11-21T07:10:39.421278+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -3026,17 +3026,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-20T20:22:40.552033+00:00",
+          "checked_at": "2026-11-21T07:10:39.421278+00:00",
           "method": "public_rss",
-          "sha256": "39148ec85f2e05960cfdc8d78fcdbdcc667ff72d84b8e06ed528219a3bcf3a89",
+          "sha256": "3816e5b46329cb0364a61a0265edd94e2ec45fdf3d488b403169f6d8e66ce771",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
-          "checked_at": "2026-11-20T20:22:49.288240+00:00",
+          "checked_at": "2026-11-21T07:10:48.591876+00:00",
           "method": "public_html",
-          "sha256": "8d8ff5c5f81d4100edb7b1b58c8f8aa6449cf17d29422c2d92a1af3843b3f044",
+          "sha256": "b80de25e6ed996e767cde7e9f4a9569e5c1cde928eab48ba49213d3650a022c9",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3072,7 +3072,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:51:27.457044+00:00",
-      "checked_at": "2026-11-19T20:39:45.714455+00:00",
+      "checked_at": "2026-11-21T07:10:23.156685+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -3083,9 +3083,9 @@
         {
           "field": "conditions",
           "source": "https://www.agrisera.com/en/info/educational-posters.html",
-          "checked_at": "2026-11-19T20:39:45.714455+00:00",
+          "checked_at": "2026-11-21T07:10:23.156685+00:00",
           "method": "public_html",
-          "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+          "sha256": "2bba3ec5accf5c81d7398530aa3c63b32450380808d63c93469eaa15c5b0ae39",
           "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
         }
       ],
@@ -3297,7 +3297,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-02T07:57:24.989908+00:00",
-      "checked_at": "2026-11-19T20:39:52.227799+00:00",
+      "checked_at": "2026-11-21T07:10:29.580556+00:00",
       "status": "conditional",
       "purchase_required": false,
       "keepable": true,
@@ -3310,17 +3310,17 @@
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/fabrics",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "dfae4f7d7e8c387c2bfb3848c10d8b3484cf56aef9b74ea0b2e5ac04cd166286",
+          "sha256": "6b8ffea66ecbc8c3ec94deeae150a39ccf3720418f9dad8182fbe4634a2700b6",
           "note": "Individual catalog cards advertise a free physical fabric sample; stock and request not tested."
         },
         {
           "field": "conditions",
           "source": "https://bemz.com/es-es/information/terminos-y-condiciones",
-          "checked_at": "2026-11-19T20:39:52.227799+00:00",
+          "checked_at": "2026-11-21T07:10:29.580556+00:00",
           "method": "public_html",
-          "sha256": "d27935c5a845cc0f84e8b3b96c62a45d90e83804f90773e2053257be1a83f72e",
+          "sha256": "d5128dc87a62710ce7ff2cb18940bf0558b224cb64cac36c8678c8adb9a084f4",
           "note": "Terms allow three samples without charge; catalog advertises five. Personal noncommercial metadata use only."
         }
       ],
@@ -3388,6 +3388,60 @@
     }
   ],
   "runs": [
+    {
+      "id": 151,
+      "source": "mgl_zero_products",
+      "started_at": "2026-11-21T07:10:51.219731+00:00",
+      "finished_at": "2026-11-21T07:12:11.738016+00:00",
+      "status": "ok",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": 150,
+      "source": "promotion_rss",
+      "started_at": "2026-11-21T07:10:32.953253+00:00",
+      "finished_at": "2026-11-21T07:10:51.217938+00:00",
+      "status": "ok",
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": 149,
+      "source": "kvik_samples",
+      "started_at": "2026-11-21T07:10:29.598087+00:00",
+      "finished_at": "2026-11-21T07:10:32.951322+00:00",
+      "status": "ok",
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": 148,
+      "source": "bemz_samples",
+      "started_at": "2026-11-21T07:10:23.256969+00:00",
+      "finished_at": "2026-11-21T07:10:29.595977+00:00",
+      "status": "ok",
+      "count": 12,
+      "error": null
+    },
+    {
+      "id": 147,
+      "source": "agrisera_posters",
+      "started_at": "2026-11-21T07:10:19.390511+00:00",
+      "finished_at": "2026-11-21T07:10:23.254636+00:00",
+      "status": "ok",
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": 146,
+      "source": "usgs_education",
+      "started_at": "2026-11-21T07:09:59.316211+00:00",
+      "finished_at": "2026-11-21T07:10:19.386914+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "ReadTimeout"
+    },
     {
       "id": 145,
       "source": "promotion_rss",
@@ -4235,60 +4289,6 @@
       "error": "ReadTimeout"
     },
     {
-      "id": 51,
-      "source": "promotion_rss",
-      "started_at": "2026-11-07T21:53:04.131970+00:00",
-      "finished_at": "2026-11-07T21:53:19.653555+00:00",
-      "status": "ok",
-      "count": 3,
-      "error": null
-    },
-    {
-      "id": 50,
-      "source": "usgs_education",
-      "started_at": "2026-11-07T21:52:23.081187+00:00",
-      "finished_at": "2026-11-07T21:53:04.111739+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
-      "id": 49,
-      "source": "promotion_rss",
-      "started_at": "2026-11-07T13:03:27.631048+00:00",
-      "finished_at": "2026-11-07T13:03:40.054670+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
-      "id": 48,
-      "source": "agrisera_posters",
-      "started_at": "2026-11-07T13:03:23.412585+00:00",
-      "finished_at": "2026-11-07T13:03:27.601443+00:00",
-      "status": "ok",
-      "count": 9,
-      "error": null
-    },
-    {
-      "id": 47,
-      "source": "usgs_education",
-      "started_at": "2026-11-07T13:02:43.075720+00:00",
-      "finished_at": "2026-11-07T13:03:23.278697+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
-      "id": 46,
-      "source": "mgl_zero_products",
-      "started_at": "2026-11-07T05:59:53.709148+00:00",
-      "finished_at": "2026-11-07T06:01:14.362697+00:00",
-      "status": "ok",
-      "count": 3,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -4299,6 +4299,518 @@
     }
   ],
   "revisions": [
+    {
+      "id": 265,
+      "offer_id": "64b0c07a88cb37781ad9e05a",
+      "at": "2026-11-21T07:10:23.253029+00:00",
+      "payload": {
+        "id": "64b0c07a88cb37781ad9e05a",
+        "name": "Poster 9: Western Blotting",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-9-Western-blotting-updated-2025-05.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-9-Western-blotting-updated-2025-05.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/29086685",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Joanna Porankiewicz-Asplund · Dmitry Shevela · Agrisera · 10.6084/m9.figshare.29086685.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 264,
+      "offer_id": "974086a3774f136218119eb0",
+      "at": "2026-11-21T07:10:23.252317+00:00",
+      "payload": {
+        "id": "974086a3774f136218119eb0",
+        "name": "Poster 7: Plant Argonautes",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-7-Plant-Argonautes-Protein-Effectors-of-Small-RNAs.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24006819",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · Nicolas Bologna · Rebecca Mosher · Agrisera · 10.6084/m9.figshare.24006819.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 263,
+      "offer_id": "e022cc3114e2f2be5dfcb045",
+      "at": "2026-11-21T07:10:23.251908+00:00",
+      "payload": {
+        "id": "e022cc3114e2f2be5dfcb045",
+        "name": "Poster 6: Plant small RNAs",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-6-Plant-Small-RNAs-Biogenesis-and-Functions.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/21186073",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Blake C. Meyers · Junpeng Zhan · Dmitry Shevela · R. Keith Slotkin · Agrisera · 10.6084/m9.figshare.21186073.v1",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 262,
+      "offer_id": "c33a5b95831d841c23614c82",
+      "at": "2026-11-21T07:10:23.251450+00:00",
+      "payload": {
+        "id": "c33a5b95831d841c23614c82",
+        "name": "Poster 5: Photosystem II",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-5-Photosystem-II-Enzyme-That-Gives-Us-Molecular-Oxygen-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/14802924",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Jan F. Kern · John Whitmarsh · Johannes Messinger · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14802924.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 261,
+      "offer_id": "9b59fe1140da173ba5916094",
+      "at": "2026-11-21T07:10:23.250998+00:00",
+      "payload": {
+        "id": "9b59fe1140da173ba5916094",
+        "name": "Poster 4: Rubisco",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-4-Rubisco-An-Enzyme-of-Global-Importance-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24061755",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Manajit Hayer-Hartl · Inger Andersson · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24061755.v2",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 260,
+      "offer_id": "571705d4ccdd2353115c3251",
+      "at": "2026-11-21T07:10:23.250526+00:00",
+      "payload": {
+        "id": "571705d4ccdd2353115c3251",
+        "name": "Poster 3: Photosynthesis and Respiration",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-3-Photosynthesis-and-Respiration-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/14794281",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.14794281.v6",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 259,
+      "offer_id": "9a0ff7004dac2b767d8f1024",
+      "at": "2026-11-21T07:10:23.249984+00:00",
+      "payload": {
+        "id": "9a0ff7004dac2b767d8f1024",
+        "name": "Poster 2: Z-Scheme",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-2-Z-Scheme-of-Electron-Transport-in-Photosynthesis-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24045549",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Lars Olof Björn · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24045549.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": 258,
+      "offer_id": "486c5e566bdc71f122e1c62b",
+      "at": "2026-11-21T07:10:23.248604+00:00",
+      "payload": {
+        "id": "486c5e566bdc71f122e1c62b",
+        "name": "Poster 1: Oxygenic Photosynthesis",
+        "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
+        "brand": "Agrisera",
+        "category": "office",
+        "platform": "Agrisera",
+        "url": "https://www.agrisera.com/dokument/bibliotek/File/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.pdf",
+        "request_url": "https://www.agrisera.com/en/info/educational-posters.html",
+        "image_url": "https://www.agrisera.com/dokument/bibliotek/Image/Agrisera-Poster-1-Oxygenic-Photosynthesis-updated-2024-12.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "EUR",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "La página exige suscribirse al boletín para solicitar ejemplares impresos.",
+          "Disponibilidad de cada ejemplar y transporte pendientes de confirmar.",
+          "El enlace de referencia es el PDF del póster; Ver oferta abre las instrucciones de solicitud física."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:51:27.457044+00:00",
+        "checked_at": "2026-11-19T20:39:45.714455+00:00",
+        "status": "conditional",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.4,
+        "rejection_reason": null,
+        "risk_reasons": [],
+        "evidence": [
+          {
+            "field": "conditions",
+            "source": "https://www.agrisera.com/en/info/educational-posters.html",
+            "checked_at": "2026-11-19T20:39:45.714455+00:00",
+            "method": "public_html",
+            "sha256": "17e6cbe023d9bc153ae7b6c63f188adb8b149ce6c0f169ec3408af836ad94b05",
+            "note": "La página ofrece hard copies free of charge con suscripción al boletín; no se confirma solicitud, porte ni stock individual."
+          },
+          {
+            "field": "image_license",
+            "source": "https://api.figshare.com/v2/articles/24039480",
+            "checked_at": "2026-11-01T19:50:52.608805+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "agrisera_posters",
+        "source_status": "current",
+        "image_credit": "Dmitry Shevela · Govindjee Govindjee · Agrisera · 10.6084/m9.figshare.24039480.v3",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
     {
       "id": 257,
       "offer_id": "35721cf73b4c6dabe4604f1a",
