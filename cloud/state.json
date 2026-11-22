@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T19:18:17.589111+00:00",
-  "last_successful_scan": "2026-11-21T19:18:17.272615+00:00",
+  "generated_at": "2026-11-22T06:49:47.355386+00:00",
+  "last_successful_scan": "2026-11-22T06:49:47.330979+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -208,7 +208,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T16:01:39+00:00",
       "discovered_at": "2026-11-20T20:22:40.550697+00:00",
-      "checked_at": "2026-11-21T19:18:08.568003+00:00",
+      "checked_at": "2026-11-22T06:49:35.678562+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -221,17 +221,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-21T19:18:08.568003+00:00",
+          "checked_at": "2026-11-22T06:49:35.678562+00:00",
           "method": "public_rss",
-          "sha256": "bece2253cc879b8001c1fe039dea25edfaeb649f43eda256ff7c6f65ee70073d",
+          "sha256": "15a077f853e2df92533ca2ec8586b25b9fdf5fdd71a1e6d2c2f0907ce5684878",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
-          "checked_at": "2026-11-21T19:18:14.262199+00:00",
+          "checked_at": "2026-11-22T06:49:44.325912+00:00",
           "method": "public_html",
-          "sha256": "52d9029040a2024e853809f6ec885468e12686f53d853873c4e08cba08d1e053",
+          "sha256": "a30e3cd8753d7f30099b7b5ad73dabdc7c0e604327632affb877b2ec9c8d0534",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -326,7 +326,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T18:01:44+00:00",
       "discovered_at": "2026-11-20T20:22:40.550211+00:00",
-      "checked_at": "2026-11-21T19:18:08.567403+00:00",
+      "checked_at": "2026-11-22T06:49:35.677721+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -339,17 +339,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-21T19:18:08.567403+00:00",
+          "checked_at": "2026-11-22T06:49:35.677721+00:00",
           "method": "public_rss",
-          "sha256": "bece2253cc879b8001c1fe039dea25edfaeb649f43eda256ff7c6f65ee70073d",
+          "sha256": "15a077f853e2df92533ca2ec8586b25b9fdf5fdd71a1e6d2c2f0907ce5684878",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
-          "checked_at": "2026-11-21T19:18:11.267640+00:00",
+          "checked_at": "2026-11-22T06:49:41.324576+00:00",
           "method": "public_html",
-          "sha256": "ca99b18b2648c83146dad5585e5f38eec9aa9d9236bb8790f9dac7dd836a9a3f",
+          "sha256": "2bb9be6a9b032cb7b55abd6a8ca093be4b9c552396430d8413cdf3cd1a3bf52a",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1931,7 +1931,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -2527,6 +2527,65 @@
       "source_status": "missing"
     },
     {
+      "id": "ba5c6dbcc25a2e7872c9571c",
+      "name": "bonÀrea · 1 año de Netflix y 1 año de caldos y cremas bonÀrea",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/bonarea-sortea-1-ano-de-netflix-y-1-ano-de-caldos-y-cremas-bonarea.html",
+      "request_url": "https://regalosymuestrasgratis.com/bonarea-sortea-1-ano-de-netflix-y-1-ano-de-caldos-y-cremas-bonarea.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-21T20:01:10+00:00",
+      "discovered_at": "2026-11-22T06:49:35.674209+00:00",
+      "checked_at": "2026-11-22T06:49:35.674209+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-22T06:49:35.674209+00:00",
+          "method": "public_rss",
+          "sha256": "15a077f853e2df92533ca2ec8586b25b9fdf5fdd71a1e6d2c2f0907ce5684878",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/bonarea-sortea-1-ano-de-netflix-y-1-ano-de-caldos-y-cremas-bonarea.html",
+          "checked_at": "2026-11-22T06:49:38.345292+00:00",
+          "method": "public_html",
+          "sha256": "3c8f60414d0126ea1c09a329b16c0fed099b8fc7fa76c9cba7b51ed0125eba4c",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "bdcb7b1aeedfabd55b52c3c7",
       "name": "Guaw · 6 packs sorpresa para tu mascota por su 6º aniversario",
       "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
@@ -3013,7 +3072,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T08:01:47+00:00",
       "discovered_at": "2026-11-20T20:22:40.552033+00:00",
-      "checked_at": "2026-11-21T19:18:08.569495+00:00",
+      "checked_at": "2026-11-22T06:49:35.680891+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -3026,17 +3085,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-21T19:18:08.569495+00:00",
+          "checked_at": "2026-11-22T06:49:35.680891+00:00",
           "method": "public_rss",
-          "sha256": "bece2253cc879b8001c1fe039dea25edfaeb649f43eda256ff7c6f65ee70073d",
+          "sha256": "15a077f853e2df92533ca2ec8586b25b9fdf5fdd71a1e6d2c2f0907ce5684878",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/lidl-sortea-un-lote-de-juguetes-de-cocina-de-madera.html",
-          "checked_at": "2026-11-21T19:18:17.268325+00:00",
+          "checked_at": "2026-11-22T06:49:47.322555+00:00",
           "method": "public_html",
-          "sha256": "87ffc3fffe1f37c502844ac31537cf104a80975199e4793c304214edeb78d359",
+          "sha256": "0664e4d7b8b644d40600e27b22272b7419242782d78e8c8679616891fec7aaa5",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3205,7 +3264,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -3388,6 +3447,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 155,
+      "source": "promotion_rss",
+      "started_at": "2026-11-22T06:49:28.747630+00:00",
+      "finished_at": "2026-11-22T06:49:47.330979+00:00",
+      "status": "ok",
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": 154,
+      "source": "usgs_education",
+      "started_at": "2026-11-22T06:49:08.667120+00:00",
+      "finished_at": "2026-11-22T06:49:28.741913+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "ReadTimeout"
+    },
     {
       "id": 153,
       "source": "promotion_rss",
@@ -4271,24 +4348,6 @@
       "error": null
     },
     {
-      "id": 55,
-      "source": "promotion_rss",
-      "started_at": "2026-11-08T06:02:54.812935+00:00",
-      "finished_at": "2026-11-08T06:03:10.443588+00:00",
-      "status": "ok",
-      "count": 3,
-      "error": null
-    },
-    {
-      "id": 54,
-      "source": "kvik_samples",
-      "started_at": "2026-11-08T06:02:51.403367+00:00",
-      "finished_at": "2026-11-08T06:02:54.809668+00:00",
-      "status": "ok",
-      "count": 1,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -4299,6 +4358,198 @@
     }
   ],
   "revisions": [
+    {
+      "id": 271,
+      "offer_id": "ba5c6dbcc25a2e7872c9571c",
+      "at": "2026-11-22T06:49:47.324035+00:00",
+      "payload": {
+        "id": "ba5c6dbcc25a2e7872c9571c",
+        "name": "bonÀrea · 1 año de Netflix y 1 año de caldos y cremas bonÀrea",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/bonarea-sortea-1-ano-de-netflix-y-1-ano-de-caldos-y-cremas-bonarea.html",
+        "request_url": "https://regalosymuestrasgratis.com/bonarea-sortea-1-ano-de-netflix-y-1-ano-de-caldos-y-cremas-bonarea.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-21T20:01:10+00:00",
+        "discovered_at": "2026-11-22T06:49:35.674209+00:00",
+        "checked_at": "2026-11-22T06:49:35.674209+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-22T06:49:35.674209+00:00",
+            "method": "public_rss",
+            "sha256": "15a077f853e2df92533ca2ec8586b25b9fdf5fdd71a1e6d2c2f0907ce5684878",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/bonarea-sortea-1-ano-de-netflix-y-1-ano-de-caldos-y-cremas-bonarea.html",
+            "checked_at": "2026-11-22T06:49:38.345292+00:00",
+            "method": "public_html",
+            "sha256": "3c8f60414d0126ea1c09a329b16c0fed099b8fc7fa76c9cba7b51ed0125eba4c",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 270,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-22T06:49:28.739057+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-21T19:17:16.595090+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-21T19:17:16.595090+00:00",
+            "method": "public_html",
+            "sha256": "edbf42a336fe887d40e606d337dbca9dc0a09c7d9b3d55a937c576bf1d43b4f6",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 269,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-22T06:49:28.738935+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-21T19:17:13.231406+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-21T19:17:13.231406+00:00",
+            "method": "public_html",
+            "sha256": "709ec27767339eaa9c885c52e133cf89e5ddba136b4dc76ebdbfec18218a4823",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 268,
       "offer_id": "b064641c1800ca068b7aaa33",
