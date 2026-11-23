@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T19:44:29.498457+00:00",
-  "last_successful_scan": "2026-11-22T19:44:29.479218+00:00",
+  "generated_at": "2026-11-23T07:41:42.023805+00:00",
+  "last_successful_scan": "2026-11-23T07:41:42.000741+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -208,7 +208,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T16:01:39+00:00",
       "discovered_at": "2026-11-20T20:22:40.550697+00:00",
-      "checked_at": "2026-11-22T19:43:00.133642+00:00",
+      "checked_at": "2026-11-23T07:41:30.190495+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -221,17 +221,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-22T19:43:00.133642+00:00",
+          "checked_at": "2026-11-23T07:41:30.190495+00:00",
           "method": "public_rss",
-          "sha256": "20f8448060c6760ca76fd496439e4065977484ff8c3c9816017da6f8a0e0d62f",
+          "sha256": "0d7d19f9a6bca9ef550231ac4287c962d2f5b7646bc6011b459d436d5f329f87",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/ale-hop-sortea-10-calendarios-de-adviento-de-calcetines.html",
-          "checked_at": "2026-11-22T19:43:08.732071+00:00",
+          "checked_at": "2026-11-23T07:41:41.992559+00:00",
           "method": "public_html",
-          "sha256": "2807490282533a1ad7b0336206e5f45697c197ace87c104aed3d654bfd04ec52",
+          "sha256": "5d47a1b467804789bd70b6986725cf51df6724fea4a408e7bbd1c30279a3346a",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -326,7 +326,7 @@
       "ends_at": null,
       "published_at": "2026-11-20T18:01:44+00:00",
       "discovered_at": "2026-11-20T20:22:40.550211+00:00",
-      "checked_at": "2026-11-22T19:43:00.132969+00:00",
+      "checked_at": "2026-11-23T07:41:30.190041+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -339,17 +339,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-22T19:43:00.132969+00:00",
+          "checked_at": "2026-11-23T07:41:30.190041+00:00",
           "method": "public_rss",
-          "sha256": "20f8448060c6760ca76fd496439e4065977484ff8c3c9816017da6f8a0e0d62f",
+          "sha256": "0d7d19f9a6bca9ef550231ac4287c962d2f5b7646bc6011b459d436d5f329f87",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/vidal-golosinas-sortea-3-combos-de-gta-vi-y-foamy-mix.html",
-          "checked_at": "2026-11-22T19:43:05.726514+00:00",
+          "checked_at": "2026-11-23T07:41:38.991013+00:00",
           "method": "public_html",
-          "sha256": "c8a482f795f216a8a73ae45208c78b74a0571a558f12d177eecdfd71572c538f",
+          "sha256": "e7198d56c73a31a6f60217b103c13f9574b4b100e85949bd7c189633819f7507",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1584,6 +1584,65 @@
       "source_status": "current"
     },
     {
+      "id": "8f0ad2d16d4881c2898de8d0",
+      "name": "Club Vanguardia · 5 calendarios de Adviento de Lindt",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "food",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+      "request_url": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-22T20:01:54+00:00",
+      "discovered_at": "2026-11-23T07:41:30.186660+00:00",
+      "checked_at": "2026-11-23T07:41:30.186660+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-23T07:41:30.186660+00:00",
+          "method": "public_rss",
+          "sha256": "0d7d19f9a6bca9ef550231ac4287c962d2f5b7646bc6011b459d436d5f329f87",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+          "checked_at": "2026-11-23T07:41:32.986017+00:00",
+          "method": "public_html",
+          "sha256": "6cbd30d119e205b562e2a5d034a15b2873a6e5a6d230e137ed3fe43055285685",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "90d2e319928187bd3950426f",
       "name": "Muestra de tela: Jacquard Bouclé Damask Black Oyster/Chocolate",
       "description": "Muestra física de tejido anunciada gratuitamente por Bemz. Solicitud y existencias no comprobadas.",
@@ -1904,7 +1963,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-22T19:42:00.969136+00:00",
+      "checked_at": "2026-11-23T07:40:52.400036+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -1917,9 +1976,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-22T19:42:00.969136+00:00",
+          "checked_at": "2026-11-23T07:40:52.400036+00:00",
           "method": "public_html",
-          "sha256": "c47e53ec065f473cb2d73336abed921a10730ae704e6afcab46c275278654236",
+          "sha256": "c2a7d3508dc7f63ac5afac22f80097026c94e7a24fe9f56d593b0f07344d7b1f",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2555,7 +2614,7 @@
       "ends_at": null,
       "published_at": "2026-11-21T20:01:10+00:00",
       "discovered_at": "2026-11-22T06:49:35.674209+00:00",
-      "checked_at": "2026-11-22T19:43:00.130940+00:00",
+      "checked_at": "2026-11-23T07:41:30.188453+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2568,17 +2627,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-22T19:43:00.130940+00:00",
+          "checked_at": "2026-11-23T07:41:30.188453+00:00",
           "method": "public_rss",
-          "sha256": "20f8448060c6760ca76fd496439e4065977484ff8c3c9816017da6f8a0e0d62f",
+          "sha256": "0d7d19f9a6bca9ef550231ac4287c962d2f5b7646bc6011b459d436d5f329f87",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/bonarea-sortea-1-ano-de-netflix-y-1-ano-de-caldos-y-cremas-bonarea.html",
-          "checked_at": "2026-11-22T19:43:02.727164+00:00",
+          "checked_at": "2026-11-23T07:41:36.326015+00:00",
           "method": "public_html",
-          "sha256": "910c2025c65c022bc2aa0993d53d8211d128fb32ea629ba912f7d48cadd09954",
+          "sha256": "35e5829f3d67247df0868268fea8607a48a59fc166f298937fb4bd414f7dab56",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3237,7 +3296,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-22T19:42:04.348073+00:00",
+      "checked_at": "2026-11-23T07:40:55.386318+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -3250,9 +3309,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-22T19:42:04.348073+00:00",
+          "checked_at": "2026-11-23T07:40:55.386318+00:00",
           "method": "public_html",
-          "sha256": "26a9bb0b519c36e9f665c04774b1eba3c7f16e45e5b58ed1b57a5d1ffcdb1343",
+          "sha256": "2ba9244b7feb719f650bbc51d94ddabf154b138df629bc5e7bc56fe7071308e6",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -3447,6 +3506,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 163,
+      "source": "promotion_rss",
+      "started_at": "2026-11-23T07:41:23.684001+00:00",
+      "finished_at": "2026-11-23T07:41:42.000741+00:00",
+      "status": "ok",
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": 162,
+      "source": "usgs_education",
+      "started_at": "2026-11-23T07:40:43.044990+00:00",
+      "finished_at": "2026-11-23T07:41:23.677220+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 161,
       "source": "mgl_zero_products",
@@ -4330,24 +4407,6 @@
       "error": null
     },
     {
-      "id": 63,
-      "source": "bemz_samples",
-      "started_at": "2026-11-09T06:32:23.159428+00:00",
-      "finished_at": "2026-11-09T06:32:29.797643+00:00",
-      "status": "ok",
-      "count": 12,
-      "error": null
-    },
-    {
-      "id": 62,
-      "source": "usgs_education",
-      "started_at": "2026-11-09T06:32:02.845834+00:00",
-      "finished_at": "2026-11-09T06:32:23.148415+00:00",
-      "status": "error",
-      "count": 0,
-      "error": "ReadTimeout"
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -4358,6 +4417,70 @@
     }
   ],
   "revisions": [
+    {
+      "id": 283,
+      "offer_id": "8f0ad2d16d4881c2898de8d0",
+      "at": "2026-11-23T07:41:41.993708+00:00",
+      "payload": {
+        "id": "8f0ad2d16d4881c2898de8d0",
+        "name": "Club Vanguardia · 5 calendarios de Adviento de Lindt",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "food",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+        "request_url": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-22T20:01:54+00:00",
+        "discovered_at": "2026-11-23T07:41:30.186660+00:00",
+        "checked_at": "2026-11-23T07:41:30.186660+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-23T07:41:30.186660+00:00",
+            "method": "public_rss",
+            "sha256": "0d7d19f9a6bca9ef550231ac4287c962d2f5b7646bc6011b459d436d5f329f87",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+            "checked_at": "2026-11-23T07:41:32.986017+00:00",
+            "method": "public_html",
+            "sha256": "6cbd30d119e205b562e2a5d034a15b2873a6e5a6d230e137ed3fe43055285685",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
     {
       "id": 282,
       "offer_id": "e248a6afb46a6ec2ace143a9",
