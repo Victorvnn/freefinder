@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T09:56:23.583771+00:00",
-  "last_successful_scan": "2026-11-24T09:56:23.560137+00:00",
+  "generated_at": "2026-11-24T22:27:57.529272+00:00",
+  "last_successful_scan": "2026-11-24T22:27:57.505871+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -1437,7 +1437,7 @@
       "ends_at": null,
       "published_at": "2026-11-23T18:01:33+00:00",
       "discovered_at": "2026-11-23T23:55:50.035551+00:00",
-      "checked_at": "2026-11-24T09:56:11.961095+00:00",
+      "checked_at": "2026-11-24T22:27:45.768330+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1450,17 +1450,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-24T09:56:11.961095+00:00",
+          "checked_at": "2026-11-24T22:27:45.768330+00:00",
           "method": "public_rss",
-          "sha256": "86777ea52b4346b6bb36c361ae8f3a094079bb10611705ddc5b136e6b7ed923e",
+          "sha256": "89cdcdcbe8d7ece6431bcdb48b72642ae78ab9db4ba0fd5070e9bcfd3ba1e62a",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/promofarma-sortea-un-calendario-de-adviento-de-300-e.html",
-          "checked_at": "2026-11-24T09:56:17.558454+00:00",
+          "checked_at": "2026-11-24T22:27:54.498425+00:00",
           "method": "public_html",
-          "sha256": "53dd97490be1582425eea8ff942ca5ca0017e126a9d8dfb6b32ba218a3494903",
+          "sha256": "dc84c6e0fb6ef902d0e4e86027298498a3a216a3082221484f0fc079581cf348",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -1699,7 +1699,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "90d2e319928187bd3950426f",
@@ -2049,7 +2049,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -2732,7 +2732,7 @@
       "ends_at": null,
       "published_at": "2026-11-23T19:01:35+00:00",
       "discovered_at": "2026-11-23T23:55:50.035012+00:00",
-      "checked_at": "2026-11-24T09:56:11.960276+00:00",
+      "checked_at": "2026-11-24T22:27:45.767755+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2745,17 +2745,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-24T09:56:11.960276+00:00",
+          "checked_at": "2026-11-24T22:27:45.767755+00:00",
           "method": "public_rss",
-          "sha256": "86777ea52b4346b6bb36c361ae8f3a094079bb10611705ddc5b136e6b7ed923e",
+          "sha256": "89cdcdcbe8d7ece6431bcdb48b72642ae78ab9db4ba0fd5070e9bcfd3ba1e62a",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/penguin-libros-sortea-5-calendarios-de-adviento-con-24-adornos-navidenos.html",
-          "checked_at": "2026-11-24T09:56:14.558167+00:00",
+          "checked_at": "2026-11-24T22:27:51.500356+00:00",
           "method": "public_html",
-          "sha256": "580914a007770a17af9a8dc92cc725f7f1fb380ee1362ea7fbb3e51618ddd0c1",
+          "sha256": "796be0d86ea87ba70eea94f9cd18d5dd208ae3393341449f702bfa0dd6fd5b04",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3280,6 +3280,65 @@
       "source_status": "missing"
     },
     {
+      "id": "e29cf5b49dce4b452d704961",
+      "name": "Mujerhoy · 20 productos premiados en un único lote",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
+      "request_url": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-24T14:01:04+00:00",
+      "discovered_at": "2026-11-24T22:27:45.765326+00:00",
+      "checked_at": "2026-11-24T22:27:45.765326+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-24T22:27:45.765326+00:00",
+          "method": "public_rss",
+          "sha256": "89cdcdcbe8d7ece6431bcdb48b72642ae78ab9db4ba0fd5070e9bcfd3ba1e62a",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
+          "checked_at": "2026-11-24T22:27:48.500779+00:00",
+          "method": "public_html",
+          "sha256": "c25abfcb08703e8e5c7e3635f663badd35b53b7c28334452ac365657aaa71b65",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
+    },
+    {
       "id": "e54f48ff9fe7422976657a7c",
       "name": "Poster 8: Protein Extraction",
       "description": "Póster impreso educativo anunciado sin coste del producto. La página ofrece solicitar copias al suscribirse al boletín. No se ha realizado una solicitud.",
@@ -3357,7 +3416,7 @@
       "ends_at": null,
       "published_at": "2026-11-23T14:33:45+00:00",
       "discovered_at": "2026-11-23T23:55:50.036131+00:00",
-      "checked_at": "2026-11-24T09:56:11.961780+00:00",
+      "checked_at": "2026-11-24T22:27:45.768881+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -3370,17 +3429,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-24T09:56:11.961780+00:00",
+          "checked_at": "2026-11-24T22:27:45.768881+00:00",
           "method": "public_rss",
-          "sha256": "86777ea52b4346b6bb36c361ae8f3a094079bb10611705ddc5b136e6b7ed923e",
+          "sha256": "89cdcdcbe8d7ece6431bcdb48b72642ae78ab9db4ba0fd5070e9bcfd3ba1e62a",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/orsadin-inmun-envia-800-muestras-gratis.html",
-          "checked_at": "2026-11-24T09:56:20.558623+00:00",
+          "checked_at": "2026-11-24T22:27:57.498538+00:00",
           "method": "public_html",
-          "sha256": "4483f14c7aec7c3f90d54935b22639491f1f1b4d37bb66f4909705d07fe46608",
+          "sha256": "b29af104578e23dca0a45f4df7327942fe27550ddea483ad1f2e6d00f388358f",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3500,7 +3559,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "current",
+      "source_status": "unreachable",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -3683,6 +3742,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 173,
+      "source": "promotion_rss",
+      "started_at": "2026-11-24T22:27:38.897355+00:00",
+      "finished_at": "2026-11-24T22:27:57.505871+00:00",
+      "status": "ok",
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": 172,
+      "source": "usgs_education",
+      "started_at": "2026-11-24T22:27:32.462502+00:00",
+      "finished_at": "2026-11-24T22:27:38.893900+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "HTTPStatusError"
+    },
     {
       "id": 171,
       "source": "promotion_rss",
@@ -4566,24 +4643,6 @@
       "error": null
     },
     {
-      "id": 73,
-      "source": "promotion_rss",
-      "started_at": "2026-11-10T07:20:25.954475+00:00",
-      "finished_at": "2026-11-10T07:20:44.646951+00:00",
-      "status": "ok",
-      "count": 4,
-      "error": null
-    },
-    {
-      "id": 72,
-      "source": "kvik_samples",
-      "started_at": "2026-11-10T07:20:22.566657+00:00",
-      "finished_at": "2026-11-10T07:20:25.951927+00:00",
-      "status": "ok",
-      "count": 1,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -4594,6 +4653,262 @@
     }
   ],
   "revisions": [
+    {
+      "id": 301,
+      "offer_id": "8f0ad2d16d4881c2898de8d0",
+      "at": "2026-11-24T22:27:57.504744+00:00",
+      "payload": {
+        "id": "8f0ad2d16d4881c2898de8d0",
+        "name": "Club Vanguardia · 5 calendarios de Adviento de Lindt",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "food",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+        "request_url": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-22T20:01:54+00:00",
+        "discovered_at": "2026-11-23T07:41:30.186660+00:00",
+        "checked_at": "2026-11-24T09:56:11.963991+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-24T09:56:11.963991+00:00",
+            "method": "public_rss",
+            "sha256": "86777ea52b4346b6bb36c361ae8f3a094079bb10611705ddc5b136e6b7ed923e",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/club-vanguardia-sortea-5-calendarios-de-adviento-de-lindt.html",
+            "checked_at": "2026-11-24T09:56:23.554905+00:00",
+            "method": "public_html",
+            "sha256": "4a4d146a6f1accd5b15f6645c33b4a465e4d366f980d80ee666705441f9a318e",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 300,
+      "offer_id": "e29cf5b49dce4b452d704961",
+      "at": "2026-11-24T22:27:57.499907+00:00",
+      "payload": {
+        "id": "e29cf5b49dce4b452d704961",
+        "name": "Mujerhoy · 20 productos premiados en un único lote",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
+        "request_url": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-24T14:01:04+00:00",
+        "discovered_at": "2026-11-24T22:27:45.765326+00:00",
+        "checked_at": "2026-11-24T22:27:45.765326+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-24T22:27:45.765326+00:00",
+            "method": "public_rss",
+            "sha256": "89cdcdcbe8d7ece6431bcdb48b72642ae78ab9db4ba0fd5070e9bcfd3ba1e62a",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
+            "checked_at": "2026-11-24T22:27:48.500779+00:00",
+            "method": "public_html",
+            "sha256": "c25abfcb08703e8e5c7e3635f663badd35b53b7c28334452ac365657aaa71b65",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 299,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-24T22:27:38.891289+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-24T09:55:37.365634+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-24T09:55:37.365634+00:00",
+            "method": "public_html",
+            "sha256": "7e87a890a68bc49b0b1b2aa1cd172719258715f87699cba44f4c3c676fb34345",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 298,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-24T22:27:38.891187+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-24T09:55:34.256464+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-24T09:55:34.256464+00:00",
+            "method": "public_html",
+            "sha256": "25fe50ecd439d274a511503a1e80e0f14e938a3bd8215fa08fc1af62e5b02f83",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "current",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 297,
       "offer_id": "ba5c6dbcc25a2e7872c9571c",
