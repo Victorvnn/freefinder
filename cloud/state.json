@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T08:38:06.865980+00:00",
-  "last_successful_scan": "2026-11-25T08:38:06.841960+00:00",
+  "generated_at": "2026-11-25T21:43:52.825377+00:00",
+  "last_successful_scan": "2026-11-25T21:43:52.810811+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -1465,7 +1465,7 @@
         }
       ],
       "source_id": "promotion_rss",
-      "source_status": "current"
+      "source_status": "missing"
     },
     {
       "id": "71a8fa66715eb98d72cc3938",
@@ -1525,6 +1525,65 @@
       ],
       "source_id": "promotion_rss",
       "source_status": "missing"
+    },
+    {
+      "id": "78ce6066590cb787ae3d195e",
+      "name": "Calvo · 20 premios: Nintendo Switch, Apple Watch y más",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "appliances",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/calvo-sortea-20-premios-nintendo-switch-apple-watch-y-mas.html",
+      "request_url": "https://regalosymuestrasgratis.com/calvo-sortea-20-premios-nintendo-switch-apple-watch-y-mas.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-25T14:01:22+00:00",
+      "discovered_at": "2026-11-25T21:43:44.138124+00:00",
+      "checked_at": "2026-11-25T21:43:44.138124+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-25T21:43:44.138124+00:00",
+          "method": "public_rss",
+          "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/calvo-sortea-20-premios-nintendo-switch-apple-watch-y-mas.html",
+          "checked_at": "2026-11-25T21:43:49.800899+00:00",
+          "method": "public_html",
+          "sha256": "7df642554805ca0d7b1cc58310cc7bdf1b563913b890543297eae503292b8b63",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
+      "source_status": "current"
     },
     {
       "id": "839e37fb07e1dd49224dcd16",
@@ -2022,7 +2081,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-24T09:55:34.256464+00:00",
+      "checked_at": "2026-11-25T21:43:06.706061+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2035,9 +2094,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-24T09:55:34.256464+00:00",
+          "checked_at": "2026-11-25T21:43:06.706061+00:00",
           "method": "public_html",
-          "sha256": "25fe50ecd439d274a511503a1e80e0f14e938a3bd8215fa08fc1af62e5b02f83",
+          "sha256": "02ad157be239d291881e6c8fdddca6fe1875088dd5f039413e44992a67d5271a",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2049,7 +2108,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Meyers y Driedger (2008)",
       "image_license": "Public domain",
       "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
@@ -2760,6 +2819,65 @@
         }
       ],
       "source_id": "promotion_rss",
+      "source_status": "missing"
+    },
+    {
+      "id": "bd71a9e666b5ba24cf40de86",
+      "name": "Erborian · 5 goodie bags",
+      "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+      "brand": null,
+      "category": "beauty",
+      "platform": "Regalos y Muestras Gratis · RSS",
+      "url": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
+      "request_url": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
+      "image_url": null,
+      "regular_price": null,
+      "promo_price": null,
+      "currency": "EUR",
+      "kind": "giveaway",
+      "shipping_es": "unknown",
+      "shipping_ad": "unknown",
+      "shipping_cost_es": null,
+      "shipping_cost_ad": null,
+      "additional_charges_es": null,
+      "additional_charges_ad": null,
+      "residency": null,
+      "requirements": [
+        "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+        "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "published_at": "2026-11-25T20:01:14+00:00",
+      "discovered_at": "2026-11-25T21:43:44.136787+00:00",
+      "checked_at": "2026-11-25T21:43:44.136787+00:00",
+      "status": "pending",
+      "purchase_required": null,
+      "keepable": null,
+      "confidence": 0.15,
+      "rejection_reason": null,
+      "risk_reasons": [
+        "Bases y disponibilidad del organizador sin verificar."
+      ],
+      "evidence": [
+        {
+          "field": "announcement",
+          "source": "https://regalosymuestrasgratis.com/feed/",
+          "checked_at": "2026-11-25T21:43:44.136787+00:00",
+          "method": "public_rss",
+          "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
+          "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+        },
+        {
+          "field": "announcement_page",
+          "source": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
+          "checked_at": "2026-11-25T21:43:46.806857+00:00",
+          "method": "public_html",
+          "sha256": "4d2c954d869b61a7c8bc72387836c810449fcf841c2fad4dc5a7a0ad54aebfb6",
+          "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+        }
+      ],
+      "source_id": "promotion_rss",
       "source_status": "current"
     },
     {
@@ -3308,7 +3426,7 @@
       "ends_at": null,
       "published_at": "2026-11-24T14:01:04+00:00",
       "discovered_at": "2026-11-24T22:27:45.765326+00:00",
-      "checked_at": "2026-11-25T08:36:37.424490+00:00",
+      "checked_at": "2026-11-25T21:43:44.140137+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -3321,17 +3439,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-25T08:36:37.424490+00:00",
+          "checked_at": "2026-11-25T21:43:44.140137+00:00",
           "method": "public_rss",
-          "sha256": "9ea9b67388d79372d7fce1d66d79051f3f204aa4e6743a3afbc7f8b819da5837",
+          "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
-          "checked_at": "2026-11-25T08:36:39.952062+00:00",
+          "checked_at": "2026-11-25T21:43:52.805551+00:00",
           "method": "public_html",
-          "sha256": "9847f715f6cd38808fff24cea3d004f4c942f7621e00e75b59bc724bb6394291",
+          "sha256": "822685a5978a8a239259248bbf0a548c00fe813139268e18ef273120f6f268fb",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3532,7 +3650,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-24T09:55:37.365634+00:00",
+      "checked_at": "2026-11-25T21:43:09.680908+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -3545,9 +3663,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-24T09:55:37.365634+00:00",
+          "checked_at": "2026-11-25T21:43:09.680908+00:00",
           "method": "public_html",
-          "sha256": "7e87a890a68bc49b0b1b2aa1cd172719258715f87699cba44f4c3c676fb34345",
+          "sha256": "e63cc3f721353386521565b10d59302d8a52da0db5dbfc410cbc680ae7ae0a8a",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -3559,7 +3677,7 @@
         }
       ],
       "source_id": "usgs_education",
-      "source_status": "unreachable",
+      "source_status": "current",
       "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
       "image_license": "USGS government publication",
       "image_license_url": "https://pubs.usgs.gov/publication/gip64"
@@ -3742,6 +3860,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 181,
+      "source": "promotion_rss",
+      "started_at": "2026-11-25T21:43:37.412395+00:00",
+      "finished_at": "2026-11-25T21:43:52.810811+00:00",
+      "status": "ok",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": 180,
+      "source": "usgs_education",
+      "started_at": "2026-11-25T21:42:56.976809+00:00",
+      "finished_at": "2026-11-25T21:43:37.408951+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 179,
       "source": "mgl_zero_products",
@@ -4625,24 +4761,6 @@
       "error": null
     },
     {
-      "id": 81,
-      "source": "bemz_samples",
-      "started_at": "2026-11-11T19:38:06.590434+00:00",
-      "finished_at": "2026-11-11T19:38:13.276008+00:00",
-      "status": "ok",
-      "count": 12,
-      "error": null
-    },
-    {
-      "id": 80,
-      "source": "usgs_education",
-      "started_at": "2026-11-11T19:37:25.081956+00:00",
-      "finished_at": "2026-11-11T19:38:06.586268+00:00",
-      "status": "ok",
-      "count": 2,
-      "error": null
-    },
-    {
       "id": 1,
       "source": "usgs",
       "started_at": "2026-11-01T19:08:22.591585+00:00",
@@ -4653,6 +4771,390 @@
     }
   ],
   "revisions": [
+    {
+      "id": 316,
+      "offer_id": "bca9b2da15cb44b70986d20f",
+      "at": "2026-11-25T21:43:52.809535+00:00",
+      "payload": {
+        "id": "bca9b2da15cb44b70986d20f",
+        "name": "Penguin Libros · 5 calendarios de Adviento con 24 adornos navideños",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "home",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/penguin-libros-sortea-5-calendarios-de-adviento-con-24-adornos-navidenos.html",
+        "request_url": "https://regalosymuestrasgratis.com/penguin-libros-sortea-5-calendarios-de-adviento-con-24-adornos-navidenos.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-23T19:01:35+00:00",
+        "discovered_at": "2026-11-23T23:55:50.035012+00:00",
+        "checked_at": "2026-11-25T08:36:37.428378+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-25T08:36:37.428378+00:00",
+            "method": "public_rss",
+            "sha256": "9ea9b67388d79372d7fce1d66d79051f3f204aa4e6743a3afbc7f8b819da5837",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/penguin-libros-sortea-5-calendarios-de-adviento-con-24-adornos-navidenos.html",
+            "checked_at": "2026-11-25T08:36:43.292582+00:00",
+            "method": "public_html",
+            "sha256": "651fcb857a2581fc279cb84aa7c8fa310d17103e11a39f17b904021afcc9b771",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 315,
+      "offer_id": "70ca1e5cd2e38213cca0a921",
+      "at": "2026-11-25T21:43:52.809401+00:00",
+      "payload": {
+        "id": "70ca1e5cd2e38213cca0a921",
+        "name": "PromoFarma · un calendario de Adviento de 300 €",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/promofarma-sortea-un-calendario-de-adviento-de-300-e.html",
+        "request_url": "https://regalosymuestrasgratis.com/promofarma-sortea-un-calendario-de-adviento-de-300-e.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-23T18:01:33+00:00",
+        "discovered_at": "2026-11-23T23:55:50.035551+00:00",
+        "checked_at": "2026-11-25T08:36:37.429169+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-25T08:36:37.429169+00:00",
+            "method": "public_rss",
+            "sha256": "9ea9b67388d79372d7fce1d66d79051f3f204aa4e6743a3afbc7f8b819da5837",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/promofarma-sortea-un-calendario-de-adviento-de-300-e.html",
+            "checked_at": "2026-11-25T08:36:45.946474+00:00",
+            "method": "public_html",
+            "sha256": "456c60fba9cd7ff86fe35051a1d001cc3488001eb3dcb875863383b1f7cca57e",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 314,
+      "offer_id": "78ce6066590cb787ae3d195e",
+      "at": "2026-11-25T21:43:52.807021+00:00",
+      "payload": {
+        "id": "78ce6066590cb787ae3d195e",
+        "name": "Calvo · 20 premios: Nintendo Switch, Apple Watch y más",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "appliances",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/calvo-sortea-20-premios-nintendo-switch-apple-watch-y-mas.html",
+        "request_url": "https://regalosymuestrasgratis.com/calvo-sortea-20-premios-nintendo-switch-apple-watch-y-mas.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-25T14:01:22+00:00",
+        "discovered_at": "2026-11-25T21:43:44.138124+00:00",
+        "checked_at": "2026-11-25T21:43:44.138124+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-25T21:43:44.138124+00:00",
+            "method": "public_rss",
+            "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/calvo-sortea-20-premios-nintendo-switch-apple-watch-y-mas.html",
+            "checked_at": "2026-11-25T21:43:49.800899+00:00",
+            "method": "public_html",
+            "sha256": "7df642554805ca0d7b1cc58310cc7bdf1b563913b890543297eae503292b8b63",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 313,
+      "offer_id": "bd71a9e666b5ba24cf40de86",
+      "at": "2026-11-25T21:43:52.806240+00:00",
+      "payload": {
+        "id": "bd71a9e666b5ba24cf40de86",
+        "name": "Erborian · 5 goodie bags",
+        "description": "Anuncio descubierto en un feed público de promociones. Las bases del organizador, la vigencia y los destinos todavía no se han comprobado.",
+        "brand": null,
+        "category": "beauty",
+        "platform": "Regalos y Muestras Gratis · RSS",
+        "url": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
+        "request_url": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
+        "image_url": null,
+        "regular_price": null,
+        "promo_price": null,
+        "currency": "EUR",
+        "kind": "giveaway",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": null,
+        "additional_charges_ad": null,
+        "residency": null,
+        "requirements": [
+          "Anuncio de una fuente secundaria: confirmar bases, fechas, requisitos y ausencia de compra con el organizador.",
+          "Si es un sorteo, participar no garantiza recibir el producto. No se ha participado ni comprobado el envío."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "published_at": "2026-11-25T20:01:14+00:00",
+        "discovered_at": "2026-11-25T21:43:44.136787+00:00",
+        "checked_at": "2026-11-25T21:43:44.136787+00:00",
+        "status": "pending",
+        "purchase_required": null,
+        "keepable": null,
+        "confidence": 0.15,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Bases y disponibilidad del organizador sin verificar."
+        ],
+        "evidence": [
+          {
+            "field": "announcement",
+            "source": "https://regalosymuestrasgratis.com/feed/",
+            "checked_at": "2026-11-25T21:43:44.136787+00:00",
+            "method": "public_rss",
+            "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
+            "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
+          },
+          {
+            "field": "announcement_page",
+            "source": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
+            "checked_at": "2026-11-25T21:43:46.806857+00:00",
+            "method": "public_html",
+            "sha256": "4d2c954d869b61a7c8bc72387836c810449fcf841c2fad4dc5a7a0ad54aebfb6",
+            "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
+          }
+        ],
+        "source_id": "promotion_rss",
+        "source_status": "current"
+      }
+    },
+    {
+      "id": 312,
+      "offer_id": "f6e5a3d57532a058c515d605",
+      "at": "2026-11-25T21:43:37.407128+00:00",
+      "payload": {
+        "id": "f6e5a3d57532a058c515d605",
+        "name": "GEOLOGIC HAZARDS AT VOLCANOES - POSTER",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208285",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1109.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:25.121619+00:00",
+        "checked_at": "2026-11-24T09:55:37.365634+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208285",
+            "checked_at": "2026-11-24T09:55:37.365634+00:00",
+            "method": "public_html",
+            "sha256": "7e87a890a68bc49b0b1b2aa1cd172719258715f87699cba44f4c3c676fb34345",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://pubs.usgs.gov/publication/gip64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Geologic hazards at volcanoes (GIP 64)",
+        "image_license": "USGS government publication",
+        "image_license_url": "https://pubs.usgs.gov/publication/gip64"
+      }
+    },
+    {
+      "id": 311,
+      "offer_id": "9d48e39df28851cec41eb71d",
+      "at": "2026-11-25T21:43:37.406074+00:00",
+      "payload": {
+        "id": "9d48e39df28851cec41eb71d",
+        "name": "ERUPTIONS IN THE CASCADE RANGE, CA",
+        "description": "Publicación física de USGS anunciada a precio cero. Transporte y elegibilidad territorial pendientes.",
+        "brand": "USGS",
+        "category": "office",
+        "platform": "USGS Store",
+        "url": "https://store.usgs.gov/product/208284",
+        "image_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/vhp_img1052.jpg",
+        "regular_price": null,
+        "promo_price": 0.0,
+        "currency": "USD",
+        "kind": "promotion",
+        "shipping_es": "unknown",
+        "shipping_ad": "unknown",
+        "shipping_cost_es": null,
+        "shipping_cost_ad": null,
+        "additional_charges_es": 7.5,
+        "additional_charges_ad": 7.5,
+        "residency": null,
+        "requirements": [
+          "Se anuncia un cargo de gestión por pedido; no se ha comprobado el carrito.",
+          "Disponibilidad indicada por la página; solicitud no realizada."
+        ],
+        "starts_at": null,
+        "ends_at": null,
+        "discovered_at": "2026-11-01T19:21:22.191720+00:00",
+        "checked_at": "2026-11-24T09:55:34.256464+00:00",
+        "status": "pending",
+        "purchase_required": false,
+        "keepable": true,
+        "confidence": 0.35,
+        "rejection_reason": null,
+        "risk_reasons": [
+          "Existen gastos de gestión además del transporte."
+        ],
+        "evidence": [
+          {
+            "field": "promo_price",
+            "source": "https://store.usgs.gov/product/208284",
+            "checked_at": "2026-11-24T09:55:34.256464+00:00",
+            "method": "public_html",
+            "sha256": "25fe50ecd439d274a511503a1e80e0f14e938a3bd8215fa08fc1af62e5b02f83",
+            "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
+          },
+          {
+            "field": "image_license",
+            "source": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64",
+            "checked_at": "2026-11-01T19:41:40.931085+00:00",
+            "method": "editorial_rights_review",
+            "note": "Imagen oficial del póster; crédito y licencia en los metadatos. Referencia y derechos revisados; no acredita stock ni envío."
+          }
+        ],
+        "source_id": "usgs_education",
+        "source_status": "unreachable",
+        "image_credit": "USGS · Meyers y Driedger (2008)",
+        "image_license": "Public domain",
+        "image_license_url": "https://www.usgs.gov/media/images/eruptions-cascade-range-during-past-4000-years-usgs-gip-64"
+      }
+    },
     {
       "id": 310,
       "offer_id": "e76fcf87cba640cc32950847",
