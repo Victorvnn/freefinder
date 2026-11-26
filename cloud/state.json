@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T21:43:52.825377+00:00",
-  "last_successful_scan": "2026-11-25T21:43:52.810811+00:00",
+  "generated_at": "2026-11-26T08:20:02.655599+00:00",
+  "last_successful_scan": "2026-11-26T08:20:02.637813+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -1555,7 +1555,7 @@
       "ends_at": null,
       "published_at": "2026-11-25T14:01:22+00:00",
       "discovered_at": "2026-11-25T21:43:44.138124+00:00",
-      "checked_at": "2026-11-25T21:43:44.138124+00:00",
+      "checked_at": "2026-11-26T08:19:53.998177+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -1568,7 +1568,7 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-25T21:43:44.138124+00:00",
+          "checked_at": "2026-11-26T08:19:53.998177+00:00",
           "method": "public_rss",
           "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
@@ -1576,9 +1576,9 @@
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/calvo-sortea-20-premios-nintendo-switch-apple-watch-y-mas.html",
-          "checked_at": "2026-11-25T21:43:49.800899+00:00",
+          "checked_at": "2026-11-26T08:19:59.636467+00:00",
           "method": "public_html",
-          "sha256": "7df642554805ca0d7b1cc58310cc7bdf1b563913b890543297eae503292b8b63",
+          "sha256": "a44f32642ea44d88007a1448d5fb8effbd245f038b9fa00be4b9e6f754dd4f87",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -2081,7 +2081,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-25T21:43:06.706061+00:00",
+      "checked_at": "2026-11-26T08:19:16.018726+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2094,9 +2094,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-25T21:43:06.706061+00:00",
+          "checked_at": "2026-11-26T08:19:16.018726+00:00",
           "method": "public_html",
-          "sha256": "02ad157be239d291881e6c8fdddca6fe1875088dd5f039413e44992a67d5271a",
+          "sha256": "b035c3435893a4d5e9c1b81c532295c5c1f1ba417b63ad7514a913f4976a57ec",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2850,7 +2850,7 @@
       "ends_at": null,
       "published_at": "2026-11-25T20:01:14+00:00",
       "discovered_at": "2026-11-25T21:43:44.136787+00:00",
-      "checked_at": "2026-11-25T21:43:44.136787+00:00",
+      "checked_at": "2026-11-26T08:19:53.996446+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2863,7 +2863,7 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-25T21:43:44.136787+00:00",
+          "checked_at": "2026-11-26T08:19:53.996446+00:00",
           "method": "public_rss",
           "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
@@ -2871,9 +2871,9 @@
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
-          "checked_at": "2026-11-25T21:43:46.806857+00:00",
+          "checked_at": "2026-11-26T08:19:56.637560+00:00",
           "method": "public_html",
-          "sha256": "4d2c954d869b61a7c8bc72387836c810449fcf841c2fad4dc5a7a0ad54aebfb6",
+          "sha256": "c651bbd010becc5d55dc7f5efab941199be519e8a4a8dba838937090b98a6328",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3426,7 +3426,7 @@
       "ends_at": null,
       "published_at": "2026-11-24T14:01:04+00:00",
       "discovered_at": "2026-11-24T22:27:45.765326+00:00",
-      "checked_at": "2026-11-25T21:43:44.140137+00:00",
+      "checked_at": "2026-11-26T08:19:54.000796+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -3439,7 +3439,7 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-25T21:43:44.140137+00:00",
+          "checked_at": "2026-11-26T08:19:54.000796+00:00",
           "method": "public_rss",
           "sha256": "d3bdac395ff8a2295bee3ea19070e7c274d1945cc8ba2ccdd3f3b49cfe4ba44c",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
@@ -3447,9 +3447,9 @@
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/mujerhoy-sortea-20-productos-premiados-en-un-unico-lote.html",
-          "checked_at": "2026-11-25T21:43:52.805551+00:00",
+          "checked_at": "2026-11-26T08:20:02.632108+00:00",
           "method": "public_html",
-          "sha256": "822685a5978a8a239259248bbf0a548c00fe813139268e18ef273120f6f268fb",
+          "sha256": "76fb2f12b0377fd927a31e80d4dcf5809c77f1a6d5f9a4d97d3595608c20f0cd",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3650,7 +3650,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-25T21:43:09.680908+00:00",
+      "checked_at": "2026-11-26T08:19:19.057221+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -3663,9 +3663,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-25T21:43:09.680908+00:00",
+          "checked_at": "2026-11-26T08:19:19.057221+00:00",
           "method": "public_html",
-          "sha256": "e63cc3f721353386521565b10d59302d8a52da0db5dbfc410cbc680ae7ae0a8a",
+          "sha256": "8fe0bf906bbf86918b94de72d84a8ee62be2f53a1cb3ad7f4a27cd87d8864808",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -3860,6 +3860,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 183,
+      "source": "promotion_rss",
+      "started_at": "2026-11-26T08:19:47.232946+00:00",
+      "finished_at": "2026-11-26T08:20:02.637813+00:00",
+      "status": "ok",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": 182,
+      "source": "usgs_education",
+      "started_at": "2026-11-26T08:19:06.264167+00:00",
+      "finished_at": "2026-11-26T08:19:47.229256+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 181,
       "source": "promotion_rss",
@@ -4740,24 +4758,6 @@
       "finished_at": "2026-11-11T19:39:46.727720+00:00",
       "status": "ok",
       "count": 3,
-      "error": null
-    },
-    {
-      "id": 83,
-      "source": "promotion_rss",
-      "started_at": "2026-11-11T19:38:16.830242+00:00",
-      "finished_at": "2026-11-11T19:38:26.149108+00:00",
-      "status": "ok",
-      "count": 1,
-      "error": null
-    },
-    {
-      "id": 82,
-      "source": "kvik_samples",
-      "started_at": "2026-11-11T19:38:13.279289+00:00",
-      "finished_at": "2026-11-11T19:38:16.813398+00:00",
-      "status": "ok",
-      "count": 1,
       "error": null
     },
     {
