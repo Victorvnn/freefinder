@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T21:35:54.670576+00:00",
-  "last_successful_scan": "2026-11-26T21:35:54.651521+00:00",
+  "generated_at": "2026-11-27T08:36:32.561013+00:00",
+  "last_successful_scan": "2026-11-27T08:36:32.533582+00:00",
   "offers": [
     {
       "id": "0307807c656c20dfa8f0a5f4",
@@ -2081,7 +2081,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:22.191720+00:00",
-      "checked_at": "2026-11-26T21:33:35.703389+00:00",
+      "checked_at": "2026-11-27T08:35:49.450154+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -2094,9 +2094,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208284",
-          "checked_at": "2026-11-26T21:33:35.703389+00:00",
+          "checked_at": "2026-11-27T08:35:49.450154+00:00",
           "method": "public_html",
-          "sha256": "a91c97eb5207c8a9a9cad88ffb10d3b428d48cff6e89942b367b0eb1b499d706",
+          "sha256": "8b3d1c20d19cf1b2598cd1ee51e794c8e7f6ab286c5e1df50c13550b9a1fa655",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -2850,7 +2850,7 @@
       "ends_at": null,
       "published_at": "2026-11-25T20:01:14+00:00",
       "discovered_at": "2026-11-25T21:43:44.136787+00:00",
-      "checked_at": "2026-11-26T21:34:28.305195+00:00",
+      "checked_at": "2026-11-27T08:36:26.728773+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -2863,17 +2863,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-26T21:34:28.305195+00:00",
+          "checked_at": "2026-11-27T08:36:26.728773+00:00",
           "method": "public_rss",
-          "sha256": "8328ea9aec7ae64aabba80700763bc25e05fa6298347e4b928b557d23e40e2d4",
+          "sha256": "8d69942230fbbafbcc992a39f30d9ffa524e4712f811b1d358703b63e64b25e1",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/erborian-sortea-5-goodie-bags.html",
-          "checked_at": "2026-11-26T21:34:33.938216+00:00",
+          "checked_at": "2026-11-27T08:36:32.528590+00:00",
           "method": "public_html",
-          "sha256": "6763b0343b59c1b75329a636a5046ecb0a618a7bd67695d4d2db96c0ab2ce45f",
+          "sha256": "6c03ac900b6ff7c724f9b5788f3f91ed044c0f613be25656adb6015b1e1bcf09",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3650,7 +3650,7 @@
       "starts_at": null,
       "ends_at": null,
       "discovered_at": "2026-11-01T19:21:25.121619+00:00",
-      "checked_at": "2026-11-26T21:33:38.710225+00:00",
+      "checked_at": "2026-11-27T08:35:52.434656+00:00",
       "status": "pending",
       "purchase_required": false,
       "keepable": true,
@@ -3663,9 +3663,9 @@
         {
           "field": "promo_price",
           "source": "https://store.usgs.gov/product/208285",
-          "checked_at": "2026-11-26T21:33:38.710225+00:00",
+          "checked_at": "2026-11-27T08:35:52.434656+00:00",
           "method": "public_html",
-          "sha256": "8cbcc5ad04354abede6adca9b7c9980bc5392f9a0840738db43cacad347a25b2",
+          "sha256": "4a3ae2c073ceeb7e14eb736769f5eaa20990ffcfcc493421d60841f2250bcd25",
           "note": "Precio cero y soporte Paper observados; destinos y existencias no confirmados en carrito."
         },
         {
@@ -3887,7 +3887,7 @@
       "ends_at": null,
       "published_at": "2026-11-26T11:01:55+00:00",
       "discovered_at": "2026-11-26T21:34:28.304051+00:00",
-      "checked_at": "2026-11-26T21:34:28.304051+00:00",
+      "checked_at": "2026-11-27T08:36:26.727104+00:00",
       "status": "pending",
       "purchase_required": null,
       "keepable": null,
@@ -3900,17 +3900,17 @@
         {
           "field": "announcement",
           "source": "https://regalosymuestrasgratis.com/feed/",
-          "checked_at": "2026-11-26T21:34:28.304051+00:00",
+          "checked_at": "2026-11-27T08:36:26.727104+00:00",
           "method": "public_rss",
-          "sha256": "8328ea9aec7ae64aabba80700763bc25e05fa6298347e4b928b557d23e40e2d4",
+          "sha256": "8d69942230fbbafbcc992a39f30d9ffa524e4712f811b1d358703b63e64b25e1",
           "note": "Solo se ha observado el anuncio en RSS; no acredita precio, stock, participación ni transporte."
         },
         {
           "field": "announcement_page",
           "source": "https://regalosymuestrasgratis.com/el-corte-ingles-sortea-5-calendarios-de-adviento-de-belleza.html",
-          "checked_at": "2026-11-26T21:34:30.944359+00:00",
+          "checked_at": "2026-11-27T08:36:29.534791+00:00",
           "method": "public_html",
-          "sha256": "b77075e3500ebe6b1e6b1faa4f3f5382464062690765c620362b645642398418",
+          "sha256": "703a3f55cf3134a1909d3aa47e6cf0dc1d223b676fa75b6ff9d08cec91600ca6",
           "note": "Artículo con título coincidente accesible; no acredita bases, stock ni envío del organizador."
         }
       ],
@@ -3919,6 +3919,24 @@
     }
   ],
   "runs": [
+    {
+      "id": 191,
+      "source": "promotion_rss",
+      "started_at": "2026-11-27T08:36:20.300622+00:00",
+      "finished_at": "2026-11-27T08:36:32.533582+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": 190,
+      "source": "usgs_education",
+      "started_at": "2026-11-27T08:35:39.961471+00:00",
+      "finished_at": "2026-11-27T08:36:20.295909+00:00",
+      "status": "ok",
+      "count": 2,
+      "error": null
+    },
     {
       "id": 189,
       "source": "mgl_zero_products",
@@ -4799,24 +4817,6 @@
       "finished_at": "2026-11-12T19:57:39.516647+00:00",
       "status": "ok",
       "count": 3,
-      "error": null
-    },
-    {
-      "id": 91,
-      "source": "promotion_rss",
-      "started_at": "2026-11-12T19:56:09.252415+00:00",
-      "finished_at": "2026-11-12T19:56:18.737275+00:00",
-      "status": "ok",
-      "count": 1,
-      "error": null
-    },
-    {
-      "id": 90,
-      "source": "kvik_samples",
-      "started_at": "2026-11-12T19:56:05.617522+00:00",
-      "finished_at": "2026-11-12T19:56:09.249764+00:00",
-      "status": "ok",
-      "count": 1,
       "error": null
     },
     {
